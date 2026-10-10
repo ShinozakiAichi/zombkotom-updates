@@ -1,0 +1,25 @@
+{
+  "parent": "last_bastion:brass",
+  "display": {
+    "icon": {
+      "id": "create:track"
+    },
+    "title": "Между базами",
+    "description": "Прокладывай железную дорогу и снабжай удалённые посты. Поезда не требуют цифровой телепортации.",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:track"
+          }
+        ]
+      }
+    }
+  }
+}

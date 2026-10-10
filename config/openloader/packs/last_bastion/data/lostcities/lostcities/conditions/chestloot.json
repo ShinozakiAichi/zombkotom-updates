@@ -1,0 +1,36 @@
+{
+  "values": [
+    {
+      "factor": 20,
+      "value": "last_bastion:chests/city_supplies"
+    },
+    {
+      "factor": 10,
+      "value": "last_bastion:chests/city_workshop"
+    },
+    {
+      "factor": 5,
+      "value": "last_bastion:chests/city_munitions"
+    },
+    {
+      "factor": 25,
+      "value": "last_bastion:chests/city_highrise",
+      "range": "4,100"
+    },
+    {
+      "factor": 20,
+      "value": "last_bastion:chests/city_workshop",
+      "range": "-100,-2"
+    },
+    {
+      "factor": 60,
+      "value": "last_bastion:chests/city_rail_depot",
+      "inpart": "rail_dungeon1"
+    },
+    {
+      "factor": 60,
+      "value": "last_bastion:chests/city_rail_depot",
+      "inpart": "rail_dungeon2"
+    }
+  ]
+}

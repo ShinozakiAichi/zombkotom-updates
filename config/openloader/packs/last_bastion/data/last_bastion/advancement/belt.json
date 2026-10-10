@@ -1,0 +1,25 @@
+{
+  "parent": "last_bastion:press",
+  "display": {
+    "icon": {
+      "id": "create:belt_connector"
+    },
+    "title": "Конвейер",
+    "description": "Соедини переработку и склады. Разделяй цеха противопожарными и осадными перегородками.",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:belt_connector"
+          }
+        ]
+      }
+    }
+  }
+}

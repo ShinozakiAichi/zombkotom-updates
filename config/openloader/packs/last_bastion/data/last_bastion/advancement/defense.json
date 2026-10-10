@@ -1,0 +1,25 @@
+{
+  "parent": "last_bastion:precision",
+  "display": {
+    "icon": {
+      "id": "createbigcannons:cannon_mount"
+    },
+    "title": "Артиллерийская позиция",
+    "description": "Пушки требуют производства стволов и боеприпасов. Устрой безопасный сектор стрельбы.",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "createbigcannons:cannon_mount"
+          }
+        ]
+      }
+    }
+  }
+}

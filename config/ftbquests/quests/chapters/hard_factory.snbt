@@ -1,0 +1,334 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "hard_factory"
+	group: "59BDE301197E277C"
+	icon: {
+		id: "create:precision_mechanism"
+	}
+	id: "0F929E9BFF9577AE"
+	images: [ ]
+	order_index: 2
+	quest_links: [
+		{
+			id: "05789C3661282BFD"
+			linked_quest: "434934B6F92F9B35"
+			size: 0.8d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "1622AEFB86A71307"
+			linked_quest: "4451C6A2622EA1C1"
+			size: 0.8d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "0CE6AA8F4CE453D7"
+			linked_quest: "6579ACDD667FA69D"
+			size: 0.8d
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "6C787EEE48C98496"
+			linked_quest: "6C653C090F3AC30F"
+			size: 0.8d
+			x: -4.0d
+			y: 6.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["6C653C090F3AC30F"]
+			icon: {
+				id: "create:sturdy_sheet"
+			}
+			id: "1CA3FDAF7EC6BD83"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "0095F94AAF2EABE6"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 16
+					id: "086FF7538A9ED3B2"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				count: 32L
+				id: "18288B2CDEE0F747"
+				item: { count: 1, id: "create:sturdy_sheet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C653C090F3AC30F"]
+			icon: {
+				id: "create:precision_mechanism"
+			}
+			id: "052106CD3B66D5FF"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "7A470D673A9B74AE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 16
+					id: "65963B9225328B25"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				count: 16L
+				id: "3D37F04E700DF41B"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C653C090F3AC30F"]
+			icon: {
+				id: "createaddition:alternator"
+			}
+			id: "4251ECFC5F4DD101"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "539CDA8F333D761B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 24
+					id: "39BEA44ACF887D19"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "3B10D3B83DD7974B"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C653C090F3AC30F"]
+			icon: {
+				id: "createaddition:electric_motor"
+			}
+			id: "435839CDEC4B2BB0"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "315666345EDAD526"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 16
+					id: "51283F7361CAEC28"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "7A177C6AFF86787F"
+					item: { count: 1, id: "createaddition:electric_motor" }
+					type: "item"
+				}
+				{
+					id: "514819EA0A8F1B80"
+					type: "checkmark"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4451C6A2622EA1C1"]
+			icon: {
+				id: "minecraft:cobblestone"
+			}
+			id: "271FE1E1AC36870F"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "09642EC62E82DBA2"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 12
+					id: "0C5D1304FB8AD638"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				count: 256L
+				id: "53B055FC5918AC7A"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6579ACDD667FA69D"
+				"434934B6F92F9B35"
+			]
+			icon: {
+				id: "minecraft:iron_ingot"
+			}
+			id: "7B17BB92BDB9B9E5"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "6CF8013EDBD55CBC"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 24
+					id: "05C6B06D6D9F6EEB"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					consume_items: false
+					count: 128L
+					id: "1FAD0F243CBD85D5"
+					item: { count: 1, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					id: "2E568E6920D421B1"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1CA3FDAF7EC6BD83"
+				"7B17BB92BDB9B9E5"
+			]
+			icon: {
+				id: "superbwarfare:rifle_ammo"
+			}
+			id: "71388D22DCA67535"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "58CD116816FB983D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 16
+					id: "16981BF375E283BE"
+					item: {
+						count: 1
+						id: "minecraft:gunpowder"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				count: 256L
+				id: "0948C93E02D95203"
+				item: { count: 1, id: "superbwarfare:rifle_ammo" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1CA3FDAF7EC6BD83"
+				"7B17BB92BDB9B9E5"
+			]
+			icon: {
+				id: "create:precision_mechanism"
+			}
+			id: "60598C6CE2F88CC0"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "7C03D689AA731097"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "65DB831345DA302F"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "209E4229AA0E3B80"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+	]
+}

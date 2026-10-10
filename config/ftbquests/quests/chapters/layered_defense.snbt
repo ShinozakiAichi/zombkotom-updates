@@ -1,0 +1,211 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "layered_defense"
+	group: "10EAADE9D48B4724"
+	icon: {
+		id: "create:clutch"
+	}
+	id: "4C34940FA8C15EF7"
+	images: [ ]
+	order_index: 2
+	quest_links: [
+		{
+			id: "1C82000CE921C94B"
+			linked_quest: "2EAA9571BC8294C3"
+			size: 0.8d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "13031F623643FCC7"
+			linked_quest: "434934B6F92F9B35"
+			size: 0.8d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "2420538B896B93A1"
+			linked_quest: "5EC9CD93B290DE02"
+			size: 0.8d
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "79042F04B07BF0A8"
+			linked_quest: "6C7CCFE71CB75B96"
+			size: 0.8d
+			x: -4.0d
+			y: 6.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["5EC9CD93B290DE02"]
+			icon: {
+				id: "create:clutch"
+			}
+			id: "03F2F6CCFBB5F697"
+			progression_mode: "linear"
+			rewards: [{
+				id: "6210F7F93A1CD978"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: false
+					count: 16L
+					id: "1EC8558126561F04"
+					item: { count: 1, id: "minecraft:torch" }
+					type: "item"
+				}
+				{
+					id: "212AAFA94C97B832"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6C7CCFE71CB75B96"
+				"03F2F6CCFBB5F697"
+			]
+			icon: {
+				id: "create:clutch"
+			}
+			id: "08F3CC0540132BE6"
+			progression_mode: "linear"
+			rewards: [{
+				id: "1982F53BCC9E9390"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: false
+					count: 64L
+					id: "090FA8CCE5CA1299"
+					item: { count: 1, id: "minecraft:stone_bricks" }
+					type: "item"
+				}
+				{
+					id: "5F865DE572C54195"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2EAA9571BC8294C3"
+				"08F3CC0540132BE6"
+			]
+			icon: {
+				id: "create:clutch"
+			}
+			id: "765CDAD4A92AF65C"
+			progression_mode: "linear"
+			rewards: [{
+				id: "18A25578548A3728"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: false
+					id: "66297DB76FE5445E"
+					item: { count: 1, id: "create:mechanical_piston" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1D5A615A79686F3C"
+					item: { count: 1, id: "create:clutch" }
+					type: "item"
+				}
+				{
+					id: "20776F3B3EE992CC"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"434934B6F92F9B35"
+				"765CDAD4A92AF65C"
+			]
+			icon: {
+				id: "create:clutch"
+			}
+			id: "6D849E44A1DAC3A1"
+			progression_mode: "linear"
+			rewards: [{
+				id: "565A4A144D411699"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "6F64D65CF0E2DFBE"
+					item: { count: 1, id: "create:redstone_link" }
+					type: "item"
+				}
+				{
+					id: "43222ECF73BDF33C"
+					type: "checkmark"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6D849E44A1DAC3A1"
+				"434934B6F92F9B35"
+			]
+			icon: {
+				id: "create:clutch"
+			}
+			id: "390C33B60F61925B"
+			progression_mode: "linear"
+			rewards: [{
+				id: "687301DFFD201E9E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: false
+					id: "5221A2B2CF44E86D"
+					item: { count: 1, id: "create:stock_link" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7754156DEA0B5DFA"
+					item: { count: 1, id: "create:packager" }
+					type: "item"
+				}
+				{
+					id: "403AD6FB05458535"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+	]
+}

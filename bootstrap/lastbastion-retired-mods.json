@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "parcool",
+    "filename": "ParCool-1.21.1-3.4.3.3-NF.jar",
+    "sha512": "eeccbd5eae38fcf8ca92ee85d46c1a84477f2fe9fcd25565452fad53e75e5f59ecd71da827ae6da50cc1a5acc5f4289bb46038d885aaed91b51f43e3deada0e6",
+    "url": "https://cdn.modrinth.com/data/Fsvx2bdR/versions/ZgAHzqRi/ParCool-1.21.1-3.4.3.3-NF.jar",
+    "server": true
+  },
+  {
+    "slug": "parcool+-compatibility-addon-neoforge-edition",
+    "filename": "ParCool-CompatibilityAddon-1.21.1-3.4.3.3-1.2.1.jar",
+    "sha512": "b745c0fdca4f5a6b2f34c2ba149a50a267ee8292dd5b823e9a750e830ee3dbcbb7026623532037004edbee9eac2cf47542ea3299d93491bdb1d4eaf37f767bb5",
+    "url": "https://cdn.modrinth.com/data/YpPfINZw/versions/wUwZbPAd/ParCool-CompatibilityAddon-1.21.1-3.4.3.3-1.2.1.jar",
+    "server": true
+  }
+]

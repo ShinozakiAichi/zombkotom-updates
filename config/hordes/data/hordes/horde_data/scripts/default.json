@@ -1,0 +1,576 @@
+[
+  {
+    "function": "hordes:set_spawntable",
+    "value": [
+      "hordes:default"
+    ],
+    "conditions": []
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 8
+      },
+      {
+        "function": "hordes:set_spawn_duration",
+        "value": 4800
+      },
+      {
+        "function": "hordes:set_spawn_interval",
+        "value": 1200
+      },
+      {
+        "function": "hordes:set_start_message",
+        "value": "Орда началась! Угроза 1/21. Волн: 4, до 8 мобов на волну до кооперативного уменьшения. Держите периметр!"
+      }
+    ],
+    "conditions": []
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 10
+      },
+      {
+        "function": "hordes:set_spawn_duration",
+        "value": 4800
+      },
+      {
+        "function": "hordes:set_spawn_interval",
+        "value": 1200
+      },
+      {
+        "function": "hordes:set_start_message",
+        "value": "Орда началась! Угроза 2/21. Волн: 4, до 10 мобов на волну до кооперативного уменьшения. Держите периметр!"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 12
+      },
+      {
+        "function": "hordes:set_spawn_duration",
+        "value": 4800
+      },
+      {
+        "function": "hordes:set_spawn_interval",
+        "value": 1200
+      },
+      {
+        "function": "hordes:set_start_message",
+        "value": "Орда началась! Угроза 3/21. Волн: 4, до 12 мобов на волну до кооперативного уменьшения. Держите периметр!"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 9
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 14
+      },
+      {
+        "function": "hordes:set_spawn_duration",
+        "value": 4800
+      },
+      {
+        "function": "hordes:set_spawn_interval",
+        "value": 1200
+      },
+      {
+        "function": "hordes:set_start_message",
+        "value": "Орда началась! Угроза 4/21. Волн: 4, до 14 мобов на волну до кооперативного уменьшения. Держите периметр!"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 14
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 16
+      },
+      {
+        "function": "hordes:set_spawn_duration",
+        "value": 6000
+      },
+      {
+        "function": "hordes:set_spawn_interval",
+        "value": 1200
+      },
+      {
+        "function": "hordes:set_start_message",
+        "value": "Орда началась! Угроза 5/21. Волн: 5, до 16 мобов на волну до кооперативного уменьшения. Держите периметр!"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 19
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 18
+      },
+      {
+        "function": "hordes:set_spawn_duration",
+        "value": 6000
+      },
+      {
+        "function": "hordes:set_spawn_interval",
+        "value": 1200
+      },
+      {
+        "function": "hordes:set_start_message",
+        "value": "Орда началась! Угроза 6/21. Волн: 5, до 18 мобов на волну до кооперативного уменьшения. Держите периметр!"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 24
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 20
+      },
+      {
+        "function": "hordes:set_spawn_duration",
+        "value": 6000
+      },
+      {
+        "function": "hordes:set_spawn_interval",
+        "value": 1200
+      },
+      {
+        "function": "hordes:set_start_message",
+        "value": "Орда началась! Угроза 7/21. Волн: 5, до 20 мобов на волну до кооперативного уменьшения. Держите периметр!"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 29
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 22
+      },
+      {
+        "function": "hordes:set_spawn_duration",
+        "value": 6000
+      },
+      {
+        "function": "hordes:set_spawn_interval",
+        "value": 1200
+      },
+      {
+        "function": "hordes:set_start_message",
+        "value": "Орда началась! Угроза 8/21. Волн: 5, до 22 мобов на волну до кооперативного уменьшения. Держите периметр!"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 34
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 24
+      },
+      {
+        "function": "hordes:set_spawn_duration",
+        "value": 7200
+      },
+      {
+        "function": "hordes:set_spawn_interval",
+        "value": 1200
+      },
+      {
+        "function": "hordes:set_start_message",
+        "value": "Орда началась! Угроза 9/21. Волн: 6, до 24 мобов на волну до кооперативного уменьшения. Держите периметр!"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 39
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 26
+      },
+      {
+        "function": "hordes:set_spawn_duration",
+        "value": 7200
+      },
+      {
+        "function": "hordes:set_spawn_interval",
+        "value": 1200
+      },
+      {
+        "function": "hordes:set_start_message",
+        "value": "Орда началась! Угроза 10/21. Волн: 6, до 26 мобов на волну до кооперативного уменьшения. Держите периметр!"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 44
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 28
+      },
+      {
+        "function": "hordes:set_spawn_duration",
+        "value": 7200
+      },
+      {
+        "function": "hordes:set_spawn_interval",
+        "value": 1200
+      },
+      {
+        "function": "hordes:set_start_message",
+        "value": "Орда началась! Угроза 11/21. Волн: 6, до 28 мобов на волну до кооперативного уменьшения. Держите периметр!"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 49
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 30
+      },
+      {
+        "function": "hordes:set_spawn_duration",
+        "value": 7200
+      },
+      {
+        "function": "hordes:set_spawn_interval",
+        "value": 1200
+      },
+      {
+        "function": "hordes:set_start_message",
+        "value": "Орда началась! Угроза 12/21. Волн: 6, до 30 мобов на волну до кооперативного уменьшения. Держите периметр!"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 54
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 32
+      },
+      {
+        "function": "hordes:set_spawn_duration",
+        "value": 8400
+      },
+      {
+        "function": "hordes:set_spawn_interval",
+        "value": 1200
+      },
+      {
+        "function": "hordes:set_start_message",
+        "value": "Орда началась! Угроза 13/21. Волн: 7, до 32 мобов на волну до кооперативного уменьшения. Держите периметр!"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 59
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 34
+      },
+      {
+        "function": "hordes:set_spawn_duration",
+        "value": 8400
+      },
+      {
+        "function": "hordes:set_spawn_interval",
+        "value": 1200
+      },
+      {
+        "function": "hordes:set_start_message",
+        "value": "Орда началась! Угроза 14/21. Волн: 7, до 34 мобов на волну до кооперативного уменьшения. Держите периметр!"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 64
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 36
+      },
+      {
+        "function": "hordes:set_spawn_duration",
+        "value": 8400
+      },
+      {
+        "function": "hordes:set_spawn_interval",
+        "value": 1200
+      },
+      {
+        "function": "hordes:set_start_message",
+        "value": "Орда началась! Угроза 15/21. Волн: 7, до 36 мобов на волну до кооперативного уменьшения. Держите периметр!"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 69
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 38
+      },
+      {
+        "function": "hordes:set_spawn_duration",
+        "value": 8400
+      },
+      {
+        "function": "hordes:set_spawn_interval",
+        "value": 1200
+      },
+      {
+        "function": "hordes:set_start_message",
+        "value": "Орда началась! Угроза 16/21. Волн: 7, до 38 мобов на волну до кооперативного уменьшения. Держите периметр!"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 74
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 40
+      },
+      {
+        "function": "hordes:set_spawn_duration",
+        "value": 9600
+      },
+      {
+        "function": "hordes:set_spawn_interval",
+        "value": 1200
+      },
+      {
+        "function": "hordes:set_start_message",
+        "value": "Орда началась! Угроза 17/21. Волн: 8, до 40 мобов на волну до кооперативного уменьшения. Держите периметр!"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 79
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 42
+      },
+      {
+        "function": "hordes:set_spawn_duration",
+        "value": 9600
+      },
+      {
+        "function": "hordes:set_spawn_interval",
+        "value": 1200
+      },
+      {
+        "function": "hordes:set_start_message",
+        "value": "Орда началась! Угроза 18/21. Волн: 8, до 42 мобов на волну до кооперативного уменьшения. Держите периметр!"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 84
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 44
+      },
+      {
+        "function": "hordes:set_spawn_duration",
+        "value": 9600
+      },
+      {
+        "function": "hordes:set_spawn_interval",
+        "value": 1200
+      },
+      {
+        "function": "hordes:set_start_message",
+        "value": "Орда началась! Угроза 19/21. Волн: 8, до 44 мобов на волну до кооперативного уменьшения. Держите периметр!"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 89
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 46
+      },
+      {
+        "function": "hordes:set_spawn_duration",
+        "value": 9600
+      },
+      {
+        "function": "hordes:set_spawn_interval",
+        "value": 1200
+      },
+      {
+        "function": "hordes:set_start_message",
+        "value": "Орда началась! Угроза 20/21. Волн: 8, до 46 мобов на волну до кооперативного уменьшения. Держите периметр!"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 94
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 48
+      },
+      {
+        "function": "hordes:set_spawn_duration",
+        "value": 10800
+      },
+      {
+        "function": "hordes:set_spawn_interval",
+        "value": 1200
+      },
+      {
+        "function": "hordes:set_start_message",
+        "value": "Орда началась! Угроза 21/21. Волн: 9, до 48 мобов на волну до кооперативного уменьшения. Держите периметр!"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 98
+      }
+    ]
+  },
+  {
+    "function": "hordes:set_end_message",
+    "value": "Орда закончилась. Уцелевшие зомби остаются: зачистите периметр и почините оборону.",
+    "conditions": []
+  }
+]

@@ -1,0 +1,1 @@
+$incontrol days $(day)

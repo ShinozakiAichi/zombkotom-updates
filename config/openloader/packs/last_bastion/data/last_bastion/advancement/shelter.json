@@ -1,0 +1,25 @@
+{
+  "parent": "last_bastion:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_bricks"
+    },
+    "title": "Первый бастион",
+    "description": "Стены в несколько слоёв, запасной выход и освещение. Камень выдерживает больше ударов, чем дерево.",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_bricks"
+          }
+        ]
+      }
+    }
+  }
+}

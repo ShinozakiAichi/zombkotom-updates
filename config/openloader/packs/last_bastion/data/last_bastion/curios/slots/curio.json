@@ -1,0 +1,8 @@
+{
+  "size": 4,
+  "operation": "SET",
+  "validators": [
+    "curios:tag"
+  ],
+  "add_cosmetic": true
+}

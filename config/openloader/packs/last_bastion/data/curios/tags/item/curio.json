@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#artifacts:slot/all",
+    "apotheosis:potion_charm"
+  ]
+}

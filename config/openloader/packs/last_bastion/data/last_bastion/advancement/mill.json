@@ -1,0 +1,25 @@
+{
+  "parent": "last_bastion:water",
+  "display": {
+    "icon": {
+      "id": "create:millstone"
+    },
+    "title": "Переработка",
+    "description": "Измельчай сырьё. Следующая цель — дробильные колёса и линия промывки.",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:millstone"
+          }
+        ]
+      }
+    }
+  }
+}

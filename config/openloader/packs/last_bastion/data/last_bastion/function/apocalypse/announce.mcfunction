@@ -1,0 +1,39 @@
+function last_bastion:industrial/choose_night
+title @a times 10 70 20
+title @a subtitle [{"text":"Угроза ","color":"gray"},{"score":{"name":"#stage","objective":"lb_apoc"}},{"text":" / 21"}]
+title @a title [{"text":"Ночь ","color":"dark_red"},{"score":{"name":"#night","objective":"lb_apoc"},"color":"red"}]
+tellraw @a [{"text":"[LAST BASTION] Началась ночь ","color":"gold"},{"score":{"name":"#night","objective":"lb_apoc"}},{"text":". Угроза "},{"score":{"name":"#stage","objective":"lb_apoc"}},{"text":"/21."}]
+execute if score #night lb_apoc matches 1..5 run tellraw @a {"text": "Профиль орды — волн: 4, до 8 мобов на волну и игрока до кооперативного уменьшения; интервал 60 с. Орды идут каждые 4 игровых дня.", "color": "gray"}
+execute if score #night lb_apoc matches 6..10 run tellraw @a {"text": "Профиль орды — волн: 4, до 10 мобов на волну и игрока до кооперативного уменьшения; интервал 60 с. Орды идут каждые 4 игровых дня.", "color": "gray"}
+execute if score #night lb_apoc matches 11..15 run tellraw @a {"text": "Профиль орды — волн: 4, до 12 мобов на волну и игрока до кооперативного уменьшения; интервал 60 с. Орды идут каждые 4 игровых дня.", "color": "gray"}
+execute if score #night lb_apoc matches 16..20 run tellraw @a {"text": "Профиль орды — волн: 4, до 14 мобов на волну и игрока до кооперативного уменьшения; интервал 60 с. Орды идут каждые 4 игровых дня.", "color": "gray"}
+execute if score #night lb_apoc matches 21..25 run tellraw @a {"text": "Профиль орды — волн: 5, до 16 мобов на волну и игрока до кооперативного уменьшения; интервал 60 с. Орды идут каждые 4 игровых дня.", "color": "gray"}
+execute if score #night lb_apoc matches 26..30 run tellraw @a {"text": "Профиль орды — волн: 5, до 18 мобов на волну и игрока до кооперативного уменьшения; интервал 60 с. Орды идут каждые 4 игровых дня.", "color": "gray"}
+execute if score #night lb_apoc matches 31..35 run tellraw @a {"text": "Профиль орды — волн: 5, до 20 мобов на волну и игрока до кооперативного уменьшения; интервал 60 с. Орды идут каждые 4 игровых дня.", "color": "gray"}
+execute if score #night lb_apoc matches 36..40 run tellraw @a {"text": "Профиль орды — волн: 5, до 22 мобов на волну и игрока до кооперативного уменьшения; интервал 60 с. Орды идут каждые 4 игровых дня.", "color": "gray"}
+execute if score #night lb_apoc matches 41..45 run tellraw @a {"text": "Профиль орды — волн: 6, до 24 мобов на волну и игрока до кооперативного уменьшения; интервал 60 с. Орды идут каждые 4 игровых дня.", "color": "gray"}
+execute if score #night lb_apoc matches 46..50 run tellraw @a {"text": "Профиль орды — волн: 6, до 26 мобов на волну и игрока до кооперативного уменьшения; интервал 60 с. Орды идут каждые 4 игровых дня.", "color": "gray"}
+execute if score #night lb_apoc matches 51..55 run tellraw @a {"text": "Профиль орды — волн: 6, до 28 мобов на волну и игрока до кооперативного уменьшения; интервал 60 с. Орды идут каждые 4 игровых дня.", "color": "gray"}
+execute if score #night lb_apoc matches 56..60 run tellraw @a {"text": "Профиль орды — волн: 6, до 30 мобов на волну и игрока до кооперативного уменьшения; интервал 60 с. Орды идут каждые 4 игровых дня.", "color": "gray"}
+execute if score #night lb_apoc matches 61..65 run tellraw @a {"text": "Профиль орды — волн: 7, до 32 мобов на волну и игрока до кооперативного уменьшения; интервал 60 с. Орды идут каждые 4 игровых дня.", "color": "gray"}
+execute if score #night lb_apoc matches 66..70 run tellraw @a {"text": "Профиль орды — волн: 7, до 34 мобов на волну и игрока до кооперативного уменьшения; интервал 60 с. Орды идут каждые 4 игровых дня.", "color": "gray"}
+execute if score #night lb_apoc matches 71..75 run tellraw @a {"text": "Профиль орды — волн: 7, до 36 мобов на волну и игрока до кооперативного уменьшения; интервал 60 с. Орды идут каждые 4 игровых дня.", "color": "gray"}
+execute if score #night lb_apoc matches 76..80 run tellraw @a {"text": "Профиль орды — волн: 7, до 38 мобов на волну и игрока до кооперативного уменьшения; интервал 60 с. Орды идут каждые 4 игровых дня.", "color": "gray"}
+execute if score #night lb_apoc matches 81..85 run tellraw @a {"text": "Профиль орды — волн: 8, до 40 мобов на волну и игрока до кооперативного уменьшения; интервал 60 с. Орды идут каждые 4 игровых дня.", "color": "gray"}
+execute if score #night lb_apoc matches 86..90 run tellraw @a {"text": "Профиль орды — волн: 8, до 42 мобов на волну и игрока до кооперативного уменьшения; интервал 60 с. Орды идут каждые 4 игровых дня.", "color": "gray"}
+execute if score #night lb_apoc matches 91..95 run tellraw @a {"text": "Профиль орды — волн: 8, до 44 мобов на волну и игрока до кооперативного уменьшения; интервал 60 с. Орды идут каждые 4 игровых дня.", "color": "gray"}
+execute if score #night lb_apoc matches 96..99 run tellraw @a {"text": "Профиль орды — волн: 8, до 46 мобов на волну и игрока до кооперативного уменьшения; интервал 60 с. Орды идут каждые 4 игровых дня.", "color": "gray"}
+execute if score #night lb_apoc matches 100.. run tellraw @a {"text": "Профиль орды — волн: 9, до 48 мобов на волну и игрока до кооперативного уменьшения; интервал 60 с. Орды идут каждые 4 игровых дня.", "color": "gray"}
+execute if score #night lb_apoc matches 6.. if score #announced lb_apoc matches ..5 run tellraw @a {"text": "Новый тип: Бегуны. Быстро сокращают дистанцию. Щит и узкий проход важнее погони.", "color": "yellow"}
+execute if score #night lb_apoc matches 11.. if score #announced lb_apoc matches ..10 run tellraw @a {"text": "Новый тип: Танки. Броня, увеличенное здоровье и слабое отбрасывание. Медлительны: обходите и бейте с дистанции.", "color": "yellow"}
+execute if score #night lb_apoc matches 16.. if score #announced lb_apoc matches ..15 run tellraw @a {"text": "Новый тип: Прыгуны. Прыгают к видимой цели с расстояния 2–8 блоков раз в 6 секунд. Делайте крытые проходы.", "color": "yellow"}
+execute if score #night lb_apoc matches 26.. if score #announced lb_apoc matches ..25 run tellraw @a {"text": "Новый тип: Берсерки. При здоровье ниже половины впадают в ярость. Добивайте одной слаженной атакой.", "color": "yellow"}
+execute if score #night lb_apoc matches 31.. if score #announced lb_apoc matches ..30 run tellraw @a {"text": "Новый тип: Охотники. Теперь могут встречаться в мире и в ордах.", "color": "yellow"}
+execute if score #night lb_apoc matches 36.. if score #announced lb_apoc matches ..35 run tellraw @a {"text": "Новый тип: Чумные. Вплотную отравляют облаком. Держите дистанцию, носите молоко.", "color": "yellow"}
+execute if score #night lb_apoc matches 41.. if score #announced lb_apoc matches ..40 run tellraw @a {"text": "Новый тип: Плевуны. Теперь могут встречаться в мире и в ордах.", "color": "yellow"}
+execute if score #night lb_apoc matches 51.. if score #announced lb_apoc matches ..50 run tellraw @a {"text": "Новый тип: Вожаки. Ускоряют и защищают зомби рядом с собой. Убивайте вожака первым.", "color": "yellow"}
+execute if score #night lb_apoc matches 56.. if score #announced lb_apoc matches ..55 run tellraw @a {"text": "Новый тип: Подрывники. Теперь могут встречаться в мире и в ордах.", "color": "yellow"}
+execute if score #night lb_apoc matches 71.. if score #announced lb_apoc matches ..70 run tellraw @a {"text": "Новый тип: Гнилотитаны. Теперь могут встречаться в мире и в ордах.", "color": "yellow"}
+execute if score #night lb_apoc matches 76.. if score #announced lb_apoc matches ..75 run tellraw @a {"text": "Новый тип: Джаггернауты. Очень тяжёлая броня, 80 HP и сильное отбрасывание. Нужны пушки и перекрёстный огонь.", "color": "yellow"}
+execute if score #night lb_apoc matches 91.. if score #announced lb_apoc matches ..90 run tellraw @a {"text": "Новый тип: Чумные патриархи. Самые крупные толстяки: 600 HP, тяжёлая броня, ядовитое облако. Очень медленные.", "color": "yellow"}
+scoreboard players operation #announced lb_apoc = #night lb_apoc

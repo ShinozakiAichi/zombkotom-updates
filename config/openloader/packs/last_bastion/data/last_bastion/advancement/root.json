@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "create:brass_casing"
+    },
+    "title": "LAST BASTION",
+    "description": "Выживайте вместе. Разведка → мастерская → оборона → транспорт → сеть баз. Это открытые учебные цели, а не замки на рецептах.",
+    "background": "minecraft:textures/block/deepslate_tiles.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "join": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "ntgl:weapons/fatman/mini_nuke",
+      "sprite": "ntgl:weapons/fatman/mini_nuke"
+    }
+  ]
+}

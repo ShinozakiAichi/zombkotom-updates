@@ -1,0 +1,34 @@
+{
+  "structures": [
+    {
+      "structure": "last_bastion:hospital",
+      "weight": 1
+    },
+    {
+      "structure": "last_bastion:factory",
+      "weight": 1
+    },
+    {
+      "structure": "last_bastion:fuel_station",
+      "weight": 1
+    },
+    {
+      "structure": "last_bastion:laboratory",
+      "weight": 1
+    },
+    {
+      "structure": "last_bastion:rail_depot",
+      "weight": 1
+    },
+    {
+      "structure": "last_bastion:radio_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 20,
+    "salt": 10734191
+  }
+}

@@ -1,0 +1,8 @@
+name = "zombies-break-and-build"
+filename = "ZombiesBreak&Build-neoforge-1.21.1-1.7.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/z1e0VLjL/versions/OyzwivCD/ZombiesBreak%26Build-neoforge-1.21.1-1.7.0.jar"
+hash-format = "sha512"
+hash = "d94f252acf23fdb435bcf312afec41964e28168b9d9e11c65ad32bfbca7c2f40a1d03346ad9791ba312a91fc6cfb5c3011a8219066e47679267a82c3e84938ea"

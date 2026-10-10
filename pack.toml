@@ -1,0 +1,13 @@
+name = "ZombKotom / LAST BASTION"
+author = "ShinozakiAichi"
+version = "5.3.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "7d64ada2e61b2d3265f96c34a1c58feff81be6a9ea9f169427b56bb728feb0c1"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.257"

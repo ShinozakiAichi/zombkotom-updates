@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/steel"
+    },
+    {
+      "tag": "c:ingots/copper"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "tag": "c:ingots/copper"
+    },
+    {
+      "item": "superbwarfare:primer"
+    }
+  ],
+  "results": [
+    {
+      "id": "superbwarfare:heavy_ammo",
+      "count": 15
+    }
+  ],
+  "heatRequirement": "heated"
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "last_bastion:press",
+  "display": {
+    "icon": {
+      "id": "createaddition:barbed_wire"
+    },
+    "title": "Инженерные заграждения",
+    "description": "Задерживай орду перед огневой линией. Зомби умеют обходить опасные блоки.",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "createaddition:barbed_wire"
+          }
+        ]
+      }
+    }
+  }
+}

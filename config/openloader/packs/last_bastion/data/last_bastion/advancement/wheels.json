@@ -1,0 +1,25 @@
+{
+  "parent": "last_bastion:assembler",
+  "display": {
+    "icon": {
+      "id": "offroad:wheel_mount"
+    },
+    "title": "Наземная экспедиция",
+    "description": "Колёсная платформа перевозит груз. Механизмы остаются интерактивными благодаря Sable.",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "offroad:wheel_mount"
+          }
+        ]
+      }
+    }
+  }
+}

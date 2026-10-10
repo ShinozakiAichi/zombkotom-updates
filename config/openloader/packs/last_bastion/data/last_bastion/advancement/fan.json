@@ -1,0 +1,25 @@
+{
+  "parent": "last_bastion:mill",
+  "display": {
+    "icon": {
+      "id": "create:encased_fan"
+    },
+    "title": "Промывка руды",
+    "description": "Вентилятор через воду обрабатывает дроблёные руды. Сравни выход через JEI.",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:encased_fan"
+          }
+        ]
+      }
+    }
+  }
+}

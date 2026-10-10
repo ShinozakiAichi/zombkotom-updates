@@ -1,0 +1,197 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "equipment"
+	group: "2386BF3579C3FCDA"
+	icon: {
+		id: "artifacts:onion_ring"
+	}
+	id: "5B9A92941F479B0F"
+	images: [ ]
+	order_index: 1
+	quest_links: [
+		{
+			id: "418B7B8EE72BEF5F"
+			linked_quest: "6C7CCFE71CB75B96"
+			size: 0.8d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "699250F876F90DB6"
+			linked_quest: "767CF8E64B4D5689"
+			size: 0.8d
+			x: -4.0d
+			y: 2.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"767CF8E64B4D5689"
+				"6C7CCFE71CB75B96"
+			]
+			icon: {
+				id: "artifacts:onion_ring"
+			}
+			id: "5F7C93D2194A6707"
+			progression_mode: "linear"
+			rewards: [{
+				count: 6
+				id: "3DC8C425591005A6"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: false
+					id: "2C2CA6E8B84C67D0"
+					item: { count: 1, id: "create:goggles" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "169100EA5EA63B83"
+					item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F7C93D2194A6707"]
+			icon: {
+				id: "artifacts:onion_ring"
+			}
+			id: "0DE60A0BE393DA65"
+			progression_mode: "linear"
+			rewards: [{
+				count: 8
+				id: "5491844BD3AC4D1D"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: false
+				id: "5D347E34F8C99AD5"
+				item: { count: 1, id: "artifacts:onion_ring" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F7C93D2194A6707"]
+			icon: {
+				id: "artifacts:onion_ring"
+			}
+			id: "49C945247DEFBD9B"
+			progression_mode: "linear"
+			rewards: [{
+				count: 8
+				id: "3357D217D511D9EB"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: false
+				id: "36CE6659EBF73677"
+				item: { count: 1, id: "artifacts:power_glove" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F7C93D2194A6707"]
+			icon: {
+				id: "artifacts:onion_ring"
+			}
+			id: "58D69D077CB4F55D"
+			progression_mode: "linear"
+			rewards: [{
+				count: 8
+				id: "340D7F9518E3F9D6"
+				item: {
+					count: 1
+					id: "minecraft:golden_carrot"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: false
+				id: "39060085284DF950"
+				item: { count: 1, id: "artifacts:cross_necklace" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F7C93D2194A6707"]
+			icon: {
+				id: "artifacts:onion_ring"
+			}
+			id: "5E2A9968AB86200C"
+			progression_mode: "linear"
+			rewards: [{
+				count: 32
+				id: "5E4FEB2E74A761D1"
+				item: {
+					count: 1
+					id: "minecraft:torch"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: false
+				id: "0F7CA40D22F0E0F4"
+				item: { count: 1, id: "artifacts:running_shoes" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F7C93D2194A6707"]
+			icon: {
+				id: "artifacts:onion_ring"
+			}
+			id: "1423C8FB99ECE2B5"
+			progression_mode: "linear"
+			rewards: [{
+				count: 8
+				id: "041639D1F0AFA2CF"
+				item: {
+					count: 1
+					id: "minecraft:golden_carrot"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: false
+				id: "0A041DBF29C096AE"
+				item: { count: 1, id: "artifacts:helium_flamingo" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+	]
+}

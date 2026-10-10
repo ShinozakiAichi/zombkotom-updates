@@ -1,0 +1,352 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "workshop"
+	group: "59BDE301197E277C"
+	icon: {
+		id: "create:mechanical_press"
+	}
+	id: "4CB871EC5A937307"
+	images: [ ]
+	order_index: 0
+	quest_links: [
+		{
+			id: "761ABABD89E57880"
+			linked_quest: "25DE320C2C9C8489"
+			size: 0.8d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "7006C984BE3DFFF4"
+			linked_quest: "44D3DD5B83366C0F"
+			size: 0.8d
+			x: -4.0d
+			y: 2.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["25DE320C2C9C8489"]
+			icon: {
+				id: "create:water_wheel"
+			}
+			id: "151F494B4AC4EAE7"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "606A362DE5A4A1C7"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 16
+					id: "759A1D2BE6737118"
+					item: {
+						count: 1
+						id: "minecraft:andesite"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "4F456A43CD4DA63E"
+				item: { count: 1, id: "create:water_wheel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["151F494B4AC4EAE7"]
+			icon: {
+				id: "create:iron_sheet"
+			}
+			id: "6C7CCFE71CB75B96"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "1D37A1B28F1C0269"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 12
+					id: "070819BB2231C130"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "70A404797416C95C"
+				item: { count: 1, id: "create:iron_sheet" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["151F494B4AC4EAE7"]
+			icon: {
+				id: "create:encased_fan"
+			}
+			id: "18C22868E08C0CD7"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "27E6AD1034913323"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 12
+					id: "67461B78B06AC6C6"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "1A3531D90D6B5C2C"
+				item: { count: 1, id: "create:encased_fan" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C7CCFE71CB75B96"]
+			icon: {
+				id: "create:mechanical_mixer"
+			}
+			id: "73DF5136B7EE8443"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "05070DA8CBDF3B73"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 6
+					id: "27B361BB9BF4392A"
+					item: {
+						count: 1
+						id: "create:zinc_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "666D7DBA08B7568B"
+				item: { count: 1, id: "create:mechanical_mixer" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"73DF5136B7EE8443"
+				"648D61654BD7B5D4"
+			]
+			icon: {
+				id: "create:brass_ingot"
+			}
+			id: "15304D6486E44D0C"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "04C9EAE0B8A4F99D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 6
+					id: "33513F87493F9BEE"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "08205E184CC1AC4D"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15304D6486E44D0C"]
+			icon: {
+				id: "create:precision_mechanism"
+			}
+			id: "73A090F631B8E17F"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "00DBFE04D0FAFA3C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 16
+					id: "2FCB26E5A2767714"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "3210E4D96DBF7C15"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15304D6486E44D0C"]
+			icon: {
+				id: "create:crushing_wheel"
+			}
+			id: "769CF305718BC584"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "0E7B0E4C9E557576"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 24
+					id: "6B04C24488F0F5FE"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "718D54C291DA79C5"
+				item: { count: 1, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["73A090F631B8E17F"]
+			icon: {
+				id: "create_mechanical_extruder:mechanical_extruder"
+			}
+			id: "4451C6A2622EA1C1"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "23ECFF5E69E62B60"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "5BD67A0317AC0EB2"
+					item: {
+						count: 1
+						id: "minecraft:slime_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "1BF04BA996D8E8AD"
+				item: { count: 1, id: "create_mechanical_extruder:mechanical_extruder" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"73DF5136B7EE8443"
+				"44D3DD5B83366C0F"
+			]
+			icon: {
+				id: "minecraft:flint_and_steel"
+			}
+			id: "479290CA9A3F1112"
+			progression_mode: "linear"
+			rewards: [{
+				count: 6
+				id: "508055851D8987B8"
+				item: {
+					count: 1
+					id: "minecraft:golden_carrot"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "2F2F7DC06EACA8EE"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["479290CA9A3F1112"]
+			icon: {
+				id: "create:blaze_burner"
+			}
+			id: "648D61654BD7B5D4"
+			progression_mode: "linear"
+			rewards: [{
+				count: 16
+				id: "4684CBF228DBBE76"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: false
+				id: "1F91B0C8EE1F9D99"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+	]
+}

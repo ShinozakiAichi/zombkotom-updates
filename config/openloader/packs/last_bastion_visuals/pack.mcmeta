@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "pack_format": 34,
+    "description": "LAST BASTION: гниющие великаны — модель на основе Undead Revamped"
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "create_radar",
+        "path": "blockstates/(radome|shield_jammer|siren|sky_radar|smart_mount|sonar_bearing|sonar_panel)\\.json"
+      },
+      {
+        "namespace": "create_radar",
+        "path": "models/block/(cannon_mount_radar|shield_jammer|sky_radar_mount|smart_cannon_mount)\\.json"
+      }
+    ]
+  }
+}

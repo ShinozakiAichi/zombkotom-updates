@@ -1,0 +1,368 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "power_grid"
+	group: "25F092E907931A2C"
+	icon: {
+		id: "create_new_age:generator_coil"
+	}
+	id: "2FBE6C7F9607BFBB"
+	images: [ ]
+	order_index: 1
+	quest_links: [
+		{
+			id: "5599C2CED9E2057F"
+			linked_quest: "594037E225E662E1"
+			size: 0.8d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "2FE1A1B8A2C7367D"
+			linked_quest: "73A090F631B8E17F"
+			size: 0.8d
+			x: -4.0d
+			y: 2.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["73A090F631B8E17F"]
+			icon: {
+				id: "create_new_age:generator_coil"
+			}
+			id: "0897FC0A5A015593"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "00364D6635A9BA01"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 24
+					id: "27084B3CEB931703"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: false
+					id: "4675BE298B3F2650"
+					item: { count: 1, id: "create_new_age:generator_coil" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00C2EC4582D12F7C"
+					item: { count: 1, id: "create_new_age:carbon_brushes" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "476B3293C5C1BC3B"
+					item: { count: 1, id: "create_new_age:magnetite_block" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0897FC0A5A015593"]
+			icon: {
+				id: "create_new_age:generator_coil"
+			}
+			id: "6EBE4234CEC1316B"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "0359F17476B2E26B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 16
+					id: "64409161A924C4F7"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "33C17C95618B4D87"
+					item: { count: 1, id: "create_new_age:electrical_connector" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "39E10AE955B0A5ED"
+					item: { count: 1, id: "create_new_age:copper_wire" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EBE4234CEC1316B"]
+			icon: {
+				id: "create:iron_sheet"
+			}
+			id: "7FB6DC58EB28366F"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "6D60931B38252A26"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 8
+					id: "15CCF7C4957DCAEB"
+					item: {
+						count: 1
+						id: "create:iron_sheet"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: false
+					count: 16L
+					id: "7DEDD6F04AD71B78"
+					item: { count: 1, id: "create:iron_sheet" }
+					type: "item"
+				}
+				{
+					id: "1F6FC534FADE0C72"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FB6DC58EB28366F"]
+			icon: {
+				id: "create_new_age:generator_coil"
+			}
+			id: "7A49EBB5A1AAE36B"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "6EE30D731D2DD757"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 8
+					id: "7498E298A081E1AE"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: false
+					id: "304EB892F5074CEA"
+					item: { count: 1, id: "create_new_age:basic_energiser" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "454F63D2F893652E"
+					item: { count: 1, id: "create_new_age:overcharged_iron" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A49EBB5A1AAE36B"]
+			icon: {
+				id: "create_new_age:generator_coil"
+			}
+			id: "0C660FCC9C8F1AEC"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "58C9F2E6657ACFF1"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 24
+					id: "44480C479F9B4BD1"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: false
+					id: "22A2EBEDD272DC8A"
+					item: { count: 1, id: "create_new_age:advanced_motor" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "49C6E029DAD5ADC8"
+					item: { count: 1, id: "create_new_age:advanced_energiser" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7A49EBB5A1AAE36B"]
+			icon: {
+				id: "create_new_age:generator_coil"
+			}
+			id: "7B604E6325EA1BED"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "62F40539E7A435C6"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 16
+					id: "4EDEE90F11FD8D1B"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: false
+					id: "1031BEC219B1976A"
+					item: { count: 1, id: "create_new_age:basic_solar_heating_plate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "694CD15E4DA41829"
+					item: { count: 1, id: "create_new_age:heat_pipe" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0C660FCC9C8F1AEC"
+				"7B604E6325EA1BED"
+			]
+			icon: {
+				id: "create_new_age:generator_coil"
+			}
+			id: "51D28A2083ECD7B8"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "62B971048FB4D0E1"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 16
+					id: "4E04D6A73CDF8BAC"
+					item: {
+						count: 1
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: false
+					id: "16C9369BE83DC7B0"
+					item: { count: 1, id: "create_new_age:reactor_rod" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7FFB03BC84B9FB0F"
+					item: { count: 1, id: "create_new_age:reactor_heat_vent" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "606FA0354112E152"
+					item: { count: 1, id: "create_new_age:reactor_fuel_acceptor" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0C660FCC9C8F1AEC"
+				"594037E225E662E1"
+			]
+			icon: {
+				id: "create_new_age:generator_coil"
+			}
+			id: "66B5F3EB336AEAB8"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "4B5F1D61B060DE4A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 12
+					id: "4F7F20CB080F2750"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "41D2614DD19395C4"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+	]
+}

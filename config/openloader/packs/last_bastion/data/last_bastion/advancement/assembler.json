@@ -1,0 +1,25 @@
+{
+  "parent": "last_bastion:precision",
+  "display": {
+    "icon": {
+      "id": "simulated:physics_assembler"
+    },
+    "title": "Конструктор машин",
+    "description": "Собери первую физическую машину на земле. Проверь крепления и запас топлива перед поездкой.",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "simulated:physics_assembler"
+          }
+        ]
+      }
+    }
+  }
+}

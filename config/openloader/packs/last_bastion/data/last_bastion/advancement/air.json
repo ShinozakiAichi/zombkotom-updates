@@ -1,0 +1,25 @@
+{
+  "parent": "last_bastion:assembler",
+  "display": {
+    "icon": {
+      "id": "aeronautics:propeller_bearing"
+    },
+    "title": "Первый полёт",
+    "description": "Проверь массу, тягу и баланс на малой высоте. Возьми еду, топливо и материалы ремонта.",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "aeronautics:propeller_bearing"
+          }
+        ]
+      }
+    }
+  }
+}

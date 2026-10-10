@@ -1,0 +1,161 @@
+[
+  {
+    "mob": "minecraft:phantom",
+    "result": "deny"
+  },
+  {
+    "mob": "undead_revamp2:theheavy",
+    "when": "onjoin",
+    "mincount": {
+      "amount": 3,
+      "mob": "undead_revamp2:theheavy"
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "undead_revamp2:thehunter",
+    "when": "onjoin",
+    "maxdaycount": 29,
+    "result": "deny"
+  },
+  {
+    "mob": "undead_revamp2:thespitter",
+    "when": "onjoin",
+    "maxdaycount": 39,
+    "result": "deny"
+  },
+  {
+    "mob": "undead_revamp2:bomber",
+    "when": "onjoin",
+    "maxdaycount": 54,
+    "result": "deny"
+  },
+  {
+    "mob": "undead_revamp2:theheavy",
+    "when": "onjoin",
+    "maxdaycount": 69,
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "undead_revamp2:thehunter",
+      "undead_revamp2:thespitter",
+      "undead_revamp2:bomber",
+      "undead_revamp2:theheavy"
+    ],
+    "when": "onjoin",
+    "mindaycount": 0,
+    "mincount": {
+      "amount": 4,
+      "mob": [
+        "undead_revamp2:thehunter",
+        "undead_revamp2:thespitter",
+        "undead_revamp2:bomber",
+        "undead_revamp2:theheavy"
+      ]
+    },
+    "result": "deny",
+    "maxdaycount": 39
+  },
+  {
+    "mob": [
+      "undead_revamp2:thehunter",
+      "undead_revamp2:thespitter",
+      "undead_revamp2:bomber",
+      "undead_revamp2:theheavy"
+    ],
+    "when": "onjoin",
+    "mindaycount": 40,
+    "mincount": {
+      "amount": 6,
+      "mob": [
+        "undead_revamp2:thehunter",
+        "undead_revamp2:thespitter",
+        "undead_revamp2:bomber",
+        "undead_revamp2:theheavy"
+      ]
+    },
+    "result": "deny",
+    "maxdaycount": 59
+  },
+  {
+    "mob": [
+      "undead_revamp2:thehunter",
+      "undead_revamp2:thespitter",
+      "undead_revamp2:bomber",
+      "undead_revamp2:theheavy"
+    ],
+    "when": "onjoin",
+    "mindaycount": 60,
+    "mincount": {
+      "amount": 9,
+      "mob": [
+        "undead_revamp2:thehunter",
+        "undead_revamp2:thespitter",
+        "undead_revamp2:bomber",
+        "undead_revamp2:theheavy"
+      ]
+    },
+    "result": "deny",
+    "maxdaycount": 79
+  },
+  {
+    "mob": [
+      "undead_revamp2:thehunter",
+      "undead_revamp2:thespitter",
+      "undead_revamp2:bomber",
+      "undead_revamp2:theheavy"
+    ],
+    "when": "onjoin",
+    "mindaycount": 80,
+    "mincount": {
+      "amount": 11,
+      "mob": [
+        "undead_revamp2:thehunter",
+        "undead_revamp2:thespitter",
+        "undead_revamp2:bomber",
+        "undead_revamp2:theheavy"
+      ]
+    },
+    "result": "deny",
+    "maxdaycount": 98
+  },
+  {
+    "mob": [
+      "undead_revamp2:thehunter",
+      "undead_revamp2:thespitter",
+      "undead_revamp2:bomber",
+      "undead_revamp2:theheavy"
+    ],
+    "when": "onjoin",
+    "mindaycount": 99,
+    "mincount": {
+      "amount": 13,
+      "mob": [
+        "undead_revamp2:thehunter",
+        "undead_revamp2:thespitter",
+        "undead_revamp2:bomber",
+        "undead_revamp2:theheavy"
+      ]
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "undead_revamp2",
+    "minlight": 8,
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "undead_revamp2:thehunter",
+      "undead_revamp2:thespitter",
+      "undead_revamp2:bomber",
+      "undead_revamp2:theheavy"
+    ],
+    "result": "default"
+  },
+  {
+    "mod": "undead_revamp2",
+    "result": "deny"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PAP",
+    "MCM",
+    "SBS"
+  ],
+  "key": {
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "A": {
+      "item": "createaddition:alternator"
+    },
+    "M": {
+      "item": "createaddition:electric_motor"
+    },
+    "C": {
+      "item": "minecraft:smithing_table"
+    },
+    "S": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "id": "superbwarfare:vehicle_assembling_table",
+    "count": 1
+  }
+}

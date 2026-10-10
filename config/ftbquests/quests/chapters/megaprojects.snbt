@@ -1,0 +1,242 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "megaprojects"
+	group: "12AB0E4BAFE8F799"
+	icon: {
+		id: "create:display_board"
+	}
+	id: "1F926165313B6336"
+	images: [ ]
+	order_index: 2
+	quest_links: [
+		{
+			id: "29F428BB812A8703"
+			linked_quest: "02FCAD236C4EC87D"
+			size: 0.8d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "35C44CB902634F00"
+			linked_quest: "390C33B60F61925B"
+			size: 0.8d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "6762CF7AD2274274"
+			linked_quest: "44A3DDBFCCE60432"
+			size: 0.8d
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "0AB3423EC2DDFE4D"
+			linked_quest: "4D20DA1CC1067747"
+			size: 0.8d
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			id: "7BE9CE02E140B288"
+			linked_quest: "617308F0D67136D7"
+			size: 0.8d
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			id: "3343C9A03BB13833"
+			linked_quest: "69D7476345B0306B"
+			size: 0.8d
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			id: "450B0380D15C1128"
+			linked_quest: "7D7A421FA768E7A0"
+			size: 0.8d
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			id: "54A92552D8E16901"
+			linked_quest: "7DB5318DB728DAF7"
+			size: 0.8d
+			x: -4.0d
+			y: 14.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"390C33B60F61925B"
+				"7D7A421FA768E7A0"
+			]
+			icon: {
+				id: "create:display_board"
+			}
+			id: "1E153AE4443F2602"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "539CFB03EA1C6A2E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 32
+					id: "0AC221C0DB284591"
+					item: {
+						count: 1
+						id: "minecraft:stone_bricks"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "466CE300AE3FFCA3"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"69D7476345B0306B"
+				"44A3DDBFCCE60432"
+			]
+			icon: {
+				id: "create:display_board"
+			}
+			id: "631402A28344DEC3"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "25F035B33CD06FED"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "0882CE70292EF0F2"
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "535EA379C8C55F94"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4D20DA1CC1067747"
+				"02FCAD236C4EC87D"
+			]
+			icon: {
+				id: "create:display_board"
+			}
+			id: "20A8255BB91D98FC"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "14C62B213AE209CB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "7AD47DDBD7DA7EA9"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "48736C00FE915EA8"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7D7A421FA768E7A0"
+				"617308F0D67136D7"
+			]
+			icon: {
+				id: "create:display_board"
+			}
+			id: "7F272281F2950FD9"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "136EDF406568A0EB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "3CD0EEFB73164E8F"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "486F22399D696C6F"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7F272281F2950FD9"
+				"7DB5318DB728DAF7"
+			]
+			icon: {
+				id: "create:display_board"
+			}
+			id: "18FE47052510B0AE"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "0602FEB307BC1944"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "38A60772C4C55F78"
+					item: {
+						count: 1
+						id: "minecraft:painting"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "789C17E0DB68DBC6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+	]
+}

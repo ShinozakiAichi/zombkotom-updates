@@ -1,0 +1,38 @@
+[
+  {
+    "entity": "minecraft:zombie",
+    "weight": 80,
+    "first_day": 0,
+    "last_day": 0
+  },
+  {
+    "entity": "minecraft:husk",
+    "weight": 10,
+    "first_day": 19,
+    "last_day": 0
+  },
+  {
+    "entity": "undead_revamp2:thehunter",
+    "weight": 3,
+    "first_day": 30,
+    "last_day": 0
+  },
+  {
+    "entity": "undead_revamp2:thespitter",
+    "weight": 3,
+    "first_day": 40,
+    "last_day": 0
+  },
+  {
+    "entity": "undead_revamp2:bomber",
+    "weight": 3,
+    "first_day": 55,
+    "last_day": 0
+  },
+  {
+    "entity": "undead_revamp2:theheavy",
+    "weight": 1,
+    "first_day": 70,
+    "last_day": 0
+  }
+]

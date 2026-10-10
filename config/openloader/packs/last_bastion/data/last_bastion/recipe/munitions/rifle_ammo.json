@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:ingots/steel"
+    },
+    {
+      "tag": "c:plates/copper"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "tag": "c:plates/copper"
+    },
+    {
+      "item": "superbwarfare:primer"
+    }
+  ],
+  "results": [
+    {
+      "id": "superbwarfare:rifle_ammo",
+      "count": 60
+    }
+  ],
+  "heatRequirement": "heated"
+}

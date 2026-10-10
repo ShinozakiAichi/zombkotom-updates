@@ -1,0 +1,25 @@
+{
+  "parent": "last_bastion:precision",
+  "display": {
+    "icon": {
+      "id": "createaddition:alternator"
+    },
+    "title": "Электросеть",
+    "description": "Генератор превращает вращение в электричество. Потери не позволяют создать вечный двигатель.",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "createaddition:alternator"
+          }
+        ]
+      }
+    }
+  }
+}

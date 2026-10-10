@@ -1,0 +1,18 @@
+#General settings
+[general]
+	#The radius of the search area for the radar. This is measured in multiples of 8 chunks
+	# Default: 10
+	# Range: 1 ~ 10000
+	searchRadius = 10
+	#Maximum RF storage that the radar item can hold
+	# Default: 20000
+	# Range: > 0
+	radarMaxRF = 20000
+	#RF per tick that the the radar item can receive
+	# Default: 100
+	# Range: > 0
+	radarRFPerTick = 100
+	#Minimum RF that the radar item must have to be able to show the map fully
+	# Default: 10
+	# Range: > 0
+	radarMinRFForMap = 10

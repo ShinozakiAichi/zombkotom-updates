@@ -1,0 +1,25 @@
+{
+  "parent": "last_bastion:water",
+  "display": {
+    "icon": {
+      "id": "create:mechanical_press"
+    },
+    "title": "Мастерская",
+    "description": "Пресс выпускает листы для электрики, ограждений и механизмов.",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:mechanical_press"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,251 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "survival"
+	group: "5AA38A3B782FD323"
+	icon: {
+		id: "minecraft:stone_bricks"
+	}
+	id: "068B073BD39B3414"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:stone_bricks"
+			}
+			id: "528BB03813D52220"
+			progression_mode: "linear"
+			rewards: [{
+				id: "21FD2070123E0CD0"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5D95945DCA66A162"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:stone_pickaxe"
+			}
+			id: "25DE320C2C9C8489"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "228E37047C08B17D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 16
+					id: "2A1DF5C27E2757D8"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "17F86B8C383C4FCA"
+				item: { count: 1, id: "minecraft:stone_pickaxe" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25DE320C2C9C8489"]
+			icon: {
+				id: "minecraft:shield"
+			}
+			id: "44D3DD5B83366C0F"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "5BB3CDE9334FC67F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 6
+					id: "7BD6B53948F92DDE"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "28BA4420E8B298DD"
+				item: { count: 1, id: "minecraft:shield" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25DE320C2C9C8489"]
+			icon: {
+				id: "minecraft:stone_bricks"
+			}
+			id: "5EC9CD93B290DE02"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "72097707BECCD833"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 32
+					id: "196AA3E6FEF50F02"
+					item: {
+						count: 1
+						id: "minecraft:cobblestone"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "54B977D8E29384AB"
+				item: { count: 1, id: "minecraft:stone_bricks" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25DE320C2C9C8489"]
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "1BAD77B539211158"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "119727908232AD43"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 12
+					id: "1E23F2BE718F7E74"
+					item: {
+						count: 1
+						id: "minecraft:carrot"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "0E315ECDF8D0945E"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25DE320C2C9C8489"]
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "767CF8E64B4D5689"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "72DCFEC74CBE5633"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 4
+					id: "231069376FBF32F4"
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				consume_items: false
+				id: "36C78C6074437E88"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"44D3DD5B83366C0F"
+				"5EC9CD93B290DE02"
+			]
+			icon: {
+				id: "minecraft:stone_bricks"
+			}
+			id: "06A9DEA31A1FB7C5"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "7B8503C7761E0040"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "7BD4E3B6CA439A4B"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "3C35BB1BE645F102"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:stone_bricks"
+			}
+			id: "72D3EE3421195D81"
+			progression_mode: "linear"
+			rewards: [{
+				id: "4FBD4922B460969E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3C7662AA4D1774B9"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+	]
+}

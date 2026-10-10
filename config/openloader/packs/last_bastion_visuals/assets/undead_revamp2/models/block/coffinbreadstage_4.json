@@ -1,0 +1,10 @@
+{
+  "parent": "undead_revamp2:custom/sarcophagusboardeaten3",
+  "textures": {
+    "all": "undead_revamp2:block/sarcophagusboardblock_maineaten",
+    "particle": "undead_revamp2:block/sarcophagusboardblock_maineaten",
+    "0": "undead_revamp2:block/sarcophagusboardblock_maineaten",
+    "1": "undead_revamp2:block/sarcophagusboardblock_maineaten"
+  },
+  "render_type": "solid"
+}

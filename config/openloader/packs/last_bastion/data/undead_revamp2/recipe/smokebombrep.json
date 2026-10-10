@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:string"
+    },
+    "b": {
+      "item": "minecraft:brick"
+    },
+    "c": {
+      "item": "undead_revamp2:the_somnolenceextract"
+    }
+  },
+  "result": {
+    "id": "undead_revamp2:sleepingsmokebomb",
+    "count": 1
+  }
+}

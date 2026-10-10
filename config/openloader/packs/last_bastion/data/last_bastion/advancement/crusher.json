@@ -1,0 +1,25 @@
+{
+  "parent": "last_bastion:brass",
+  "display": {
+    "icon": {
+      "id": "create:crushing_wheel"
+    },
+    "title": "Городской металлолом",
+    "description": "Решётки, двери, люки и цепи из руин можно дробить на железные самородки.",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:crushing_wheel"
+          }
+        ]
+      }
+    }
+  }
+}

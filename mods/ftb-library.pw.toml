@@ -1,0 +1,8 @@
+name = "ftb-library"
+filename = "ftb-library-neoforge-2101.1.35.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8569/579/ftb-library-neoforge-2101.1.35.jar"
+hash-format = "sha512"
+hash = "cc80e7e5ce1ffce910d684ee27e7cdedb2f80a4e8787b792b6837cd1ccd73228bac933d9e07fc1b6ade440163be67b584b89e59debf8a6731211be49f11d9260"

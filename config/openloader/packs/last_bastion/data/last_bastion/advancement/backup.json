@@ -1,0 +1,25 @@
+{
+  "parent": "last_bastion:shelter",
+  "display": {
+    "icon": {
+      "id": "minecraft:compass"
+    },
+    "title": "План эвакуации",
+    "description": "Отметь запасное убежище на карте. Храни резерв материалов отдельно. Орда приходит каждые 5 дней.",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:compass"
+          }
+        ]
+      }
+    }
+  }
+}

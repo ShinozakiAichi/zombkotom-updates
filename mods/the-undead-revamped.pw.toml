@@ -1,0 +1,8 @@
+name = "the-undead-revamped"
+filename = "THEUNDEADREVAMPED_1.8f_1.21.1 neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hhfNpvRV/versions/yr1z8iQU/THEUNDEADREVAMPED_1.8f_1.21.1%20neoforge.jar"
+hash-format = "sha512"
+hash = "96b7c2ec1f624c1fb5dfbf2bb37b2825b43fb90316dc94d95866a56c07d39c8ef045e06d878e58e56cdc0212358eaa8f13e99bed8336d37972378196242a2ba5"

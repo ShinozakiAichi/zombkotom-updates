@@ -1,0 +1,8 @@
+name = "ftb-quests"
+filename = "ftb-quests-neoforge-2101.1.30.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8589/821/ftb-quests-neoforge-2101.1.30.jar"
+hash-format = "sha512"
+hash = "4e38fe5167004e386189483ff2018ce1910720f3068f082f616a25c8183101d7633fbe029cf85067d652e423c9317ef0e6774cdd73f4d9bc48e15e3b33e060d5"

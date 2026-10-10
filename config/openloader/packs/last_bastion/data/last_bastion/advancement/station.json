@@ -1,0 +1,25 @@
+{
+  "parent": "last_bastion:rail",
+  "display": {
+    "icon": {
+      "id": "create:track_station"
+    },
+    "title": "Грузовой маршрут",
+    "description": "Настрой расписание поезда и погрузку. Отдельный склад снабжения переживёт осаду основного.",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:track_station"
+          }
+        ]
+      }
+    }
+  }
+}

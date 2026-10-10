@@ -1,0 +1,25 @@
+{
+  "parent": "last_bastion:brass",
+  "display": {
+    "icon": {
+      "id": "create:precision_mechanism"
+    },
+    "title": "Сборочная линия",
+    "description": "Последовательная сборка готовит узлы транспорта. Автоматизируй подачу деталей.",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:precision_mechanism"
+          }
+        ]
+      }
+    }
+  }
+}

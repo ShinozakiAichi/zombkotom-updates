@@ -1,0 +1,23 @@
+scoreboard players operation #synced lb_apoc = #day lb_apoc
+execute store result storage last_bastion:clock day int 1 run scoreboard players get #day lb_apoc
+execute if score #night lb_apoc matches 1..5 run scoreboard players set #stage lb_apoc 1
+execute if score #night lb_apoc matches 6..10 run scoreboard players set #stage lb_apoc 2
+execute if score #night lb_apoc matches 11..15 run scoreboard players set #stage lb_apoc 3
+execute if score #night lb_apoc matches 16..20 run scoreboard players set #stage lb_apoc 4
+execute if score #night lb_apoc matches 21..25 run scoreboard players set #stage lb_apoc 5
+execute if score #night lb_apoc matches 26..30 run scoreboard players set #stage lb_apoc 6
+execute if score #night lb_apoc matches 31..35 run scoreboard players set #stage lb_apoc 7
+execute if score #night lb_apoc matches 36..40 run scoreboard players set #stage lb_apoc 8
+execute if score #night lb_apoc matches 41..45 run scoreboard players set #stage lb_apoc 9
+execute if score #night lb_apoc matches 46..50 run scoreboard players set #stage lb_apoc 10
+execute if score #night lb_apoc matches 51..55 run scoreboard players set #stage lb_apoc 11
+execute if score #night lb_apoc matches 56..60 run scoreboard players set #stage lb_apoc 12
+execute if score #night lb_apoc matches 61..65 run scoreboard players set #stage lb_apoc 13
+execute if score #night lb_apoc matches 66..70 run scoreboard players set #stage lb_apoc 14
+execute if score #night lb_apoc matches 71..75 run scoreboard players set #stage lb_apoc 15
+execute if score #night lb_apoc matches 76..80 run scoreboard players set #stage lb_apoc 16
+execute if score #night lb_apoc matches 81..85 run scoreboard players set #stage lb_apoc 17
+execute if score #night lb_apoc matches 86..90 run scoreboard players set #stage lb_apoc 18
+execute if score #night lb_apoc matches 91..95 run scoreboard players set #stage lb_apoc 19
+execute if score #night lb_apoc matches 96..99 run scoreboard players set #stage lb_apoc 20
+execute if score #night lb_apoc matches 100.. run scoreboard players set #stage lb_apoc 21

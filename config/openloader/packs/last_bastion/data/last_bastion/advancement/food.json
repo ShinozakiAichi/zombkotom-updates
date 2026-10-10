@@ -1,0 +1,25 @@
+{
+  "parent": "last_bastion:root",
+  "display": {
+    "icon": {
+      "id": "farmersdelight:cooking_pot"
+    },
+    "title": "Полевая кухня",
+    "description": "Общие запасы еды поддержат экспедицию. Farmer’s Delight показывает рецепты в JEI.",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "farmersdelight:cooking_pot"
+          }
+        ]
+      }
+    }
+  }
+}

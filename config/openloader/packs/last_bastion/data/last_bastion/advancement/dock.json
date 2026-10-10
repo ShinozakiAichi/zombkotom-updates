@@ -1,0 +1,25 @@
+{
+  "parent": "last_bastion:gyro",
+  "display": {
+    "icon": {
+      "id": "simulated:docking_connector"
+    },
+    "title": "Сеть аэродромов",
+    "description": "Строй причалы и снабжение удалённых баз. Электроэнергия передаётся через совместимый стыковочный узел.",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "simulated:docking_connector"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+name = "lost-radar"
+filename = "lostradar-1.21-2.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OajOZwgD/versions/zKx9P0ne/lostradar-1.21-2.0.0.jar"
+hash-format = "sha512"
+hash = "154452bc802fafcfaa750f2e29ac77d29a5e7223bd92276bd5401a7db3cd385faa38b29a4c225ca0a72cc4303e9655f5b3b656907b594a1a5c8d0ba71837f660"

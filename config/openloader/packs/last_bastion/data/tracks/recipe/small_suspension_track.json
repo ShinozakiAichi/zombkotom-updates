@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IPI",
+    "CSC",
+    " L "
+  ],
+  "key": {
+    "I": {
+      "item": "create:iron_sheet"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "C": {
+      "item": "create:belt_connector"
+    },
+    "S": {
+      "item": "simulated:spring"
+    },
+    "L": {
+      "item": "create:andesite_casing"
+    }
+  },
+  "result": {
+    "id": "tracks:small_suspension_track",
+    "count": 2
+  }
+}

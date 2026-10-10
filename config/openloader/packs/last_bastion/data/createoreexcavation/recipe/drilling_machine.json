@@ -1,0 +1,48 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "c:storage_blocks/brass"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "D": {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    "F": {
+      "item": "create:brass_tunnel"
+    },
+    "S": {
+      "item": "create:spout"
+    },
+    "b": {
+      "tag": "c:plates/brass"
+    },
+    "e": {
+      "item": "create:precision_mechanism"
+    },
+    "m": {
+      "item": "createaddition:electric_motor"
+    },
+    "s": {
+      "item": "create:sturdy_sheet"
+    },
+    "t": {
+      "item": "create:copper_casing"
+    }
+  },
+  "pattern": [
+    "BbtbB",
+    "beSeb",
+    "CmDmF",
+    "bsssb",
+    "BbbbB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "createoreexcavation:drilling_machine"
+  }
+}

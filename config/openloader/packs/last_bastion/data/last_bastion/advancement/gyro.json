@@ -1,0 +1,25 @@
+{
+  "parent": "last_bastion:air",
+  "display": {
+    "icon": {
+      "id": "simulated:gyroscopic_mechanism"
+    },
+    "title": "Стабилизация",
+    "description": "Гироскопическая механика помогает строить сложные летательные аппараты.",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "simulated:gyroscopic_mechanism"
+          }
+        ]
+      }
+    }
+  }
+}
