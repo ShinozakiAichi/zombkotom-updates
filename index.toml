@@ -3929,6 +3929,14 @@ file = "config/openloader/packs/last_bastion/pack.mcmeta"
 hash = "8acb20aa240cd6d5328a34872b470c86e7747cea6121206b46247c05a10191c4"
 
 [[files]]
+file = "config/openloader/packs/last_bastion_visuals/assets/create_power_loader/models/item/andesite_chunk_loader.json"
+hash = "c376d0a978966441e6d451f59ac46db4cc279bab3132bdd638af0a8d9b4843f5"
+
+[[files]]
+file = "config/openloader/packs/last_bastion_visuals/assets/create_power_loader/models/item/brass_chunk_loader.json"
+hash = "7138ca82641fd89d9ab1856f9a2a6f80e8bf3bec3bf8d4255641f1e84699ea01"
+
+[[files]]
 file = "config/openloader/packs/last_bastion_visuals/assets/create_sa/models/custom/brass_drone_item.json"
 hash = "5d7232742147b6dd2beb365b2a6b8815f31c3fc685ef991cf0b920aa2b354dac"
 
@@ -3941,12 +3949,24 @@ file = "config/openloader/packs/last_bastion_visuals/assets/create_sa/models/cus
 hash = "c77bf4fc042b69e74ef946a4161b49fe60a1feff8e63ab0727a5a3760f3a85fd"
 
 [[files]]
+file = "config/openloader/packs/last_bastion_visuals/assets/dndecor/sounds.json"
+hash = "d2bc858e5c249353fcbf2ecdf4fec831d28af27609ae91cddaacf75c335c595b"
+
+[[files]]
 file = "config/openloader/packs/last_bastion_visuals/assets/fpvcraft/lang/ru_ru.json"
 hash = "98d2eda5af22cfb504d3a1e31ff3546ad2cfcfa24e6c4de435cecec780bc31f0"
 
 [[files]]
 file = "config/openloader/packs/last_bastion_visuals/assets/minecraft/atlases/blocks.json"
 hash = "b59401e064e788d02c46ac158c95a6354aca3536fa0cb028f68ad2a9e6696ee6"
+
+[[files]]
+file = "config/openloader/packs/last_bastion_visuals/assets/ntgl/models/item/hammer_diamond.json"
+hash = "fe22bf5d2a1a23d2d4eacea99b16b594219905d4465e12e2b15fca4274134fd4"
+
+[[files]]
+file = "config/openloader/packs/last_bastion_visuals/assets/ntgl/models/item/hammer_stone.json"
+hash = "1d87844a540f00574421a2c919c672dd0ea658becc61b96d1b2740267912a5ad"
 
 [[files]]
 file = "config/openloader/packs/last_bastion_visuals/assets/ntgl/models/item/mini_nuke.json"
@@ -4561,8 +4581,8 @@ hash = "9ea875c570666568101265013a37ec9cb9e2e3dd0d3d804a9a9d93de8fae5034"
 metafile = true
 
 [[files]]
-file = "mods/lastbastion-industrial-compat-1.1.0.jar"
-hash = "bf310bb6d906c6ba9dc0de491e8e32aa91537d1eb38ae4487ef3416fc224a2d8"
+file = "mods/lastbastion-industrial-compat-1.2.0.jar"
+hash = "1e9052a49c35c63781d2c341b4e5cb6de78fffcd6cde189f1c4ad60f84462166"
 
 [[files]]
 file = "mods/libipn.pw.toml"

@@ -1159,12 +1159,17 @@
   "config/openloader/packs/last_bastion/data/superbwarfare/recipe/monitor.json": "e8d058c7849ef8371f701bc779c4970136484776041c3b1828373df5173610c6",
   "config/openloader/packs/last_bastion_visuals/assets/fpvcraft/lang/ru_ru.json": "98d2eda5af22cfb504d3a1e31ff3546ad2cfcfa24e6c4de435cecec780bc31f0",
   "mods/fpvcraft-0.2.0.jar": "dd4fd2fbc7e1ac272e2e2a896d544b13ad8b8b7fc6018fd6d3a8651110411234",
-  "mods/lastbastion-industrial-compat-1.1.0.jar": "bf310bb6d906c6ba9dc0de491e8e32aa91537d1eb38ae4487ef3416fc224a2d8",
   "config/ftbquests/quests/chapters/night_milestones.snbt": "eb0e98f204ccb0b96cc552f13986cae599ebb8823a8d852e4800b1d27a138b5d",
   "config/openloader/packs/last_bastion/data/last_bastion/advancement/campaign/night_10.json": "69cfed7d2adff21381333e572c46abc1a9b8d07bd69a2a9791724aeb98f69d9c",
   "config/openloader/packs/last_bastion/data/last_bastion/advancement/campaign/night_100.json": "69cfed7d2adff21381333e572c46abc1a9b8d07bd69a2a9791724aeb98f69d9c",
   "config/openloader/packs/last_bastion/data/last_bastion/advancement/campaign/night_25.json": "69cfed7d2adff21381333e572c46abc1a9b8d07bd69a2a9791724aeb98f69d9c",
   "config/openloader/packs/last_bastion/data/last_bastion/advancement/campaign/night_40.json": "69cfed7d2adff21381333e572c46abc1a9b8d07bd69a2a9791724aeb98f69d9c",
   "config/openloader/packs/last_bastion/data/last_bastion/advancement/campaign/night_70.json": "69cfed7d2adff21381333e572c46abc1a9b8d07bd69a2a9791724aeb98f69d9c",
-  "config/openloader/packs/last_bastion/data/last_bastion/function/journal/milestones.mcfunction": "1bf9885c89640f1cff240088870e2832e58d8058f76b8cd71a285889885b4c21"
+  "config/openloader/packs/last_bastion/data/last_bastion/function/journal/milestones.mcfunction": "1bf9885c89640f1cff240088870e2832e58d8058f76b8cd71a285889885b4c21",
+  "config/openloader/packs/last_bastion_visuals/assets/dndecor/sounds.json": "d2bc858e5c249353fcbf2ecdf4fec831d28af27609ae91cddaacf75c335c595b",
+  "config/openloader/packs/last_bastion_visuals/assets/create_power_loader/models/item/andesite_chunk_loader.json": "c376d0a978966441e6d451f59ac46db4cc279bab3132bdd638af0a8d9b4843f5",
+  "config/openloader/packs/last_bastion_visuals/assets/create_power_loader/models/item/brass_chunk_loader.json": "7138ca82641fd89d9ab1856f9a2a6f80e8bf3bec3bf8d4255641f1e84699ea01",
+  "config/openloader/packs/last_bastion_visuals/assets/ntgl/models/item/hammer_diamond.json": "fe22bf5d2a1a23d2d4eacea99b16b594219905d4465e12e2b15fca4274134fd4",
+  "config/openloader/packs/last_bastion_visuals/assets/ntgl/models/item/hammer_stone.json": "1d87844a540f00574421a2c919c672dd0ea658becc61b96d1b2740267912a5ad",
+  "mods/lastbastion-industrial-compat-1.2.0.jar": "1e9052a49c35c63781d2c341b4e5cb6de78fffcd6cde189f1c4ad60f84462166"
 }

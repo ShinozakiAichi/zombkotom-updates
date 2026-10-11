@@ -1,0 +1,57 @@
+{
+  "large_chain_break": {
+    "replace": true,
+    "subtitle": "subtitles.block.generic.break",
+    "sounds": [
+      {
+        "name": "minecraft:block.chain.break",
+        "type": "event",
+        "volume": 0.9
+      }
+    ]
+  },
+  "large_chain_step": {
+    "replace": true,
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      {
+        "name": "minecraft:block.chain.step",
+        "type": "event",
+        "volume": 0.9
+      }
+    ]
+  },
+  "large_chain_place": {
+    "replace": true,
+    "subtitle": "subtitles.block.generic.place",
+    "sounds": [
+      {
+        "name": "minecraft:block.chain.place",
+        "type": "event",
+        "volume": 0.9
+      }
+    ]
+  },
+  "large_chain_hit": {
+    "replace": true,
+    "subtitle": "subtitles.block.generic.hit",
+    "sounds": [
+      {
+        "name": "minecraft:block.chain.hit",
+        "type": "event",
+        "volume": 0.9
+      }
+    ]
+  },
+  "large_chain_fall": {
+    "replace": true,
+    "subtitle": "subtitles.block.generic.fall",
+    "sounds": [
+      {
+        "name": "minecraft:block.chain.fall",
+        "type": "event",
+        "volume": 0.9
+      }
+    ]
+  }
+}

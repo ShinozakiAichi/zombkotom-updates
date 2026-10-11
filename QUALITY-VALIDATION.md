@@ -1,3 +1,7 @@
+# Current client patch: v5.5.1
+
+See [ASSETS-VALIDATION.md](ASSETS-VALIDATION.md) for the subsequent client repairs and direct runtime evidence. The v5.5 journal validation below remains historical evidence; its client asset issue list is superseded where explicitly fixed in v5.5.1.
+
 # Quality work: journal v5.5
 
 This is an incremental quest release, not certification of the entire modpack as a finished public release. Minecraft 1.21.1, NeoForge 21.1.257, 118 production mod JARs unchanged.
