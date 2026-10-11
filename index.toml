@@ -246,7 +246,7 @@ hash = "c7aadcd607fec1ab99cf5068c3bcc22dd720fc04abaf5438487785afd8f340f0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/arsenal.snbt"
-hash = "7e3c7f4c7d05a72e061a9afa05189779477c8ebfb707c28add571187098f8674"
+hash = "a8df7c040fe6c8786ba844b03af596b32aa2d509a1fa8bcb02cf6eac03f1f131"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/defense.snbt"
@@ -274,15 +274,15 @@ hash = "7d1de4e8b17d8399136b1f4f2cc5067a5a07a4ca7ea829bf085677ac2e96f4c6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hard_endgame.snbt"
-hash = "fad67409eea98cfb3bf86bb2ebf834220e46f8ea82aed275d2610503854df846"
+hash = "1701bdcc1df7be402547598d4075c255300d7acaaa182f784e0b6c9f9c6049c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hard_factory.snbt"
-hash = "7d79ad073d14d5aeabc759982378ac7713fac515f69c5b5542debb5a478c7084"
+hash = "5a00ca375a9e97ba8b58e9694a2103d4203b822d538faaf96830c9effe09bb3f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hard_siege.snbt"
-hash = "fd2916e5b8f50b10ba0a4688906845378c6308cbcca821cfa1dbb66b35bde85f"
+hash = "4f921eba598529b74cf8a4e7aa3187672f99e19be55c5cce57cfc3cb9afe7425"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/home.snbt"
@@ -294,7 +294,7 @@ hash = "b6a48fc4f813b74596919178834a4f2b05775b6f7850a6c1a5c2de54c4c0b1e8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industry.snbt"
-hash = "8c18748d11ab7b988f38143ffa42c36f4115b9ba1eaab5d8e323db2b1c26bb7d"
+hash = "641cb06d7e38ab462625cb1eaa96e9157a9d7d678ca44a486cd4a5badfb2cc4e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/layered_defense.snbt"
@@ -302,7 +302,11 @@ hash = "4ccaf1368a44d4c8dd9fab2e29429eaa54bf12e0949c8dd113a6fa3d85e28899"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/megaprojects.snbt"
-hash = "0d879c6f7759cf536b6129a124e20c0863b694376f9f0bf0a884a78766f397f8"
+hash = "2a161b18337b6ce987889dca2dbe117cf0a728d6e52b533d08453b096e2a1f82"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/night_milestones.snbt"
+hash = "eb0e98f204ccb0b96cc552f13986cae599ebb8823a8d852e4800b1d27a138b5d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/power_grid.snbt"
@@ -314,11 +318,11 @@ hash = "2ec2fd5a47fcea1a121cd4eb8612c75803815ed95073b247dd47c708d0254ee2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/supply.snbt"
-hash = "10334fa221761e3e5abb3be6f120c3bbaf9b0ef059924689e505f5c581f2ac0c"
+hash = "9500f72050991c6bb0ed78b7ff52a34cb97a380ba5bdebf29628d0bba52296a0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/survival.snbt"
-hash = "eca9eef6e2f55a762aa577cf187c115ecc82e2933fa16f42ab75039b74311e84"
+hash = "373000cfa913264e392fc1f5b8d166bb3d3d270620a53556cc3928445d431cbe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tracked_logistics.snbt"
@@ -326,11 +330,11 @@ hash = "a9742a4b3605fcdceb3f7d84bd401188cfdd6ddbef4b63ddcaa6b8300d9ace28"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/transport.snbt"
-hash = "63f2ef198db116b4a5408542c8119456901be3abd6da27eed12fde1fbf182936"
+hash = "befb9c66f6f79b2cc1ac78728f6c943bf27e84f88b510abd76c9eedb07211f97"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/workshop.snbt"
-hash = "3f93815472a56f1fea48a72e2f26e0b818cb3179f1f3ee61bed147c42893c03d"
+hash = "9c072cde12fc06e79fa8de6e3a7d8f579e8c915e6a455f6a86e53cdd72938a5e"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -342,7 +346,7 @@ hash = "7c6e5c4db3da74a004e88504370da9499155e29c9ab5ad236b090265f53f9865"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "68760676a67962ba8193617952d1e8f568f633fecfb3f0c570e0c4b3973f252b"
+hash = "ce9ae1c2d5b4b2ec89b5be04c6aac903fd00a2d7e6db21bd19370f991a6be742"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -1817,6 +1821,26 @@ file = "config/openloader/packs/last_bastion/data/last_bastion/advancement/brass
 hash = "74796a3844c8c66e560f333249ad87aae64ecd10eeb96f03ae897066750ae4d5"
 
 [[files]]
+file = "config/openloader/packs/last_bastion/data/last_bastion/advancement/campaign/night_10.json"
+hash = "69cfed7d2adff21381333e572c46abc1a9b8d07bd69a2a9791724aeb98f69d9c"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/last_bastion/advancement/campaign/night_100.json"
+hash = "69cfed7d2adff21381333e572c46abc1a9b8d07bd69a2a9791724aeb98f69d9c"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/last_bastion/advancement/campaign/night_25.json"
+hash = "69cfed7d2adff21381333e572c46abc1a9b8d07bd69a2a9791724aeb98f69d9c"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/last_bastion/advancement/campaign/night_40.json"
+hash = "69cfed7d2adff21381333e572c46abc1a9b8d07bd69a2a9791724aeb98f69d9c"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/last_bastion/advancement/campaign/night_70.json"
+hash = "69cfed7d2adff21381333e572c46abc1a9b8d07bd69a2a9791724aeb98f69d9c"
+
+[[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/advancement/crusher.json"
 hash = "76d91a4a134b2870c5ca14200daf8960ea2853a59c845e094c10584f9ea0f1f2"
 
@@ -1970,7 +1994,7 @@ hash = "9b48d96785de926c187d806489846f3040c827743cda8d52cb8435107f021400"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/clock.mcfunction"
-hash = "bac468feb79b626ded23085e2e1cd453620232331410f86720d2331514276299"
+hash = "c144c1f00c88dcd0cb38ecfb3f3326a177b5d85f5ec9a7a2c2f1b30fd55571f9"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/command.mcfunction"
@@ -2547,6 +2571,10 @@ hash = "b7794afa436af1f4663c81c2d38bc764811070a1912009d634949fef3470b743"
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/initialize.mcfunction"
 hash = "9959fbc80d55034e909e4e20b0f0f10c4239421baff742561744d383b4ea3290"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/last_bastion/function/journal/milestones.mcfunction"
+hash = "1bf9885c89640f1cff240088870e2832e58d8058f76b8cd71a285889885b4c21"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/load.mcfunction"

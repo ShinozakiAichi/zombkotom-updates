@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "calendar": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

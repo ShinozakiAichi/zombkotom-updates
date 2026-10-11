@@ -1,369 +1,406 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: "circle"
-	filename: "hard_endgame"
-	group: "12AB0E4BAFE8F799"
-	icon: {
-		id: "simulated:physics_assembler"
-	}
-	id: "406F02EF77830110"
-	images: [ ]
-	order_index: 1
-	quest_links: [
-		{
-			id: "37B8D071A2FB091C"
-			linked_quest: "01DBC33090572255"
-			size: 0.8d
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			id: "6EF88541CAC6D97B"
-			linked_quest: "041A0535504E96D3"
-			size: 0.8d
-			x: -4.0d
-			y: 2.0d
-		}
-		{
-			id: "7949D64982BB7E18"
-			linked_quest: "052106CD3B66D5FF"
-			size: 0.8d
-			x: -4.0d
-			y: 4.0d
-		}
-		{
-			id: "25D92C2018187461"
-			linked_quest: "077AC6D609F4F9F8"
-			size: 0.8d
-			x: -4.0d
-			y: 6.0d
-		}
-		{
-			id: "735F193E3CF9CFB8"
-			linked_quest: "1CA3FDAF7EC6BD83"
-			size: 0.8d
-			x: -4.0d
-			y: 8.0d
-		}
-		{
-			id: "0D538673C595D293"
-			linked_quest: "2A91FC3DBB4AD593"
-			size: 0.8d
-			x: -4.0d
-			y: 10.0d
-		}
-		{
-			id: "52A0A5A5C040DF82"
-			linked_quest: "434934B6F92F9B35"
-			size: 0.8d
-			x: -4.0d
-			y: 12.0d
-		}
-		{
-			id: "445300C994FBE763"
-			linked_quest: "580D57CA2877EC79"
-			size: 0.8d
-			x: -4.0d
-			y: 14.0d
-		}
-		{
-			id: "0CA50D8A4917E1FD"
-			linked_quest: "60598C6CE2F88CC0"
-			size: 0.8d
-			x: -4.0d
-			y: 16.0d
-		}
-		{
-			id: "12E1C8EC226B7939"
-			linked_quest: "6174FEABB7D9C4EA"
-			size: 0.8d
-			x: -4.0d
-			y: 18.0d
-		}
-		{
-			id: "7B32BB3136A4B73A"
-			linked_quest: "6C653C090F3AC30F"
-			size: 0.8d
-			x: -4.0d
-			y: 20.0d
-		}
-		{
-			id: "0A77271E0F2F8E90"
-			linked_quest: "7DB5318DB728DAF7"
-			size: 0.8d
-			x: -4.0d
-			y: 22.0d
-		}
-	]
-	quests: [
-		{
-			dependencies: [
-				"01DBC33090572255"
-				"052106CD3B66D5FF"
-			]
-			icon: {
-				id: "apotheosis:reforging_table"
-			}
-			id: "28F1603AFCA296E8"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "3DF51BCB7B2F314B"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 24
-					id: "3646F36940CE95B6"
-					item: {
-						count: 1
-						id: "minecraft:lapis_lazuli"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "3CA45011502D897E"
-				item: { count: 1, id: "apotheosis:reforging_table" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2A91FC3DBB4AD593"]
-			icon: {
-				id: "create_enchantment_industry:gem_cutter"
-			}
-			id: "04B758536F8B6CA1"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "2B46B27D304686A2"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "18CCAD28C4738CB8"
-					item: {
-						count: 1
-						id: "minecraft:amethyst_shard"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				id: "3EA8E3D2B7E33D60"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6174FEABB7D9C4EA"]
-			icon: {
-				id: "create_enchantment_industry:blaze_enchanter"
-			}
-			id: "31223031613164C5"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "70C5A25ED037D5AE"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 4
-					id: "163CA086DFFB2997"
-					item: {
-						count: 1
-						id: "minecraft:book"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				id: "3240C85B3C5A62DE"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"580D57CA2877EC79"
-				"1CA3FDAF7EC6BD83"
-			]
-			icon: {
-				id: "simulated:physics_assembler"
-			}
-			id: "52779ED9468199F7"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "1FC22C32DBFBB7FF"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 12
-					id: "7194D088A34EB8EA"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				id: "3A83C1BDFC566509"
-				type: "checkmark"
-			}]
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["077AC6D609F4F9F8"]
-			icon: {
-				id: "aeronautics:propeller_bearing"
-			}
-			id: "118B3194AB0B8DE0"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "69DAF6790B5DF1E1"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 24
-					id: "6C8B594291A4F4B6"
-					item: {
-						count: 1
-						id: "minecraft:copper_ingot"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				count: 2L
-				id: "3BE26055F41A3AA3"
-				item: { count: 1, id: "aeronautics:propeller_bearing" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"6C653C090F3AC30F"
-				"052106CD3B66D5FF"
-			]
-			icon: {
-				id: "superbwarfare:vehicle_assembling_table"
-			}
-			id: "6BA2F7F7DE541B20"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "67F92E8E7241D0AD"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 24
-					id: "4D7868F378F1A0B9"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "55317803A2AA4B45"
-				item: { count: 1, id: "superbwarfare:vehicle_assembling_table" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"7DB5318DB728DAF7"
-				"434934B6F92F9B35"
-			]
-			icon: {
-				id: "simulated:physics_assembler"
-			}
-			id: "47A118EFFADF568E"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "2D23BEE5403951F5"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 16
-					id: "74E5A79423B0A494"
-					item: {
-						count: 1
-						id: "minecraft:rail"
-					}
-					type: "item"
-				}
-			]
-			shape: "square"
-			tasks: [{
-				id: "52C17F92D1482995"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"041A0535504E96D3"
-				"60598C6CE2F88CC0"
-			]
-			icon: {
-				id: "simulated:physics_assembler"
-			}
-			id: "315149E9278E8631"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "71E266E7CAC23890"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "49392CB69B12C3AF"
-					item: {
-						count: 1
-						id: "minecraft:white_banner"
-					}
-					type: "item"
-				}
-			]
-			shape: "square"
-			tasks: [{
-				id: "51019FD31945C02A"
-				type: "checkmark"
-			}]
-			x: 9.0d
-			y: 3.0d
-		}
-	]
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "circle",
+  "filename": "hard_endgame",
+  "group": "12AB0E4BAFE8F799",
+  "icon": {
+    "id": "simulated:physics_assembler"
+  },
+  "id": "406F02EF77830110",
+  "images": [],
+  "order_index": 1,
+  "quest_links": [
+    {
+      "id": "37B8D071A2FB091C",
+      "linked_quest": "01DBC33090572255",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 0.0
+    },
+    {
+      "id": "6EF88541CAC6D97B",
+      "linked_quest": "041A0535504E96D3",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 2.0
+    },
+    {
+      "id": "7949D64982BB7E18",
+      "linked_quest": "052106CD3B66D5FF",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 4.0
+    },
+    {
+      "id": "25D92C2018187461",
+      "linked_quest": "077AC6D609F4F9F8",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 6.0
+    },
+    {
+      "id": "735F193E3CF9CFB8",
+      "linked_quest": "1CA3FDAF7EC6BD83",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 8.0
+    },
+    {
+      "id": "0D538673C595D293",
+      "linked_quest": "2A91FC3DBB4AD593",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 10.0
+    },
+    {
+      "id": "52A0A5A5C040DF82",
+      "linked_quest": "434934B6F92F9B35",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 12.0
+    },
+    {
+      "id": "445300C994FBE763",
+      "linked_quest": "580D57CA2877EC79",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 14.0
+    },
+    {
+      "id": "0CA50D8A4917E1FD",
+      "linked_quest": "60598C6CE2F88CC0",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 16.0
+    },
+    {
+      "id": "12E1C8EC226B7939",
+      "linked_quest": "6174FEABB7D9C4EA",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 18.0
+    },
+    {
+      "id": "7B32BB3136A4B73A",
+      "linked_quest": "6C653C090F3AC30F",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 20.0
+    },
+    {
+      "id": "0A77271E0F2F8E90",
+      "linked_quest": "7DB5318DB728DAF7",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 22.0
+    }
+  ],
+  "quests": [
+    {
+      "dependencies": [
+        "01DBC33090572255",
+        "052106CD3B66D5FF"
+      ],
+      "icon": {
+        "id": "apotheosis:reforging_table"
+      },
+      "id": "28F1603AFCA296E8",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "3DF51BCB7B2F314B",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 24,
+          "id": "3646F36940CE95B6",
+          "item": {
+            "count": 1,
+            "id": "minecraft:lapis_lazuli"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "3CA45011502D897E",
+          "item": {
+            "count": 1,
+            "id": "apotheosis:reforging_table"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "2A91FC3DBB4AD593"
+      ],
+      "icon": {
+        "id": "create_enchantment_industry:gem_cutter"
+      },
+      "id": "04B758536F8B6CA1",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "2B46B27D304686A2",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "18CCAD28C4738CB8",
+          "item": {
+            "count": 1,
+            "id": "minecraft:amethyst_shard"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "id": "3EA8E3D2B7E33D60",
+          "type": "checkmark"
+        }
+      ],
+      "x": 3.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "6174FEABB7D9C4EA"
+      ],
+      "icon": {
+        "id": "create_enchantment_industry:blaze_enchanter"
+      },
+      "id": "31223031613164C5",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "70C5A25ED037D5AE",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 4,
+          "id": "163CA086DFFB2997",
+          "item": {
+            "count": 1,
+            "id": "minecraft:book"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "id": "3240C85B3C5A62DE",
+          "type": "checkmark"
+        }
+      ],
+      "x": 6.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "580D57CA2877EC79",
+        "1CA3FDAF7EC6BD83"
+      ],
+      "icon": {
+        "id": "simulated:physics_assembler"
+      },
+      "id": "52779ED9468199F7",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "1FC22C32DBFBB7FF",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 12,
+          "id": "7194D088A34EB8EA",
+          "item": {
+            "count": 1,
+            "id": "minecraft:iron_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "id": "3A83C1BDFC566509",
+          "type": "checkmark"
+        }
+      ],
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "077AC6D609F4F9F8"
+      ],
+      "icon": {
+        "id": "aeronautics:propeller_bearing"
+      },
+      "id": "118B3194AB0B8DE0",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "69DAF6790B5DF1E1",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 24,
+          "id": "6C8B594291A4F4B6",
+          "item": {
+            "count": 1,
+            "id": "minecraft:copper_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "count": 2,
+          "id": "3BE26055F41A3AA3",
+          "item": {
+            "count": 1,
+            "id": "aeronautics:propeller_bearing"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 0.0,
+      "y": 3.0
+    },
+    {
+      "dependencies": [
+        "6C653C090F3AC30F",
+        "052106CD3B66D5FF"
+      ],
+      "icon": {
+        "id": "superbwarfare:vehicle_assembling_table"
+      },
+      "id": "6BA2F7F7DE541B20",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "67F92E8E7241D0AD",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 24,
+          "id": "4D7868F378F1A0B9",
+          "item": {
+            "count": 1,
+            "id": "minecraft:iron_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "55317803A2AA4B45",
+          "item": {
+            "count": 1,
+            "id": "superbwarfare:vehicle_assembling_table"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 3.0,
+      "y": 3.0
+    },
+    {
+      "dependencies": [
+        "7DB5318DB728DAF7",
+        "434934B6F92F9B35"
+      ],
+      "icon": {
+        "id": "simulated:physics_assembler"
+      },
+      "id": "47A118EFFADF568E",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "2D23BEE5403951F5",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "count": 16,
+          "id": "74E5A79423B0A494",
+          "item": {
+            "count": 1,
+            "id": "minecraft:rail"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "square",
+      "tasks": [
+        {
+          "id": "52C17F92D1482995",
+          "type": "checkmark"
+        }
+      ],
+      "x": 6.0,
+      "y": 3.0
+    },
+    {
+      "dependencies": [
+        "041A0535504E96D3",
+        "60598C6CE2F88CC0"
+      ],
+      "icon": {
+        "id": "simulated:physics_assembler"
+      },
+      "id": "315149E9278E8631",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "71E266E7CAC23890",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "49392CB69B12C3AF",
+          "item": {
+            "count": 1,
+            "id": "minecraft:white_banner"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "square",
+      "tasks": [
+        {
+          "id": "51019FD31945C02A",
+          "type": "checkmark"
+        },
+        {
+          "id": "1857E18A338675F2",
+          "type": "advancement",
+          "advancement": "last_bastion:campaign/night_100",
+          "criterion": ""
+        }
+      ],
+      "x": 9.0,
+      "y": 3.0
+    }
+  ]
 }

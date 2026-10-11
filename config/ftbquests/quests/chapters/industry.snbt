@@ -1,293 +1,345 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: "circle"
-	filename: "industry"
-	group: "59BDE301197E277C"
-	icon: {
-		id: "createoreexcavation:drilling_machine"
-	}
-	id: "18286B23F5FEC257"
-	images: [ ]
-	order_index: 1
-	quest_links: [
-		{
-			id: "4C4CA0F4E34C45CA"
-			linked_quest: "15304D6486E44D0C"
-			size: 0.8d
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			id: "69DFBC371EF75261"
-			linked_quest: "73A090F631B8E17F"
-			size: 0.8d
-			x: -4.0d
-			y: 2.0d
-		}
-	]
-	quests: [
-		{
-			dependencies: ["73A090F631B8E17F"]
-			icon: {
-				id: "createaddition:alternator"
-			}
-			id: "34FC65BEF3AE42BA"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "1449E7C4C38581C3"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "7AC3D042951075BD"
-					item: {
-						count: 1
-						id: "minecraft:copper_ingot"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "12F76FCFF734CF59"
-				item: { count: 1, id: "createaddition:alternator" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["34FC65BEF3AE42BA"]
-			icon: {
-				id: "createaddition:electric_motor"
-			}
-			id: "6C653C090F3AC30F"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "10E84CA3377A11A8"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "55B68FF7AA2C3846"
-					item: {
-						count: 1
-						id: "minecraft:redstone"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "023C780289438416"
-				item: { count: 1, id: "createaddition:electric_motor" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["15304D6486E44D0C"]
-			icon: {
-				id: "createoreexcavation:vein_finder"
-			}
-			id: "07944B5DFB2FC616"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "4E7F5743D5AF22AE"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 32
-					id: "14276E737BBD7762"
-					item: {
-						count: 1
-						id: "minecraft:torch"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "237C442B95AEB2C0"
-				item: { count: 1, id: "createoreexcavation:vein_finder" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"6C653C090F3AC30F"
-				"07944B5DFB2FC616"
-			]
-			icon: {
-				id: "createoreexcavation:drilling_machine"
-			}
-			id: "6579ACDD667FA69D"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "2AF55BC58447160F"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 24
-					id: "392CE409496DDEFE"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "4C7C31BAA791710B"
-				item: { count: 1, id: "createoreexcavation:drilling_machine" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["73A090F631B8E17F"]
-			icon: {
-				id: "create:stock_link"
-			}
-			id: "2CF9FE4D4CDCD8C1"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "1EC62FE68DA7C2CD"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 24
-					id: "72B22F6172AFA82E"
-					item: {
-						count: 1
-						id: "minecraft:paper"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "0736EDB39FB34C37"
-				item: { count: 1, id: "create:stock_link" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["2CF9FE4D4CDCD8C1"]
-			icon: {
-				id: "create:packager"
-			}
-			id: "434934B6F92F9B35"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "456F26BC5360C24A"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "2D879C7CA8B87838"
-					item: {
-						count: 1
-						id: "minecraft:string"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [
-				{
-					consume_items: false
-					id: "48B04C2218AAA51E"
-					item: { count: 1, id: "create:packager" }
-					type: "item"
-				}
-				{
-					id: "0701FFF2CA30C2DA"
-					type: "checkmark"
-				}
-			]
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["15304D6486E44D0C"]
-			icon: {
-				id: "create:steam_engine"
-			}
-			id: "211C5D1B706DCD1C"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "22173892E602E2AD"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 32
-					id: "2EFCA7C45A7BCAB5"
-					item: {
-						count: 1
-						id: "minecraft:coal"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "02B2A0DC08D07613"
-				item: { count: 1, id: "create:steam_engine" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"434934B6F92F9B35"
-				"73A090F631B8E17F"
-			]
-			icon: {
-				id: "createoreexcavation:drilling_machine"
-			}
-			id: "7D7A421FA768E7A0"
-			progression_mode: "linear"
-			rewards: [{
-				id: "3FC161C0B77C80CB"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "square"
-			tasks: [{
-				id: "2554ECDACE629302"
-				type: "checkmark"
-			}]
-			x: 9.0d
-			y: 3.0d
-		}
-	]
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "circle",
+  "filename": "industry",
+  "group": "59BDE301197E277C",
+  "icon": {
+    "id": "createoreexcavation:drilling_machine"
+  },
+  "id": "18286B23F5FEC257",
+  "images": [],
+  "order_index": 1,
+  "quest_links": [
+    {
+      "id": "4C4CA0F4E34C45CA",
+      "linked_quest": "15304D6486E44D0C",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 0.0
+    },
+    {
+      "id": "69DFBC371EF75261",
+      "linked_quest": "73A090F631B8E17F",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 2.0
+    }
+  ],
+  "quests": [
+    {
+      "dependencies": [
+        "73A090F631B8E17F"
+      ],
+      "icon": {
+        "id": "createaddition:alternator"
+      },
+      "id": "34FC65BEF3AE42BA",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "1449E7C4C38581C3",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "7AC3D042951075BD",
+          "item": {
+            "count": 1,
+            "id": "minecraft:copper_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "12F76FCFF734CF59",
+          "item": {
+            "count": 1,
+            "id": "createaddition:alternator"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "34FC65BEF3AE42BA"
+      ],
+      "icon": {
+        "id": "createaddition:electric_motor"
+      },
+      "id": "6C653C090F3AC30F",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "10E84CA3377A11A8",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "55B68FF7AA2C3846",
+          "item": {
+            "count": 1,
+            "id": "minecraft:redstone"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "023C780289438416",
+          "item": {
+            "count": 1,
+            "id": "createaddition:electric_motor"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 3.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "15304D6486E44D0C"
+      ],
+      "icon": {
+        "id": "createoreexcavation:vein_finder"
+      },
+      "id": "07944B5DFB2FC616",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "4E7F5743D5AF22AE",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 32,
+          "id": "14276E737BBD7762",
+          "item": {
+            "count": 1,
+            "id": "minecraft:torch"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "237C442B95AEB2C0",
+          "item": {
+            "count": 1,
+            "id": "createoreexcavation:vein_finder"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 6.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "6C653C090F3AC30F",
+        "07944B5DFB2FC616"
+      ],
+      "icon": {
+        "id": "createoreexcavation:drilling_machine"
+      },
+      "id": "6579ACDD667FA69D",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "2AF55BC58447160F",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 24,
+          "id": "392CE409496DDEFE",
+          "item": {
+            "count": 1,
+            "id": "minecraft:iron_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "4C7C31BAA791710B",
+          "item": {
+            "count": 1,
+            "id": "createoreexcavation:drilling_machine"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "73A090F631B8E17F"
+      ],
+      "icon": {
+        "id": "create:stock_link"
+      },
+      "id": "2CF9FE4D4CDCD8C1",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "1EC62FE68DA7C2CD",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 24,
+          "id": "72B22F6172AFA82E",
+          "item": {
+            "count": 1,
+            "id": "minecraft:paper"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "0736EDB39FB34C37",
+          "item": {
+            "count": 1,
+            "id": "create:stock_link"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 0.0,
+      "y": 3.0
+    },
+    {
+      "dependencies": [
+        "2CF9FE4D4CDCD8C1"
+      ],
+      "icon": {
+        "id": "create:packager"
+      },
+      "id": "434934B6F92F9B35",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "456F26BC5360C24A",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "2D879C7CA8B87838",
+          "item": {
+            "count": 1,
+            "id": "minecraft:string"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "48B04C2218AAA51E",
+          "item": {
+            "count": 1,
+            "id": "create:packager"
+          },
+          "type": "item"
+        },
+        {
+          "id": "0701FFF2CA30C2DA",
+          "type": "checkmark"
+        },
+        {
+          "id": "3C661CC40BFA5D7A",
+          "type": "advancement",
+          "advancement": "create:packager",
+          "criterion": ""
+        }
+      ],
+      "x": 3.0,
+      "y": 3.0
+    },
+    {
+      "dependencies": [
+        "15304D6486E44D0C"
+      ],
+      "icon": {
+        "id": "create:steam_engine"
+      },
+      "id": "211C5D1B706DCD1C",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "22173892E602E2AD",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 32,
+          "id": "2EFCA7C45A7BCAB5",
+          "item": {
+            "count": 1,
+            "id": "minecraft:coal"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "id": "76532907263C64C6",
+          "type": "advancement",
+          "advancement": "create:steam_engine",
+          "criterion": ""
+        }
+      ],
+      "x": 6.0,
+      "y": 3.0
+    },
+    {
+      "dependencies": [
+        "434934B6F92F9B35",
+        "73A090F631B8E17F"
+      ],
+      "icon": {
+        "id": "createoreexcavation:drilling_machine"
+      },
+      "id": "7D7A421FA768E7A0",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "3FC161C0B77C80CB",
+          "type": "xp",
+          "xp": 10
+        }
+      ],
+      "shape": "square",
+      "tasks": [
+        {
+          "id": "2554ECDACE629302",
+          "type": "checkmark"
+        }
+      ],
+      "x": 9.0,
+      "y": 3.0
+    }
+  ]
 }

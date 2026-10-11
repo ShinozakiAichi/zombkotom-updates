@@ -1,0 +1,36 @@
+ CommandSourceStack calendarSource;
+ QAPlayer calendarPlayer;
+ java.util.List<net.minecraft.server.level.ServerPlayer> calendarPlayers;
+ long calendarOldTime;
+ int calendarIndex,calendarPhase;
+ final int[] calendarDays={10,25,40,70,100};
+ void finish(){System.out.println("JOURNAL_QA_RESULT pass="+passed+" fail="+failed+" real_clients=0");}
+ void startCalendar(CommandSourceStack src)throws Exception{
+  var server=src.getServer();calendarOldTime=server.overworld().getDayTime();calendarSource=src;
+  calendarPlayer=new QAPlayer(server.overworld(),new GameProfile(UUID.randomUUID(),"CalendarProbe"));
+  var pf=net.minecraft.server.players.PlayerList.class.getDeclaredField("players");pf.setAccessible(true);
+  calendarPlayers=(java.util.List<net.minecraft.server.level.ServerPlayer>)pf.get(server.getPlayerList());
+  calendarPlayers.add(calendarPlayer);server.overworld().addNewPlayer(calendarPlayer);
+  calendarPlayer.setGameMode(net.minecraft.world.level.GameType.SURVIVAL);
+  check(new net.minecraft.commands.arguments.selector.EntitySelectorParser(new com.mojang.brigadier.StringReader("@a[gamemode=!spectator]"),true).parse().findPlayers(src).contains(calendarPlayer),"calendar fixture visible to native selector");
+  // Run inside this event: the disconnected fixture must not reach network time-sync ticks.
+  while(calendarSource!=null)calendarTick();
+ }
+ void calendarCleanup(){
+  if(calendarSource==null)return;
+  var server=calendarSource.getServer();calendarPlayers.remove(calendarPlayer);calendarPlayer.discard();server.overworld().setDayTime(calendarOldTime);
+  server.getCommands().performPrefixedCommand(calendarSource,"function last_bastion:apocalypse/clock");calendarSource=null;
+ }
+ void calendarTick(){
+  var server=calendarSource.getServer();int day=calendarDays[calendarIndex];
+  var a=server.getAdvancements().get(ResourceLocation.parse("last_bastion:campaign/night_"+day));
+  switch(calendarPhase){
+   case 0 -> {calendarPlayer.getAdvancements().revoke(a,"calendar");server.overworld().setDayTime((day-1)*24000L);}
+   case 1 -> {check(!calendarPlayer.getAdvancements().getOrStartProgress(a).isDone(),"calendar before threshold "+day);server.overworld().setDayTime(day*24000L);}
+   case 2 -> {check(calendarPlayer.getAdvancements().getOrStartProgress(a).isDone(),"calendar at threshold "+day);calendarPlayer.getAdvancements().revoke(a,"calendar");calendarPlayer.setGameMode(net.minecraft.world.level.GameType.SPECTATOR);}
+   case 3 -> {check(!calendarPlayer.getAdvancements().getOrStartProgress(a).isDone(),"spectator excluded "+day);calendarPlayer.setGameMode(net.minecraft.world.level.GameType.SURVIVAL);calendarIndex++;}
+  }
+  if(calendarIndex==calendarDays.length){calendarCleanup();return;}
+  server.getCommands().performPrefixedCommand(calendarSource,"function last_bastion:apocalypse/clock");
+  calendarPhase=(calendarPhase+1)%4;
+ }

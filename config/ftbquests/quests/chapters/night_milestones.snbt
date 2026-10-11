@@ -1,0 +1,201 @@
+{
+  "id": "3998C95148B1B1BC",
+  "filename": "night_milestones",
+  "group": "10EAADE9D48B4724",
+  "order_index": 3,
+  "icon": {
+    "id": "minecraft:clock"
+  },
+  "default_quest_shape": "hexagon",
+  "quests": [
+    {
+      "id": "0466041755A87EE2",
+      "dependencies": [
+        "528BB03813D52220"
+      ],
+      "progression_mode": "linear",
+      "shape": "hexagon",
+      "x": 0.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:clock"
+      },
+      "tasks": [
+        {
+          "id": "581F15D0C3AEFB00",
+          "type": "advancement",
+          "advancement": "last_bastion:campaign/night_10",
+          "criterion": ""
+        },
+        {
+          "id": "5C5E2DCBF15FB813",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "42F811113081A0B2",
+          "type": "item",
+          "item": {
+            "id": "minecraft:torch",
+            "count": 1
+          },
+          "count": 32
+        }
+      ]
+    },
+    {
+      "id": "1CD97E46051CB1B1",
+      "dependencies": [
+        "528BB03813D52220"
+      ],
+      "progression_mode": "linear",
+      "shape": "hexagon",
+      "x": 4.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:clock"
+      },
+      "tasks": [
+        {
+          "id": "577C48074F41A704",
+          "type": "advancement",
+          "advancement": "last_bastion:campaign/night_25",
+          "criterion": ""
+        },
+        {
+          "id": "1B982E6BDC5855FB",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7937538541506B1B",
+          "type": "item",
+          "item": {
+            "id": "minecraft:iron_ingot",
+            "count": 1
+          },
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "062563B2909C0DE9",
+      "dependencies": [
+        "528BB03813D52220"
+      ],
+      "progression_mode": "linear",
+      "shape": "hexagon",
+      "x": 8.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:clock"
+      },
+      "tasks": [
+        {
+          "id": "5F15EB14DFE4F3B0",
+          "type": "advancement",
+          "advancement": "last_bastion:campaign/night_40",
+          "criterion": ""
+        },
+        {
+          "id": "6167BE543D173A72",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3BC0EC2AD91BAC00",
+          "type": "item",
+          "item": {
+            "id": "minecraft:gunpowder",
+            "count": 1
+          },
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "2B62B398D58E442C",
+      "dependencies": [
+        "528BB03813D52220"
+      ],
+      "progression_mode": "linear",
+      "shape": "hexagon",
+      "x": 0.0,
+      "y": 4.0,
+      "icon": {
+        "id": "minecraft:clock"
+      },
+      "tasks": [
+        {
+          "id": "34B4ADF4B6EBEFF8",
+          "type": "advancement",
+          "advancement": "last_bastion:campaign/night_70",
+          "criterion": ""
+        },
+        {
+          "id": "17C9D219F714200E",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "64D1856D4483499C",
+          "type": "item",
+          "item": {
+            "id": "minecraft:redstone",
+            "count": 1
+          },
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": "39F4884FDBE55FC1",
+      "dependencies": [
+        "528BB03813D52220"
+      ],
+      "progression_mode": "linear",
+      "shape": "hexagon",
+      "x": 4.0,
+      "y": 4.0,
+      "icon": {
+        "id": "minecraft:clock"
+      },
+      "tasks": [
+        {
+          "id": "54E7EC821E7BECCE",
+          "type": "advancement",
+          "advancement": "last_bastion:campaign/night_100",
+          "criterion": ""
+        },
+        {
+          "id": "5EC376049B60EFF7",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "738DD2ED4378D53E",
+          "type": "item",
+          "item": {
+            "id": "minecraft:gold_ingot",
+            "count": 1
+          },
+          "count": 8
+        }
+      ]
+    }
+  ],
+  "quest_links": [
+    {
+      "id": "2889128C5F04FE80",
+      "linked_quest": "528BB03813D52220",
+      "x": -4.0,
+      "y": 0.0,
+      "size": 0.8
+    }
+  ]
+}

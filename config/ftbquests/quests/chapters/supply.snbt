@@ -1,273 +1,333 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
-	filename: "supply"
-	group: "4957B56D0FAE7D74"
-	icon: {
-		id: "sophisticatedbackpacks:deposit_upgrade"
-	}
-	id: "41F37DFF9B2F6787"
-	images: [ ]
-	order_index: 2
-	quest_links: [
-		{
-			id: "4EF9E5C96D548DA7"
-			linked_quest: "017C029A73C8DF8B"
-			size: 0.8d
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			id: "5AF33C9774D30222"
-			linked_quest: "1BAD77B539211158"
-			size: 0.8d
-			x: -4.0d
-			y: 2.0d
-		}
-		{
-			id: "58FA1C84D1C38E30"
-			linked_quest: "4D20DA1CC1067747"
-			size: 0.8d
-			x: -4.0d
-			y: 4.0d
-		}
-		{
-			id: "3F6B472645C52840"
-			linked_quest: "767CF8E64B4D5689"
-			size: 0.8d
-			x: -4.0d
-			y: 6.0d
-		}
-	]
-	quests: [
-		{
-			dependencies: ["767CF8E64B4D5689"]
-			icon: {
-				id: "sophisticatedbackpacks:deposit_upgrade"
-			}
-			id: "617AE6795688D906"
-			progression_mode: "linear"
-			rewards: [{
-				count: 12
-				id: "579DD8062EFCB308"
-				item: {
-					count: 1
-					id: "minecraft:string"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					consume_items: false
-					id: "4FDBF6FC63956443"
-					item: { count: 1, id: "sophisticatedbackpacks:pickup_upgrade" }
-					type: "item"
-				}
-				{
-					id: "4397070E315B18DF"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["617AE6795688D906"]
-			icon: {
-				id: "sophisticatedbackpacks:deposit_upgrade"
-			}
-			id: "57C96E6A7D6AB990"
-			progression_mode: "linear"
-			rewards: [{
-				count: 8
-				id: "4BF0F24791656D8E"
-				item: {
-					count: 1
-					id: "minecraft:iron_ingot"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					consume_items: false
-					id: "6A55C8E1386DA7DB"
-					item: { count: 1, id: "sophisticatedbackpacks:deposit_upgrade" }
-					type: "item"
-				}
-				{
-					consume_items: false
-					id: "0F3D9516A8EB35CD"
-					item: { count: 1, id: "sophisticatedbackpacks:filter_upgrade" }
-					type: "item"
-				}
-				{
-					id: "0A77A2974AA2A974"
-					type: "checkmark"
-				}
-			]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"1BAD77B539211158"
-				"617AE6795688D906"
-			]
-			icon: {
-				id: "sophisticatedbackpacks:deposit_upgrade"
-			}
-			id: "7277AF8936793B6C"
-			progression_mode: "linear"
-			rewards: [{
-				count: 16
-				id: "4E65E79BDAC81B60"
-				item: {
-					count: 1
-					id: "minecraft:carrot"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					consume_items: false
-					id: "5048A1C3C322A23C"
-					item: { count: 1, id: "sophisticatedbackpacks:feeding_upgrade" }
-					type: "item"
-				}
-				{
-					consume_items: false
-					count: 4L
-					id: "74DAB43FDFF3E7F8"
-					item: { count: 1, id: "farmersdelight:beef_stew" }
-					type: "item"
-				}
-				{
-					consume_items: false
-					count: 4L
-					id: "24862BEB49CC1F34"
-					item: { count: 1, id: "farmersdelight:vegetable_soup" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["617AE6795688D906"]
-			icon: {
-				id: "sophisticatedbackpacks:deposit_upgrade"
-			}
-			id: "6FC039E532653710"
-			progression_mode: "linear"
-			rewards: [{
-				count: 12
-				id: "0192D416EC2EC10F"
-				item: {
-					count: 1
-					id: "minecraft:iron_ingot"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					consume_items: false
-					id: "13876835A947A66F"
-					item: { count: 1, id: "sophisticatedbackpacks:crafting_upgrade" }
-					type: "item"
-				}
-				{
-					consume_items: false
-					id: "24FDD225D0CE12BE"
-					item: { count: 1, id: "sophisticatedbackpacks:anvil_upgrade" }
-					type: "item"
-				}
-			]
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"017C029A73C8DF8B"
-				"617AE6795688D906"
-			]
-			icon: {
-				id: "sophisticatedbackpacks:deposit_upgrade"
-			}
-			id: "44A3DDBFCCE60432"
-			progression_mode: "linear"
-			rewards: [{
-				count: 12
-				id: "0EF58B6E169ACD26"
-				item: {
-					count: 1
-					id: "minecraft:copper_ingot"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					consume_items: false
-					id: "5D6480EC8152AD50"
-					item: { count: 1, id: "sophisticatedbackpacks:tank_upgrade" }
-					type: "item"
-				}
-				{
-					consume_items: false
-					id: "0B4FC15D5C233E7A"
-					item: { count: 1, id: "sophisticatedbackpacks:pump_upgrade" }
-					type: "item"
-				}
-				{
-					id: "06FFCAB240D69EDE"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"4D20DA1CC1067747"
-				"44A3DDBFCCE60432"
-			]
-			icon: {
-				id: "sophisticatedbackpacks:deposit_upgrade"
-			}
-			id: "02FCAD236C4EC87D"
-			progression_mode: "linear"
-			rewards: [{
-				count: 16
-				id: "77E6BBE5610FE51C"
-				item: {
-					count: 1
-					id: "minecraft:iron_ingot"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					consume_items: false
-					count: 2L
-					id: "12083373CA71ECAE"
-					item: { count: 1, id: "create:portable_storage_interface" }
-					type: "item"
-				}
-				{
-					consume_items: false
-					count: 2L
-					id: "08CA8AB7EF980983"
-					item: { count: 1, id: "create:portable_fluid_interface" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 4.0d
-		}
-	]
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "supply",
+  "group": "4957B56D0FAE7D74",
+  "icon": {
+    "id": "sophisticatedbackpacks:deposit_upgrade"
+  },
+  "id": "41F37DFF9B2F6787",
+  "images": [],
+  "order_index": 2,
+  "quest_links": [
+    {
+      "id": "4EF9E5C96D548DA7",
+      "linked_quest": "017C029A73C8DF8B",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 0.0
+    },
+    {
+      "id": "5AF33C9774D30222",
+      "linked_quest": "1BAD77B539211158",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 2.0
+    },
+    {
+      "id": "58FA1C84D1C38E30",
+      "linked_quest": "4D20DA1CC1067747",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 4.0
+    },
+    {
+      "id": "3F6B472645C52840",
+      "linked_quest": "767CF8E64B4D5689",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 6.0
+    }
+  ],
+  "quests": [
+    {
+      "dependencies": [
+        "767CF8E64B4D5689"
+      ],
+      "icon": {
+        "id": "sophisticatedbackpacks:deposit_upgrade"
+      },
+      "id": "617AE6795688D906",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "count": 12,
+          "id": "579DD8062EFCB308",
+          "item": {
+            "count": 1,
+            "id": "minecraft:string"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "hexagon",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "4FDBF6FC63956443",
+          "item": {
+            "count": 1,
+            "id": "sophisticatedbackpacks:pickup_upgrade"
+          },
+          "type": "item"
+        },
+        {
+          "id": "4397070E315B18DF",
+          "type": "checkmark"
+        }
+      ],
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "617AE6795688D906"
+      ],
+      "icon": {
+        "id": "sophisticatedbackpacks:deposit_upgrade"
+      },
+      "id": "57C96E6A7D6AB990",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "count": 8,
+          "id": "4BF0F24791656D8E",
+          "item": {
+            "count": 1,
+            "id": "minecraft:iron_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "hexagon",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "6A55C8E1386DA7DB",
+          "item": {
+            "count": 1,
+            "id": "sophisticatedbackpacks:deposit_upgrade"
+          },
+          "type": "item"
+        },
+        {
+          "consume_items": false,
+          "id": "0F3D9516A8EB35CD",
+          "item": {
+            "count": 1,
+            "id": "sophisticatedbackpacks:filter_upgrade"
+          },
+          "type": "item"
+        },
+        {
+          "id": "0A77A2974AA2A974",
+          "type": "checkmark"
+        }
+      ],
+      "x": 3.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "1BAD77B539211158",
+        "617AE6795688D906"
+      ],
+      "icon": {
+        "id": "sophisticatedbackpacks:deposit_upgrade"
+      },
+      "id": "7277AF8936793B6C",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "count": 16,
+          "id": "4E65E79BDAC81B60",
+          "item": {
+            "count": 1,
+            "id": "minecraft:carrot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "hexagon",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "5048A1C3C322A23C",
+          "item": {
+            "count": 1,
+            "id": "sophisticatedbackpacks:feeding_upgrade"
+          },
+          "type": "item"
+        },
+        {
+          "consume_items": false,
+          "count": 4,
+          "id": "74DAB43FDFF3E7F8",
+          "item": {
+            "count": 1,
+            "id": "farmersdelight:beef_stew"
+          },
+          "type": "item"
+        },
+        {
+          "consume_items": false,
+          "count": 4,
+          "id": "24862BEB49CC1F34",
+          "item": {
+            "count": 1,
+            "id": "farmersdelight:vegetable_soup"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 6.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "617AE6795688D906"
+      ],
+      "icon": {
+        "id": "sophisticatedbackpacks:deposit_upgrade"
+      },
+      "id": "6FC039E532653710",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "count": 12,
+          "id": "0192D416EC2EC10F",
+          "item": {
+            "count": 1,
+            "id": "minecraft:iron_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "hexagon",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "13876835A947A66F",
+          "item": {
+            "count": 1,
+            "id": "sophisticatedbackpacks:crafting_upgrade"
+          },
+          "type": "item"
+        },
+        {
+          "consume_items": false,
+          "id": "24FDD225D0CE12BE",
+          "item": {
+            "count": 1,
+            "id": "sophisticatedbackpacks:anvil_upgrade"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "017C029A73C8DF8B",
+        "617AE6795688D906"
+      ],
+      "icon": {
+        "id": "sophisticatedbackpacks:deposit_upgrade"
+      },
+      "id": "44A3DDBFCCE60432",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "count": 12,
+          "id": "0EF58B6E169ACD26",
+          "item": {
+            "count": 1,
+            "id": "minecraft:copper_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "hexagon",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "5D6480EC8152AD50",
+          "item": {
+            "count": 1,
+            "id": "sophisticatedbackpacks:tank_upgrade"
+          },
+          "type": "item"
+        },
+        {
+          "consume_items": false,
+          "id": "0B4FC15D5C233E7A",
+          "item": {
+            "count": 1,
+            "id": "sophisticatedbackpacks:pump_upgrade"
+          },
+          "type": "item"
+        },
+        {
+          "id": "06FFCAB240D69EDE",
+          "type": "checkmark"
+        }
+      ],
+      "x": 0.0,
+      "y": 4.0
+    },
+    {
+      "dependencies": [
+        "4D20DA1CC1067747",
+        "44A3DDBFCCE60432"
+      ],
+      "icon": {
+        "id": "sophisticatedbackpacks:deposit_upgrade"
+      },
+      "id": "02FCAD236C4EC87D",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "count": 16,
+          "id": "77E6BBE5610FE51C",
+          "item": {
+            "count": 1,
+            "id": "minecraft:iron_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "hexagon",
+      "tasks": [
+        {
+          "consume_items": false,
+          "count": 2,
+          "id": "12083373CA71ECAE",
+          "item": {
+            "count": 1,
+            "id": "create:portable_storage_interface"
+          },
+          "type": "item"
+        },
+        {
+          "consume_items": false,
+          "count": 2,
+          "id": "08CA8AB7EF980983",
+          "item": {
+            "count": 1,
+            "id": "create:portable_fluid_interface"
+          },
+          "type": "item"
+        },
+        {
+          "id": "4A8E2871C37A8EB5",
+          "type": "advancement",
+          "advancement": "create:portable_storage_interface",
+          "criterion": ""
+        }
+      ],
+      "x": 3.0,
+      "y": 4.0
+    }
+  ]
 }

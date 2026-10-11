@@ -1,335 +1,379 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: "circle"
-	filename: "hard_siege"
-	group: "10EAADE9D48B4724"
-	icon: {
-		id: "cgs:gatling"
-	}
-	id: "291EEAFD1E03E26C"
-	images: [ ]
-	order_index: 1
-	quest_links: [
-		{
-			id: "3B2F9CE2FB0BA3AD"
-			linked_quest: "06A9DEA31A1FB7C5"
-			size: 0.8d
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			id: "78F0C0D5BD8B2446"
-			linked_quest: "0CBFB291E762D065"
-			size: 0.8d
-			x: -4.0d
-			y: 2.0d
-		}
-		{
-			id: "2B99B636CA31EBC6"
-			linked_quest: "3962DE258129E385"
-			size: 0.8d
-			x: -4.0d
-			y: 4.0d
-		}
-		{
-			id: "46C2AE358D5F956F"
-			linked_quest: "4D54883F548BDADF"
-			size: 0.8d
-			x: -4.0d
-			y: 6.0d
-		}
-		{
-			id: "61B14CCDBBAB0AD0"
-			linked_quest: "680042D233ABD53D"
-			size: 0.8d
-			x: -4.0d
-			y: 8.0d
-		}
-		{
-			id: "69C4714E525CD90A"
-			linked_quest: "7DE945A24FFED183"
-			size: 0.8d
-			x: -4.0d
-			y: 10.0d
-		}
-	]
-	quests: [
-		{
-			dependencies: ["4D54883F548BDADF"]
-			icon: {
-				id: "cgs:round_shotgun"
-			}
-			id: "6F3C1A54CE1EBC37"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "2D17403876B33CEF"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 12
-					id: "183D48FA5CEF08EA"
-					item: {
-						count: 1
-						id: "minecraft:gunpowder"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [
-				{
-					consume_items: false
-					count: 64L
-					id: "64572536C5C3396C"
-					item: { count: 1, id: "cgs:round_shotgun" }
-					type: "item"
-				}
-				{
-					id: "23F9A352A719DEE1"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3962DE258129E385"]
-			icon: {
-				id: "cgs:gatling"
-			}
-			id: "7228DAC576E1E295"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "04A1019709C076D2"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "46C4C5560840138A"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				count: 2L
-				id: "1410E131E2E966F5"
-				item: { count: 1, id: "cgs:gatling" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"0CBFB291E762D065"
-				"7DE945A24FFED183"
-			]
-			icon: {
-				id: "create_radar:radar_bearing"
-			}
-			id: "41A9DE4C5094BACC"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "71D5B8AF014B63C1"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 12
-					id: "1A91957E61C29AB4"
-					item: {
-						count: 1
-						id: "minecraft:redstone"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				id: "351DAE0EE798055D"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7DE945A24FFED183"]
-			icon: {
-				id: "create_radar:monitor"
-			}
-			id: "79A0BF6C0EE01443"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "0EA075E681651384"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "69CFBFD66FA03B41"
-					item: {
-						count: 1
-						id: "minecraft:copper_ingot"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				count: 4L
-				id: "34736D79CCC472BC"
-				item: { count: 1, id: "create_radar:monitor" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["680042D233ABD53D"]
-			icon: {
-				id: "createbigcannons:cannon_mount"
-			}
-			id: "06D73733D0076FF4"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "69C47149DADE2614"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "3B55374797681316"
-					item: {
-						count: 1
-						id: "minecraft:gunpowder"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				count: 2L
-				id: "462C4BA37470AB56"
-				item: { count: 1, id: "createbigcannons:cannon_mount" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["06A9DEA31A1FB7C5"]
-			icon: {
-				id: "minecraft:rotten_flesh"
-			}
-			id: "3563726F772E6158"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "2A39A83837613D09"
-					type: "xp"
-					xp: 250
-				}
-				{
-					count: 16
-					id: "2B5306BCC936254D"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				entity: "minecraft:zombie"
-				id: "69050C013B57BC8E"
-				type: "kill"
-				value: 250L
-			}]
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"6F3C1A54CE1EBC37"
-				"3563726F772E6158"
-			]
-			icon: {
-				id: "cgs:gatling"
-			}
-			id: "1627858CBC3ED1BD"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "19778EE647EE2BB9"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 8
-					id: "572A2CA3C9F1C06D"
-					item: {
-						count: 1
-						id: "minecraft:redstone"
-					}
-					type: "item"
-				}
-			]
-			shape: "square"
-			tasks: [{
-				id: "458F856BCC27FC66"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"6F3C1A54CE1EBC37"
-				"3563726F772E6158"
-			]
-			icon: {
-				id: "cgs:gatling"
-			}
-			id: "041A0535504E96D3"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "61AF2181A55A31CB"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 12
-					id: "78931F55F9367A9E"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
-			shape: "square"
-			tasks: [{
-				id: "2074043232C82561"
-				type: "checkmark"
-			}]
-			x: 9.0d
-			y: 3.0d
-		}
-	]
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "circle",
+  "filename": "hard_siege",
+  "group": "10EAADE9D48B4724",
+  "icon": {
+    "id": "cgs:gatling"
+  },
+  "id": "291EEAFD1E03E26C",
+  "images": [],
+  "order_index": 1,
+  "quest_links": [
+    {
+      "id": "3B2F9CE2FB0BA3AD",
+      "linked_quest": "06A9DEA31A1FB7C5",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 0.0
+    },
+    {
+      "id": "78F0C0D5BD8B2446",
+      "linked_quest": "0CBFB291E762D065",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 2.0
+    },
+    {
+      "id": "2B99B636CA31EBC6",
+      "linked_quest": "3962DE258129E385",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 4.0
+    },
+    {
+      "id": "46C2AE358D5F956F",
+      "linked_quest": "4D54883F548BDADF",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 6.0
+    },
+    {
+      "id": "61B14CCDBBAB0AD0",
+      "linked_quest": "680042D233ABD53D",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 8.0
+    },
+    {
+      "id": "69C4714E525CD90A",
+      "linked_quest": "7DE945A24FFED183",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 10.0
+    }
+  ],
+  "quests": [
+    {
+      "dependencies": [
+        "4D54883F548BDADF"
+      ],
+      "icon": {
+        "id": "cgs:round_shotgun"
+      },
+      "id": "6F3C1A54CE1EBC37",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "2D17403876B33CEF",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 12,
+          "id": "183D48FA5CEF08EA",
+          "item": {
+            "count": 1,
+            "id": "minecraft:gunpowder"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "count": 64,
+          "id": "64572536C5C3396C",
+          "item": {
+            "count": 1,
+            "id": "cgs:round_shotgun"
+          },
+          "type": "item"
+        },
+        {
+          "id": "23F9A352A719DEE1",
+          "type": "checkmark"
+        }
+      ],
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "3962DE258129E385"
+      ],
+      "icon": {
+        "id": "cgs:gatling"
+      },
+      "id": "7228DAC576E1E295",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "04A1019709C076D2",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "46C4C5560840138A",
+          "item": {
+            "count": 1,
+            "id": "minecraft:iron_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "count": 64,
+          "id": "441AF2033D6005A7",
+          "item": {
+            "id": "cgs:round_gatling",
+            "count": 1
+          },
+          "type": "item"
+        },
+        {
+          "id": "64AC055BE601E59B",
+          "type": "checkmark"
+        }
+      ],
+      "x": 3.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "0CBFB291E762D065",
+        "7DE945A24FFED183"
+      ],
+      "icon": {
+        "id": "create_radar:radar_bearing"
+      },
+      "id": "41A9DE4C5094BACC",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "71D5B8AF014B63C1",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 12,
+          "id": "1A91957E61C29AB4",
+          "item": {
+            "count": 1,
+            "id": "minecraft:redstone"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "id": "351DAE0EE798055D",
+          "type": "checkmark"
+        }
+      ],
+      "x": 6.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "7DE945A24FFED183"
+      ],
+      "icon": {
+        "id": "create_radar:monitor"
+      },
+      "id": "79A0BF6C0EE01443",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "0EA075E681651384",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "69CFBFD66FA03B41",
+          "item": {
+            "count": 1,
+            "id": "minecraft:copper_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "id": "3D010F02E4DB1AD2",
+          "type": "checkmark"
+        }
+      ],
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "680042D233ABD53D"
+      ],
+      "icon": {
+        "id": "createbigcannons:cannon_mount"
+      },
+      "id": "06D73733D0076FF4",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "69C47149DADE2614",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "3B55374797681316",
+          "item": {
+            "count": 1,
+            "id": "minecraft:gunpowder"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "count": 2,
+          "id": "462C4BA37470AB56",
+          "item": {
+            "count": 1,
+            "id": "createbigcannons:cannon_mount"
+          },
+          "type": "item"
+        },
+        {
+          "id": "442CED7DD0600934",
+          "type": "checkmark"
+        }
+      ],
+      "x": 0.0,
+      "y": 3.0
+    },
+    {
+      "dependencies": [
+        "06A9DEA31A1FB7C5"
+      ],
+      "icon": {
+        "id": "minecraft:rotten_flesh"
+      },
+      "id": "3563726F772E6158",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "2A39A83837613D09",
+          "type": "xp",
+          "xp": 250
+        },
+        {
+          "count": 16,
+          "id": "2B5306BCC936254D",
+          "item": {
+            "count": 1,
+            "id": "minecraft:iron_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "entity": "minecraft:zombie",
+          "id": "69050C013B57BC8E",
+          "type": "kill",
+          "value": 250
+        }
+      ],
+      "x": 3.0,
+      "y": 3.0
+    },
+    {
+      "dependencies": [
+        "6F3C1A54CE1EBC37",
+        "3563726F772E6158"
+      ],
+      "icon": {
+        "id": "cgs:gatling"
+      },
+      "id": "1627858CBC3ED1BD",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "19778EE647EE2BB9",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "count": 8,
+          "id": "572A2CA3C9F1C06D",
+          "item": {
+            "count": 1,
+            "id": "minecraft:redstone"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "square",
+      "tasks": [
+        {
+          "id": "458F856BCC27FC66",
+          "type": "checkmark"
+        }
+      ],
+      "x": 6.0,
+      "y": 3.0
+    },
+    {
+      "dependencies": [
+        "6F3C1A54CE1EBC37",
+        "3563726F772E6158"
+      ],
+      "icon": {
+        "id": "cgs:gatling"
+      },
+      "id": "041A0535504E96D3",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "61AF2181A55A31CB",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "count": 12,
+          "id": "78931F55F9367A9E",
+          "item": {
+            "count": 1,
+            "id": "minecraft:iron_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "square",
+      "tasks": [
+        {
+          "id": "2074043232C82561",
+          "type": "checkmark"
+        },
+        {
+          "id": "62F315C169819358",
+          "type": "advancement",
+          "advancement": "last_bastion:campaign/night_100",
+          "criterion": ""
+        }
+      ],
+      "x": 9.0,
+      "y": 3.0
+    }
+  ]
 }

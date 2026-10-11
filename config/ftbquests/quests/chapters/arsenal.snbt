@@ -1,305 +1,359 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: "circle"
-	filename: "arsenal"
-	group: "2386BF3579C3FCDA"
-	icon: {
-		id: "cgs:revolver"
-	}
-	id: "0E045309B6A8EB1F"
-	images: [ ]
-	order_index: 0
-	quest_links: [
-		{
-			id: "693FC913F5C592E4"
-			linked_quest: "15304D6486E44D0C"
-			size: 0.8d
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			id: "338463D9B824CE1C"
-			linked_quest: "44D3DD5B83366C0F"
-			size: 0.8d
-			x: -4.0d
-			y: 2.0d
-		}
-		{
-			id: "44CC96C54D660BBF"
-			linked_quest: "6C653C090F3AC30F"
-			size: 0.8d
-			x: -4.0d
-			y: 4.0d
-		}
-		{
-			id: "2F18FA0D5CB0A316"
-			linked_quest: "6C7CCFE71CB75B96"
-			size: 0.8d
-			x: -4.0d
-			y: 6.0d
-		}
-		{
-			id: "2AD5D75B0E6A5CC1"
-			linked_quest: "73A090F631B8E17F"
-			size: 0.8d
-			x: -4.0d
-			y: 8.0d
-		}
-	]
-	quests: [
-		{
-			dependencies: ["6C7CCFE71CB75B96"]
-			icon: {
-				id: "cgs:flintlock"
-			}
-			id: "017C6165B6C0A22F"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "242877658B430927"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 12
-					id: "4B476C27111FE546"
-					item: {
-						count: 1
-						id: "cgs:paper_cartridge"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "0213452405087F69"
-				item: { count: 1, id: "cgs:flintlock" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["15304D6486E44D0C"]
-			icon: {
-				id: "cgs:revolver"
-			}
-			id: "01CBD63F4D5AF976"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "589F32D930D1C27B"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 12
-					id: "466F69F5EE9AD423"
-					item: {
-						count: 1
-						id: "cgs:round_revolver"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "0906DF0F4ABECE1C"
-				item: { count: 1, id: "cgs:revolver" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["73A090F631B8E17F"]
-			icon: {
-				id: "cgs:shotgun"
-			}
-			id: "4D54883F548BDADF"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "24DCD816D43D7E30"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 8
-					id: "6C7E0255DB13703A"
-					item: {
-						count: 1
-						id: "cgs:round_shotgun"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "55F34802D8C39D3C"
-				item: { count: 1, id: "cgs:shotgun" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6C653C090F3AC30F"]
-			icon: {
-				id: "cgs:gatling"
-			}
-			id: "3962DE258129E385"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "49961ED79E9EACF2"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "679150B3D17DCE97"
-					item: {
-						count: 1
-						id: "cgs:round_gatling"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "2C38691E5D08F43F"
-				item: { count: 1, id: "cgs:gatling" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["44D3DD5B83366C0F"]
-			icon: {
-				id: "superbwarfare:homemade_shotgun"
-			}
-			id: "4F3E2F0A86B4A7A1"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "00DB10C9BE34ADAE"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 8
-					id: "3D88BBEC25954290"
-					item: {
-						count: 1
-						id: "superbwarfare:shotgun_ammo"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "5B4CD014C860E175"
-				item: { count: 1, id: "superbwarfare:homemade_shotgun" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["15304D6486E44D0C"]
-			icon: {
-				id: "superbwarfare:rifle_ammo"
-			}
-			id: "68C1D4B95DB5AA00"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "440CCA15271D3D80"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "60ECFCEA6256B76B"
-					item: {
-						count: 1
-						id: "minecraft:gunpowder"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "6A1722991E0C37E6"
-				item: { count: 1, id: "superbwarfare:rifle_ammo" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["68C1D4B95DB5AA00"]
-			icon: {
-				id: "superbwarfare:m_1911"
-			}
-			id: "74A744C0CA2D5C2C"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "273886476E22042C"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "160FCC834D63DCD1"
-					item: {
-						count: 1
-						id: "superbwarfare:handgun_ammo"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "180CB6628B8BE8B7"
-				item: { count: 1, id: "superbwarfare:m_1911" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"017C6165B6C0A22F"
-				"68C1D4B95DB5AA00"
-			]
-			icon: {
-				id: "cgs:revolver"
-			}
-			id: "37EA7FE3F17334C4"
-			progression_mode: "linear"
-			rewards: [{
-				id: "432A5CF8D75E8AAB"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "square"
-			tasks: [{
-				id: "49D298E81889AFE1"
-				type: "checkmark"
-			}]
-			x: 9.0d
-			y: 3.0d
-		}
-	]
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "circle",
+  "filename": "arsenal",
+  "group": "2386BF3579C3FCDA",
+  "icon": {
+    "id": "cgs:revolver"
+  },
+  "id": "0E045309B6A8EB1F",
+  "images": [],
+  "order_index": 0,
+  "quest_links": [
+    {
+      "id": "693FC913F5C592E4",
+      "linked_quest": "15304D6486E44D0C",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 0.0
+    },
+    {
+      "id": "338463D9B824CE1C",
+      "linked_quest": "44D3DD5B83366C0F",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 2.0
+    },
+    {
+      "id": "44CC96C54D660BBF",
+      "linked_quest": "6C653C090F3AC30F",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 4.0
+    },
+    {
+      "id": "2F18FA0D5CB0A316",
+      "linked_quest": "6C7CCFE71CB75B96",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 6.0
+    },
+    {
+      "id": "2AD5D75B0E6A5CC1",
+      "linked_quest": "73A090F631B8E17F",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 8.0
+    }
+  ],
+  "quests": [
+    {
+      "dependencies": [
+        "6C7CCFE71CB75B96"
+      ],
+      "icon": {
+        "id": "cgs:flintlock"
+      },
+      "id": "017C6165B6C0A22F",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "242877658B430927",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 12,
+          "id": "4B476C27111FE546",
+          "item": {
+            "count": 1,
+            "id": "cgs:paper_cartridge"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "0213452405087F69",
+          "item": {
+            "count": 1,
+            "id": "cgs:flintlock"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "15304D6486E44D0C"
+      ],
+      "icon": {
+        "id": "cgs:revolver"
+      },
+      "id": "01CBD63F4D5AF976",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "589F32D930D1C27B",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 12,
+          "id": "466F69F5EE9AD423",
+          "item": {
+            "count": 1,
+            "id": "cgs:round_revolver"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "0906DF0F4ABECE1C",
+          "item": {
+            "count": 1,
+            "id": "cgs:revolver"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 3.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "73A090F631B8E17F"
+      ],
+      "icon": {
+        "id": "cgs:shotgun"
+      },
+      "id": "4D54883F548BDADF",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "24DCD816D43D7E30",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 8,
+          "id": "6C7E0255DB13703A",
+          "item": {
+            "count": 1,
+            "id": "cgs:round_shotgun"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "55F34802D8C39D3C",
+          "item": {
+            "count": 1,
+            "id": "cgs:shotgun"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 6.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "6C653C090F3AC30F"
+      ],
+      "icon": {
+        "id": "cgs:gatling"
+      },
+      "id": "3962DE258129E385",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "49961ED79E9EACF2",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "679150B3D17DCE97",
+          "item": {
+            "count": 1,
+            "id": "cgs:round_gatling"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "2C38691E5D08F43F",
+          "item": {
+            "count": 1,
+            "id": "cgs:gatling"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "44D3DD5B83366C0F"
+      ],
+      "icon": {
+        "id": "superbwarfare:homemade_shotgun"
+      },
+      "id": "4F3E2F0A86B4A7A1",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "00DB10C9BE34ADAE",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 8,
+          "id": "3D88BBEC25954290",
+          "item": {
+            "count": 1,
+            "id": "superbwarfare:shotgun_ammo"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "5B4CD014C860E175",
+          "item": {
+            "count": 1,
+            "id": "superbwarfare:homemade_shotgun"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 0.0,
+      "y": 3.0
+    },
+    {
+      "dependencies": [
+        "15304D6486E44D0C"
+      ],
+      "icon": {
+        "id": "superbwarfare:rifle_ammo"
+      },
+      "id": "68C1D4B95DB5AA00",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "440CCA15271D3D80",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "60ECFCEA6256B76B",
+          "item": {
+            "count": 1,
+            "id": "minecraft:gunpowder"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "1C0BC19ADCEB72C7",
+          "item": {
+            "id": "superbwarfare:rifle_ammo",
+            "count": 1
+          },
+          "type": "item",
+          "count": 32
+        }
+      ],
+      "x": 3.0,
+      "y": 3.0
+    },
+    {
+      "dependencies": [
+        "68C1D4B95DB5AA00"
+      ],
+      "icon": {
+        "id": "superbwarfare:m_1911"
+      },
+      "id": "74A744C0CA2D5C2C",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "273886476E22042C",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "160FCC834D63DCD1",
+          "item": {
+            "count": 1,
+            "id": "superbwarfare:handgun_ammo"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "180CB6628B8BE8B7",
+          "item": {
+            "count": 1,
+            "id": "superbwarfare:m_1911"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 6.0,
+      "y": 3.0
+    },
+    {
+      "dependencies": [
+        "017C6165B6C0A22F",
+        "68C1D4B95DB5AA00"
+      ],
+      "icon": {
+        "id": "cgs:revolver"
+      },
+      "id": "37EA7FE3F17334C4",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "432A5CF8D75E8AAB",
+          "type": "xp",
+          "xp": 10
+        }
+      ],
+      "shape": "square",
+      "tasks": [
+        {
+          "id": "49D298E81889AFE1",
+          "type": "checkmark"
+        }
+      ],
+      "x": 9.0,
+      "y": 3.0
+    }
+  ]
 }

@@ -1,295 +1,349 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: "circle"
-	filename: "transport"
-	group: "4957B56D0FAE7D74"
-	icon: {
-		id: "simulated:physics_assembler"
-	}
-	id: "36C1AF7304C88DB8"
-	images: [ ]
-	order_index: 0
-	quest_links: [
-		{
-			id: "19F736A44A6A20FF"
-			linked_quest: "15304D6486E44D0C"
-			size: 0.8d
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			id: "25BE797E17826F86"
-			linked_quest: "6C653C090F3AC30F"
-			size: 0.8d
-			x: -4.0d
-			y: 2.0d
-		}
-	]
-	quests: [
-		{
-			dependencies: ["15304D6486E44D0C"]
-			icon: {
-				id: "create:track"
-			}
-			id: "26A9B5935B02106A"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "62A9EC400721CB6D"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "66DF0358CC5BEB0E"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "0845DE3A44BFC420"
-				item: { count: 1, id: "create:track" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["26A9B5935B02106A"]
-			icon: {
-				id: "create:track_station"
-			}
-			id: "4D20DA1CC1067747"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "4F05E4533CD52DA9"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 24
-					id: "17A2220FDE2BA4EB"
-					item: {
-						count: 1
-						id: "minecraft:coal"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "18592BB44E79292A"
-				item: { count: 1, id: "create:track_station" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["15304D6486E44D0C"]
-			icon: {
-				id: "create_hypertube:hypertube_entrance"
-			}
-			id: "2633E9F8584A6FA2"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "5C19A7464E317872"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 12
-					id: "4E892BE90D096980"
-					item: {
-						count: 1
-						id: "minecraft:copper_ingot"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "02BD19013A3521DC"
-				item: { count: 1, id: "create_hypertube:hypertube_entrance" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6C653C090F3AC30F"]
-			icon: {
-				id: "simulated:physics_assembler"
-			}
-			id: "580D57CA2877EC79"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "04F1A4CFA7CD98EB"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 24
-					id: "6BBB4397F01A819B"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "3A707CE138619E85"
-				item: { count: 1, id: "simulated:physics_assembler" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["580D57CA2877EC79"]
-			icon: {
-				id: "offroad:wheel_mount"
-			}
-			id: "07978CB6C7FA9E13"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "1E785EC51419B4DB"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "230F1EB909E1D4A9"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "63EE811C250B35F7"
-				item: { count: 1, id: "offroad:wheel_mount" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["580D57CA2877EC79"]
-			icon: {
-				id: "aeronautics:propeller_bearing"
-			}
-			id: "077AC6D609F4F9F8"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "2A6CD67D1BFCDF64"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 24
-					id: "5387D0BE302D616F"
-					item: {
-						count: 1
-						id: "minecraft:copper_ingot"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "59CB6BEC19940137"
-				item: { count: 1, id: "aeronautics:propeller_bearing" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["580D57CA2877EC79"]
-			icon: {
-				id: "simulated:docking_connector"
-			}
-			id: "41A68F31A8A67A49"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "768E5B28E25A5395"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "2D77019C3FC2FC1F"
-					item: {
-						count: 1
-						id: "minecraft:redstone"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "2D08A96E44AE23E1"
-				item: { count: 1, id: "simulated:docking_connector" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"077AC6D609F4F9F8"
-				"41A68F31A8A67A49"
-			]
-			icon: {
-				id: "simulated:physics_assembler"
-			}
-			id: "69D7476345B0306B"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "3F2EB79A72476BC1"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 4
-					id: "6209448703CB8E68"
-					item: {
-						count: 1
-						id: "minecraft:leather"
-					}
-					type: "item"
-				}
-			]
-			shape: "square"
-			tasks: [{
-				id: "01C898E816CCE40A"
-				type: "checkmark"
-			}]
-			x: 9.0d
-			y: 3.0d
-		}
-	]
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "circle",
+  "filename": "transport",
+  "group": "4957B56D0FAE7D74",
+  "icon": {
+    "id": "simulated:physics_assembler"
+  },
+  "id": "36C1AF7304C88DB8",
+  "images": [],
+  "order_index": 0,
+  "quest_links": [
+    {
+      "id": "19F736A44A6A20FF",
+      "linked_quest": "15304D6486E44D0C",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 0.0
+    },
+    {
+      "id": "25BE797E17826F86",
+      "linked_quest": "6C653C090F3AC30F",
+      "size": 0.8,
+      "x": -4.0,
+      "y": 2.0
+    }
+  ],
+  "quests": [
+    {
+      "dependencies": [
+        "15304D6486E44D0C"
+      ],
+      "icon": {
+        "id": "create:track"
+      },
+      "id": "26A9B5935B02106A",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "62A9EC400721CB6D",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "66DF0358CC5BEB0E",
+          "item": {
+            "count": 1,
+            "id": "minecraft:iron_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "0845DE3A44BFC420",
+          "item": {
+            "count": 1,
+            "id": "create:track"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "26A9B5935B02106A"
+      ],
+      "icon": {
+        "id": "create:track_station"
+      },
+      "id": "4D20DA1CC1067747",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "4F05E4533CD52DA9",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "17A2220FDE2BA4EB",
+          "item": {
+            "id": "minecraft:iron_ingot",
+            "count": 1
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "id": "383AFC62BEE8B7F1",
+          "type": "advancement",
+          "advancement": "create:train",
+          "criterion": ""
+        },
+        {
+          "id": "51CE9CE2A4D56ED0",
+          "type": "advancement",
+          "advancement": "create:conductor",
+          "criterion": ""
+        }
+      ],
+      "x": 3.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "15304D6486E44D0C"
+      ],
+      "icon": {
+        "id": "create_hypertube:hypertube_entrance"
+      },
+      "id": "2633E9F8584A6FA2",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "5C19A7464E317872",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 12,
+          "id": "4E892BE90D096980",
+          "item": {
+            "count": 1,
+            "id": "minecraft:copper_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "02BD19013A3521DC",
+          "item": {
+            "count": 1,
+            "id": "create_hypertube:hypertube_entrance"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 6.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "6C653C090F3AC30F"
+      ],
+      "icon": {
+        "id": "simulated:physics_assembler"
+      },
+      "id": "580D57CA2877EC79",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "04F1A4CFA7CD98EB",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 24,
+          "id": "6BBB4397F01A819B",
+          "item": {
+            "count": 1,
+            "id": "minecraft:iron_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "3A707CE138619E85",
+          "item": {
+            "count": 1,
+            "id": "simulated:physics_assembler"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 9.0,
+      "y": 0.0
+    },
+    {
+      "dependencies": [
+        "580D57CA2877EC79"
+      ],
+      "icon": {
+        "id": "offroad:wheel_mount"
+      },
+      "id": "07978CB6C7FA9E13",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "1E785EC51419B4DB",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "230F1EB909E1D4A9",
+          "item": {
+            "count": 1,
+            "id": "minecraft:iron_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "63EE811C250B35F7",
+          "item": {
+            "count": 1,
+            "id": "offroad:wheel_mount"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 0.0,
+      "y": 3.0
+    },
+    {
+      "dependencies": [
+        "580D57CA2877EC79"
+      ],
+      "icon": {
+        "id": "aeronautics:propeller_bearing"
+      },
+      "id": "077AC6D609F4F9F8",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "2A6CD67D1BFCDF64",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 24,
+          "id": "5387D0BE302D616F",
+          "item": {
+            "count": 1,
+            "id": "minecraft:copper_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "59CB6BEC19940137",
+          "item": {
+            "count": 1,
+            "id": "aeronautics:propeller_bearing"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 3.0,
+      "y": 3.0
+    },
+    {
+      "dependencies": [
+        "580D57CA2877EC79"
+      ],
+      "icon": {
+        "id": "simulated:docking_connector"
+      },
+      "id": "41A68F31A8A67A49",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "768E5B28E25A5395",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "2D77019C3FC2FC1F",
+          "item": {
+            "count": 1,
+            "id": "minecraft:redstone"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "2D08A96E44AE23E1",
+          "item": {
+            "count": 1,
+            "id": "simulated:docking_connector"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 6.0,
+      "y": 3.0
+    },
+    {
+      "dependencies": [
+        "077AC6D609F4F9F8",
+        "41A68F31A8A67A49"
+      ],
+      "icon": {
+        "id": "simulated:physics_assembler"
+      },
+      "id": "69D7476345B0306B",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "3F2EB79A72476BC1",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "count": 4,
+          "id": "6209448703CB8E68",
+          "item": {
+            "count": 1,
+            "id": "minecraft:leather"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "square",
+      "tasks": [
+        {
+          "id": "01C898E816CCE40A",
+          "type": "checkmark"
+        }
+      ],
+      "x": 9.0,
+      "y": 3.0
+    }
+  ]
 }
