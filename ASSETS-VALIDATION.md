@@ -31,3 +31,7 @@ This does not certify the full pack for public release. Other upstream NTGL samp
 ## Update canary
 
 Local Packwiz update: 118 JARs, all 1173 managed hashes correct, repeat invocation exit 0. Six personal sentinels (radio, custom shader ZIP and settings, Iris choice, keybinds and a world file) unchanged. No QA probe is managed or published.
+
+## Public distribution and host
+
+GitHub Pages served the exact pack and six changed files. The public updater validated all 1173 installed hashes and 118 JARs; repeat exit 0 and six personal sentinels unchanged. The host updater installed the same six files, retired compatibility 1.1.0 and verified all 118 mod SHA-512 hashes. All 708 tracked personal files stayed byte-identical, and heap remains 16384 MiB. The main client was not relaunched after installation; native graphical validation used the isolated profile with the same candidate bytes.
