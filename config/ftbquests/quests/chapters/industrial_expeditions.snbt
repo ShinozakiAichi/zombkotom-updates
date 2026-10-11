@@ -1,219 +1,252 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
-	filename: "industrial_expeditions"
-	group: "0040FFDA6E929C78"
-	icon: {
-		id: "minecraft:compass"
-	}
-	id: "79F0A6B698AA55CD"
-	images: [ ]
-	order_index: 1
-	quest_links: [{
-		id: "6732D6A970413DB2"
-		linked_quest: "6A4DF8332A63580E"
-		size: 0.8d
-		x: -4.0d
-		y: 0.0d
-	}]
-	quests: [
-		{
-			dependencies: ["6A4DF8332A63580E"]
-			icon: {
-				id: "minecraft:compass"
-			}
-			id: "76B8BF3A469C06FC"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "62D3165387195C92"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 8
-					id: "731514FF35C17F3F"
-					item: {
-						count: 1
-						id: "minecraft:glass_bottle"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				advancement: "last_bastion:expedition/hospital"
-				criterion: ""
-				id: "5FFDDBA8AC649FAD"
-				type: "advancement"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6A4DF8332A63580E"]
-			icon: {
-				id: "minecraft:compass"
-			}
-			id: "73843C48CB36CBD5"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "3CD8DE089B30BC05"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 12
-					id: "5B159E1F39D679A6"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				advancement: "last_bastion:expedition/factory"
-				criterion: ""
-				id: "7FF774F81B7A1871"
-				type: "advancement"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6A4DF8332A63580E"]
-			icon: {
-				id: "minecraft:compass"
-			}
-			id: "3E2887839C983F0A"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "1B017A0A458F43C5"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 2
-					id: "086C6EFBA638B45E"
-					item: {
-						count: 1
-						id: "minecraft:bucket"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				advancement: "last_bastion:expedition/fuel_station"
-				criterion: ""
-				id: "7817AA71758E556F"
-				type: "advancement"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6A4DF8332A63580E"]
-			icon: {
-				id: "minecraft:compass"
-			}
-			id: "5E331ABF94A50C9D"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "482817A948341029"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "2676860957216EBB"
-					item: {
-						count: 1
-						id: "minecraft:copper_ingot"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				advancement: "last_bastion:expedition/laboratory"
-				criterion: ""
-				id: "418A0A3B04085DFA"
-				type: "advancement"
-			}]
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6A4DF8332A63580E"]
-			icon: {
-				id: "minecraft:compass"
-			}
-			id: "39F1E0823FB55658"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "1478380D83E99232"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "223A97DCB093FA16"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				advancement: "last_bastion:expedition/rail_depot"
-				criterion: ""
-				id: "59AE486FA41E1B6B"
-				type: "advancement"
-			}]
-			x: 0.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["6A4DF8332A63580E"]
-			icon: {
-				id: "minecraft:compass"
-			}
-			id: "6A01538147B8A0B1"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "493A5249882CA65E"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "3E2111C5B7370B18"
-					item: {
-						count: 1
-						id: "minecraft:redstone"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				advancement: "last_bastion:expedition/radio_tower"
-				criterion: ""
-				id: "72D4253F9C4D45CC"
-				type: "advancement"
-			}]
-			x: 3.0d
-			y: 4.0d
-		}
-	]
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "industrial_expeditions",
+  "group": "0040FFDA6E929C78",
+  "icon": {
+    "id": "minecraft:compass"
+  },
+  "id": "79F0A6B698AA55CD",
+  "images": [],
+  "order_index": 1,
+  "quest_links": [
+    {
+      "id": "6732D6A970413DB2",
+      "linked_quest": "6A4DF8332A63580E",
+      "size": 0.8,
+      "x": 4.5,
+      "y": 1.5
+    }
+  ],
+  "quests": [
+    {
+      "dependencies": [
+        "6A4DF8332A63580E"
+      ],
+      "icon": {
+        "id": "minecraft:compass"
+      },
+      "id": "76B8BF3A469C06FC",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "62D3165387195C92",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 8,
+          "id": "731514FF35C17F3F",
+          "item": {
+            "count": 1,
+            "id": "minecraft:glass_bottle"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "advancement": "last_bastion:expedition/hospital",
+          "criterion": "",
+          "id": "5FFDDBA8AC649FAD",
+          "type": "advancement"
+        }
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "6A4DF8332A63580E"
+      ],
+      "icon": {
+        "id": "minecraft:compass"
+      },
+      "id": "73843C48CB36CBD5",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "3CD8DE089B30BC05",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 12,
+          "id": "5B159E1F39D679A6",
+          "item": {
+            "count": 1,
+            "id": "minecraft:iron_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "advancement": "last_bastion:expedition/factory",
+          "criterion": "",
+          "id": "7FF774F81B7A1871",
+          "type": "advancement"
+        }
+      ],
+      "x": 3.0,
+      "y": 0.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "6A4DF8332A63580E"
+      ],
+      "icon": {
+        "id": "minecraft:compass"
+      },
+      "id": "3E2887839C983F0A",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "1B017A0A458F43C5",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 2,
+          "id": "086C6EFBA638B45E",
+          "item": {
+            "count": 1,
+            "id": "minecraft:bucket"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "advancement": "last_bastion:expedition/fuel_station",
+          "criterion": "",
+          "id": "7817AA71758E556F",
+          "type": "advancement"
+        }
+      ],
+      "x": 6.0,
+      "y": 0.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "6A4DF8332A63580E"
+      ],
+      "icon": {
+        "id": "minecraft:compass"
+      },
+      "id": "5E331ABF94A50C9D",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "482817A948341029",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "2676860957216EBB",
+          "item": {
+            "count": 1,
+            "id": "minecraft:copper_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "advancement": "last_bastion:expedition/laboratory",
+          "criterion": "",
+          "id": "418A0A3B04085DFA",
+          "type": "advancement"
+        }
+      ],
+      "x": 9.0,
+      "y": 0.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "6A4DF8332A63580E"
+      ],
+      "icon": {
+        "id": "minecraft:compass"
+      },
+      "id": "39F1E0823FB55658",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "1478380D83E99232",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "223A97DCB093FA16",
+          "item": {
+            "count": 1,
+            "id": "minecraft:iron_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "advancement": "last_bastion:expedition/rail_depot",
+          "criterion": "",
+          "id": "59AE486FA41E1B6B",
+          "type": "advancement"
+        }
+      ],
+      "x": 0.0,
+      "y": 4.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "6A4DF8332A63580E"
+      ],
+      "icon": {
+        "id": "minecraft:compass"
+      },
+      "id": "6A01538147B8A0B1",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "493A5249882CA65E",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "3E2111C5B7370B18",
+          "item": {
+            "count": 1,
+            "id": "minecraft:redstone"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "advancement": "last_bastion:expedition/radio_tower",
+          "criterion": "",
+          "id": "72D4253F9C4D45CC",
+          "type": "advancement"
+        }
+      ],
+      "x": 3.0,
+      "y": 4.0,
+      "size": 1.0
+    }
+  ],
+  "autofocus_id": "76B8BF3A469C06FC"
 }

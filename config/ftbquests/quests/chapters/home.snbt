@@ -1,275 +1,334 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: "circle"
-	filename: "home"
-	group: "12AB0E4BAFE8F799"
-	icon: {
-		id: "chipped:carpenters_table"
-	}
-	id: "3464026069E86135"
-	images: [ ]
-	order_index: 0
-	quest_links: [{
-		id: "26E6B3CAACB48A82"
-		linked_quest: "5EC9CD93B290DE02"
-		size: 0.8d
-		x: -4.0d
-		y: 0.0d
-	}]
-	quests: [
-		{
-			dependencies: ["5EC9CD93B290DE02"]
-			icon: {
-				id: "chipped:carpenters_table"
-			}
-			id: "4B50AE3184F98535"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "23675FD30675E5DD"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "607A72C0F3D15B01"
-					item: {
-						count: 1
-						id: "minecraft:oak_log"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "15C3091D42DBF8F8"
-				item: { count: 1, id: "chipped:carpenters_table" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5EC9CD93B290DE02"]
-			icon: {
-				id: "framedblocks:framed_cube"
-			}
-			id: "181E0ECC4CBA1AEA"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "46428711CD26454A"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "07EF0C6D9D6858F2"
-					item: {
-						count: 1
-						id: "minecraft:glass"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "3711C84D922A986A"
-				item: { count: 1, id: "framedblocks:framed_cube" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5EC9CD93B290DE02"]
-			icon: {
-				id: "another_furniture:oak_table"
-			}
-			id: "10D0D89224245EB3"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "68F55AF07D178C1E"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 8
-					id: "378B412275B905B1"
-					item: {
-						count: 1
-						id: "minecraft:white_wool"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "21D6172E5E110BF3"
-				item: { count: 1, id: "another_furniture:oak_table" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5EC9CD93B290DE02"]
-			icon: {
-				id: "interiors:brown_chair"
-			}
-			id: "16442D005675F7B5"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "5A8C90D80DFC5300"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 4
-					id: "305503913E796ED1"
-					item: {
-						count: 1
-						id: "minecraft:leather"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "50BFA1223D38713D"
-				item: { count: 1, id: "interiors:brown_chair" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5EC9CD93B290DE02"]
-			icon: {
-				id: "minecraft:painting"
-			}
-			id: "5F4A003DD7771672"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "6FD08D29C3DC41E5"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 12
-					id: "3553F844CFB7C785"
-					item: {
-						count: 1
-						id: "minecraft:paper"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "5530D4BB5FAB1859"
-				item: { count: 1, id: "minecraft:painting" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["5EC9CD93B290DE02"]
-			icon: {
-				id: "create:display_board"
-			}
-			id: "6F66CCE849496EE7"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "26C63DCBC3B559D0"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 8
-					id: "5A5EB84B7863C7E8"
-					item: {
-						count: 1
-						id: "minecraft:redstone"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "5F6681C73AA99B6C"
-				item: { count: 1, id: "create:display_board" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"4B50AE3184F98535"
-				"6F66CCE849496EE7"
-			]
-			icon: {
-				id: "chipped:carpenters_table"
-			}
-			id: "37C4D0B55D426D93"
-			progression_mode: "linear"
-			rewards: [{
-				id: "2EFB044D3A777191"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "square"
-			tasks: [{
-				id: "0ACE56A2E02CAF60"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"6F66CCE849496EE7"
-				"37C4D0B55D426D93"
-			]
-			icon: {
-				id: "chipped:carpenters_table"
-			}
-			id: "60E69D8F9A248A58"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "2E890C7A454D7B6C"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "27FB5165EDF67624"
-					item: {
-						count: 1
-						id: "minecraft:painting"
-					}
-					type: "item"
-				}
-			]
-			shape: "square"
-			tasks: [{
-				id: "173DA09509227AC3"
-				type: "checkmark"
-			}]
-			x: 9.0d
-			y: 3.0d
-		}
-	]
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "circle",
+  "filename": "home",
+  "group": "12AB0E4BAFE8F799",
+  "icon": {
+    "id": "chipped:carpenters_table"
+  },
+  "id": "3464026069E86135",
+  "images": [],
+  "order_index": 0,
+  "quest_links": [
+    {
+      "id": "26E6B3CAACB48A82",
+      "linked_quest": "5EC9CD93B290DE02",
+      "size": 0.8,
+      "x": 0.0,
+      "y": 0.0
+    }
+  ],
+  "quests": [
+    {
+      "dependencies": [
+        "5EC9CD93B290DE02"
+      ],
+      "icon": {
+        "id": "chipped:carpenters_table"
+      },
+      "id": "4B50AE3184F98535",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "23675FD30675E5DD",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "607A72C0F3D15B01",
+          "item": {
+            "count": 1,
+            "id": "minecraft:oak_log"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "gear",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "15C3091D42DBF8F8",
+          "item": {
+            "count": 1,
+            "id": "chipped:carpenters_table"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 0.0,
+      "y": -3.0,
+      "size": 1.5
+    },
+    {
+      "dependencies": [
+        "5EC9CD93B290DE02"
+      ],
+      "icon": {
+        "id": "framedblocks:framed_cube"
+      },
+      "id": "181E0ECC4CBA1AEA",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "46428711CD26454A",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "07EF0C6D9D6858F2",
+          "item": {
+            "count": 1,
+            "id": "minecraft:glass"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "3711C84D922A986A",
+          "item": {
+            "count": 1,
+            "id": "framedblocks:framed_cube"
+          },
+          "type": "item"
+        }
+      ],
+      "x": -3.0,
+      "y": -3.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "5EC9CD93B290DE02"
+      ],
+      "icon": {
+        "id": "another_furniture:oak_table"
+      },
+      "id": "10D0D89224245EB3",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "68F55AF07D178C1E",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 8,
+          "id": "378B412275B905B1",
+          "item": {
+            "count": 1,
+            "id": "minecraft:white_wool"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "21D6172E5E110BF3",
+          "item": {
+            "count": 1,
+            "id": "another_furniture:oak_table"
+          },
+          "type": "item"
+        }
+      ],
+      "x": -3.0,
+      "y": 0.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "5EC9CD93B290DE02"
+      ],
+      "icon": {
+        "id": "interiors:brown_chair"
+      },
+      "id": "16442D005675F7B5",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "5A8C90D80DFC5300",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 4,
+          "id": "305503913E796ED1",
+          "item": {
+            "count": 1,
+            "id": "minecraft:leather"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "50BFA1223D38713D",
+          "item": {
+            "count": 1,
+            "id": "interiors:brown_chair"
+          },
+          "type": "item"
+        }
+      ],
+      "x": -3.0,
+      "y": 3.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "5EC9CD93B290DE02"
+      ],
+      "icon": {
+        "id": "minecraft:painting"
+      },
+      "id": "5F4A003DD7771672",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "6FD08D29C3DC41E5",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 12,
+          "id": "3553F844CFB7C785",
+          "item": {
+            "count": 1,
+            "id": "minecraft:paper"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "5530D4BB5FAB1859",
+          "item": {
+            "count": 1,
+            "id": "minecraft:painting"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 0.0,
+      "y": 3.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "5EC9CD93B290DE02"
+      ],
+      "icon": {
+        "id": "create:display_board"
+      },
+      "id": "6F66CCE849496EE7",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "26C63DCBC3B559D0",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 8,
+          "id": "5A5EB84B7863C7E8",
+          "item": {
+            "count": 1,
+            "id": "minecraft:redstone"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "5F6681C73AA99B6C",
+          "item": {
+            "count": 1,
+            "id": "create:display_board"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 3.0,
+      "y": 0.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "4B50AE3184F98535",
+        "6F66CCE849496EE7"
+      ],
+      "icon": {
+        "id": "chipped:carpenters_table"
+      },
+      "id": "37C4D0B55D426D93",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "2EFB044D3A777191",
+          "type": "xp",
+          "xp": 10
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "id": "0ACE56A2E02CAF60",
+          "type": "checkmark"
+        }
+      ],
+      "x": 6.0,
+      "y": -3.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "6F66CCE849496EE7",
+        "37C4D0B55D426D93"
+      ],
+      "icon": {
+        "id": "chipped:carpenters_table"
+      },
+      "id": "60E69D8F9A248A58",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "2E890C7A454D7B6C",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "id": "27FB5165EDF67624",
+          "item": {
+            "count": 1,
+            "id": "minecraft:painting"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "hexagon",
+      "tasks": [
+        {
+          "id": "173DA09509227AC3",
+          "type": "checkmark"
+        }
+      ],
+      "x": 9.0,
+      "y": 0.0,
+      "size": 1.7
+    }
+  ],
+  "autofocus_id": "4B50AE3184F98535"
 }

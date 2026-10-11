@@ -1,305 +1,406 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
-	filename: "fuel"
-	group: "25F092E907931A2C"
-	icon: {
-		id: "createdieselgenerators:diesel_engine"
-	}
-	id: "699F801F22A4B7DE"
-	images: [ ]
-	order_index: 0
-	quest_links: [{
-		id: "65EE53347F0E1ACA"
-		linked_quest: "15304D6486E44D0C"
-		size: 0.8d
-		x: -4.0d
-		y: 0.0d
-	}]
-	quests: [
-		{
-			dependencies: ["15304D6486E44D0C"]
-			icon: {
-				id: "createdieselgenerators:diesel_engine"
-			}
-			id: "017C029A73C8DF8B"
-			progression_mode: "linear"
-			rewards: [{
-				count: 12
-				id: "19C2C14D180C824B"
-				item: {
-					count: 1
-					id: "minecraft:copper_ingot"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					consume_items: false
-					count: 4L
-					id: "167DC52A49C5047A"
-					item: { count: 1, id: "create:fluid_tank" }
-					type: "item"
-				}
-				{
-					consume_items: false
-					id: "62040F2914BADED8"
-					item: { count: 1, id: "create:mechanical_pump" }
-					type: "item"
-				}
-				{
-					consume_items: false
-					count: 8L
-					id: "7E1CC3D4EA60BA0F"
-					item: { count: 1, id: "create:fluid_pipe" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["017C029A73C8DF8B"]
-			icon: {
-				id: "createdieselgenerators:diesel_engine"
-			}
-			id: "7F6A98F17B568E01"
-			progression_mode: "linear"
-			rewards: [{
-				count: 16
-				id: "0CCF5D05B6EB74A4"
-				item: {
-					count: 1
-					id: "minecraft:wheat"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				consume_items: false
-				id: "0B7FAEB76FE09F8E"
-				item: { count: 1, id: "createdieselgenerators:basin_lid" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7F6A98F17B568E01"]
-			icon: {
-				id: "createdieselgenerators:diesel_engine"
-			}
-			id: "4122F84F5D973B3F"
-			progression_mode: "linear"
-			rewards: [{
-				count: 12
-				id: "240EE809038E4459"
-				item: {
-					count: 1
-					id: "minecraft:iron_ingot"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					consume_items: false
-					id: "3B63D32CE6421F19"
-					item: { count: 1, id: "createdieselgenerators:ethanol_bucket" }
-					type: "item"
-				}
-				{
-					consume_items: false
-					id: "08E73CE84D592FD6"
-					item: { count: 1, id: "createdieselgenerators:plant_oil_bucket" }
-					type: "item"
-				}
-				{
-					consume_items: false
-					id: "0394F218B7F6424E"
-					item: { count: 1, id: "createdieselgenerators:biodiesel_bucket" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4122F84F5D973B3F"]
-			icon: {
-				id: "createdieselgenerators:diesel_engine"
-			}
-			id: "617308F0D67136D7"
-			progression_mode: "linear"
-			rewards: [{
-				count: 16
-				id: "779C02E5E8B58A6B"
-				item: {
-					count: 1
-					id: "minecraft:redstone"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					consume_items: false
-					id: "1CB300E55AC36BE6"
-					item: { count: 1, id: "createdieselgenerators:diesel_engine" }
-					type: "item"
-				}
-				{
-					consume_items: false
-					count: 16L
-					id: "65E0E2588C61EB42"
-					item: { count: 1, id: "create:iron_sheet" }
-					type: "item"
-				}
-			]
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["017C029A73C8DF8B"]
-			icon: {
-				id: "createdieselgenerators:diesel_engine"
-			}
-			id: "70FB374A219529BC"
-			progression_mode: "linear"
-			rewards: [{
-				count: 32
-				id: "5D944B9B852AA606"
-				item: {
-					count: 1
-					id: "minecraft:torch"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				consume_items: false
-				id: "6F99F8C429ACA48A"
-				item: { count: 1, id: "createdieselgenerators:oil_scanner" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["70FB374A219529BC"]
-			icon: {
-				id: "createdieselgenerators:diesel_engine"
-			}
-			id: "4835589643C815C3"
-			progression_mode: "linear"
-			rewards: [{
-				count: 16
-				id: "4A2B271D36B44CA2"
-				item: {
-					count: 1
-					id: "minecraft:copper_ingot"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					consume_items: false
-					id: "4A681A211D87948A"
-					item: { count: 1, id: "createdieselgenerators:pumpjack_bearing" }
-					type: "item"
-				}
-				{
-					consume_items: false
-					id: "109D1222809F5223"
-					item: { count: 1, id: "createdieselgenerators:pumpjack_head" }
-					type: "item"
-				}
-				{
-					consume_items: false
-					id: "38A80A8029792EBA"
-					item: { count: 1, id: "createdieselgenerators:crude_oil_bucket" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["4835589643C815C3"]
-			icon: {
-				id: "createdieselgenerators:diesel_engine"
-			}
-			id: "7224B832322BB2BE"
-			progression_mode: "linear"
-			rewards: [{
-				count: 16
-				id: "65D6C891581FD44A"
-				item: {
-					count: 1
-					id: "minecraft:iron_ingot"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					consume_items: false
-					id: "361330D4F9D30365"
-					item: { count: 1, id: "createdieselgenerators:distillation_controller" }
-					type: "item"
-				}
-				{
-					consume_items: false
-					id: "0F939D61D898D238"
-					item: { count: 1, id: "createdieselgenerators:diesel_bucket" }
-					type: "item"
-				}
-				{
-					consume_items: false
-					id: "1014CC441C52AEAB"
-					item: { count: 1, id: "createdieselgenerators:gasoline_bucket" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["7224B832322BB2BE"]
-			icon: {
-				id: "createdieselgenerators:diesel_engine"
-			}
-			id: "594037E225E662E1"
-			progression_mode: "linear"
-			rewards: [{
-				count: 24
-				id: "1A66832D1ECE577F"
-				item: {
-					count: 1
-					id: "minecraft:copper_ingot"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [
-				{
-					consume_items: false
-					id: "1FA29F18042DDDEB"
-					item: { count: 1, id: "createdieselgenerators:large_diesel_engine" }
-					type: "item"
-				}
-				{
-					consume_items: false
-					count: 8L
-					id: "224E26E928C2C8E6"
-					item: { count: 1, id: "create:fluid_tank" }
-					type: "item"
-				}
-			]
-			x: 9.0d
-			y: 4.0d
-		}
-	]
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "fuel",
+  "group": "25F092E907931A2C",
+  "icon": {
+    "id": "createdieselgenerators:diesel_engine"
+  },
+  "id": "699F801F22A4B7DE",
+  "images": [],
+  "order_index": 0,
+  "quest_links": [
+    {
+      "id": "65EE53347F0E1ACA",
+      "linked_quest": "15304D6486E44D0C",
+      "size": 0.8,
+      "x": -1.5,
+      "y": -1.5
+    }
+  ],
+  "quests": [
+    {
+      "dependencies": [
+        "15304D6486E44D0C"
+      ],
+      "icon": {
+        "id": "createdieselgenerators:diesel_engine"
+      },
+      "id": "017C029A73C8DF8B",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "count": 12,
+          "id": "19C2C14D180C824B",
+          "item": {
+            "count": 1,
+            "id": "minecraft:copper_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "gear",
+      "tasks": [
+        {
+          "consume_items": false,
+          "count": 4,
+          "id": "167DC52A49C5047A",
+          "item": {
+            "count": 1,
+            "id": "create:fluid_tank"
+          },
+          "type": "item"
+        },
+        {
+          "consume_items": false,
+          "id": "62040F2914BADED8",
+          "item": {
+            "count": 1,
+            "id": "create:mechanical_pump"
+          },
+          "type": "item"
+        },
+        {
+          "consume_items": false,
+          "count": 8,
+          "id": "7E1CC3D4EA60BA0F",
+          "item": {
+            "count": 1,
+            "id": "create:fluid_pipe"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "size": 1.5
+    },
+    {
+      "dependencies": [
+        "017C029A73C8DF8B"
+      ],
+      "icon": {
+        "id": "createdieselgenerators:diesel_engine"
+      },
+      "id": "7F6A98F17B568E01",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "count": 16,
+          "id": "0CCF5D05B6EB74A4",
+          "item": {
+            "count": 1,
+            "id": "minecraft:wheat"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "0B7FAEB76FE09F8E",
+          "item": {
+            "count": 1,
+            "id": "createdieselgenerators:basin_lid"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 3.0,
+      "y": -2.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "7F6A98F17B568E01"
+      ],
+      "icon": {
+        "id": "createdieselgenerators:diesel_engine"
+      },
+      "id": "4122F84F5D973B3F",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "count": 12,
+          "id": "240EE809038E4459",
+          "item": {
+            "count": 1,
+            "id": "minecraft:iron_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "3B63D32CE6421F19",
+          "item": {
+            "count": 1,
+            "id": "createdieselgenerators:ethanol_bucket"
+          },
+          "type": "item"
+        },
+        {
+          "consume_items": false,
+          "id": "08E73CE84D592FD6",
+          "item": {
+            "count": 1,
+            "id": "createdieselgenerators:plant_oil_bucket"
+          },
+          "type": "item"
+        },
+        {
+          "consume_items": false,
+          "id": "0394F218B7F6424E",
+          "item": {
+            "count": 1,
+            "id": "createdieselgenerators:biodiesel_bucket"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 6.0,
+      "y": -2.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "4122F84F5D973B3F"
+      ],
+      "icon": {
+        "id": "createdieselgenerators:diesel_engine"
+      },
+      "id": "617308F0D67136D7",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "count": 16,
+          "id": "779C02E5E8B58A6B",
+          "item": {
+            "count": 1,
+            "id": "minecraft:redstone"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "hexagon",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "1CB300E55AC36BE6",
+          "item": {
+            "count": 1,
+            "id": "createdieselgenerators:diesel_engine"
+          },
+          "type": "item"
+        },
+        {
+          "consume_items": false,
+          "count": 16,
+          "id": "65E0E2588C61EB42",
+          "item": {
+            "count": 1,
+            "id": "create:iron_sheet"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 9.0,
+      "y": -2.0,
+      "size": 1.7
+    },
+    {
+      "dependencies": [
+        "017C029A73C8DF8B"
+      ],
+      "icon": {
+        "id": "createdieselgenerators:diesel_engine"
+      },
+      "id": "70FB374A219529BC",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "count": 32,
+          "id": "5D944B9B852AA606",
+          "item": {
+            "count": 1,
+            "id": "minecraft:torch"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "gear",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "6F99F8C429ACA48A",
+          "item": {
+            "count": 1,
+            "id": "createdieselgenerators:oil_scanner"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 3.0,
+      "y": 2.0,
+      "size": 1.5
+    },
+    {
+      "dependencies": [
+        "70FB374A219529BC"
+      ],
+      "icon": {
+        "id": "createdieselgenerators:diesel_engine"
+      },
+      "id": "4835589643C815C3",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "count": 16,
+          "id": "4A2B271D36B44CA2",
+          "item": {
+            "count": 1,
+            "id": "minecraft:copper_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "4A681A211D87948A",
+          "item": {
+            "count": 1,
+            "id": "createdieselgenerators:pumpjack_bearing"
+          },
+          "type": "item"
+        },
+        {
+          "consume_items": false,
+          "id": "109D1222809F5223",
+          "item": {
+            "count": 1,
+            "id": "createdieselgenerators:pumpjack_head"
+          },
+          "type": "item"
+        },
+        {
+          "consume_items": false,
+          "id": "38A80A8029792EBA",
+          "item": {
+            "count": 1,
+            "id": "createdieselgenerators:crude_oil_bucket"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 6.0,
+      "y": 2.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "4835589643C815C3"
+      ],
+      "icon": {
+        "id": "createdieselgenerators:diesel_engine"
+      },
+      "id": "7224B832322BB2BE",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "count": 16,
+          "id": "65D6C891581FD44A",
+          "item": {
+            "count": 1,
+            "id": "minecraft:iron_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "361330D4F9D30365",
+          "item": {
+            "count": 1,
+            "id": "createdieselgenerators:distillation_controller"
+          },
+          "type": "item"
+        },
+        {
+          "consume_items": false,
+          "id": "0F939D61D898D238",
+          "item": {
+            "count": 1,
+            "id": "createdieselgenerators:diesel_bucket"
+          },
+          "type": "item"
+        },
+        {
+          "consume_items": false,
+          "id": "1014CC441C52AEAB",
+          "item": {
+            "count": 1,
+            "id": "createdieselgenerators:gasoline_bucket"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 9.0,
+      "y": 2.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "7224B832322BB2BE"
+      ],
+      "icon": {
+        "id": "createdieselgenerators:diesel_engine"
+      },
+      "id": "594037E225E662E1",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "count": 24,
+          "id": "1A66832D1ECE577F",
+          "item": {
+            "count": 1,
+            "id": "minecraft:copper_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "hexagon",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "1FA29F18042DDDEB",
+          "item": {
+            "count": 1,
+            "id": "createdieselgenerators:large_diesel_engine"
+          },
+          "type": "item"
+        },
+        {
+          "consume_items": false,
+          "count": 8,
+          "id": "224E26E928C2C8E6",
+          "item": {
+            "count": 1,
+            "id": "create:fluid_tank"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 12.0,
+      "y": 2.0,
+      "size": 1.7
+    }
+  ],
+  "autofocus_id": "017C029A73C8DF8B"
 }

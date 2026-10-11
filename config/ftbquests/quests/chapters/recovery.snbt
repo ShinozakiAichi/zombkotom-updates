@@ -1,178 +1,241 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
-	filename: "recovery"
-	group: "5AA38A3B782FD323"
-	icon: {
-		id: "tombstone:grave_dust"
-	}
-	id: "798AAAD5C189C2A7"
-	images: [ ]
-	order_index: 1
-	quest_links: [{
-		id: "66E7575C1FF639F3"
-		linked_quest: "44D3DD5B83366C0F"
-		size: 0.8d
-		x: -4.0d
-		y: 0.0d
-	}]
-	quests: [
-		{
-			dependencies: ["44D3DD5B83366C0F"]
-			icon: {
-				id: "tombstone:grave_dust"
-			}
-			id: "743A65C069D1C218"
-			progression_mode: "linear"
-			rewards: [{
-				count: 8
-				id: "201E33DF02628744"
-				item: {
-					count: 1
-					id: "minecraft:lapis_lazuli"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				consume_items: false
-				count: 4L
-				id: "3BC3F8A88CB5EA70"
-				item: { count: 1, id: "tombstone:grave_dust" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["743A65C069D1C218"]
-			icon: {
-				id: "tombstone:grave_dust"
-			}
-			id: "2E2207F7CC9BDC9B"
-			progression_mode: "linear"
-			rewards: [{
-				count: 12
-				id: "7531B8ACD21431F7"
-				item: {
-					count: 1
-					id: "minecraft:lapis_lazuli"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				consume_items: false
-				id: "298F46107D585019"
-				item: { count: 1, id: "tombstone:decorative_grave_simple" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2E2207F7CC9BDC9B"]
-			icon: {
-				id: "tombstone:grave_dust"
-			}
-			id: "7D4DC8FA7C21B24D"
-			progression_mode: "linear"
-			rewards: [{
-				count: 3
-				id: "17915E43AD712460"
-				item: {
-					count: 1
-					id: "minecraft:book"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				consume_items: false
-				id: "31271FB7511E8312"
-				item: { count: 1, id: "tombstone:book_of_disenchantment" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2E2207F7CC9BDC9B"]
-			icon: {
-				id: "tombstone:grave_dust"
-			}
-			id: "17E4027F08E59B51"
-			progression_mode: "linear"
-			rewards: [{
-				count: 12
-				id: "2D636A690FA34DFB"
-				item: {
-					count: 1
-					id: "minecraft:quartz"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				consume_items: false
-				id: "31DB93D09D85E710"
-				item: { count: 1, id: "tombstone:book_of_repairing" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2E2207F7CC9BDC9B"]
-			icon: {
-				id: "tombstone:grave_dust"
-			}
-			id: "1A0400D1F2AC69EE"
-			progression_mode: "linear"
-			rewards: [{
-				count: 16
-				id: "5B666D3B18E6392F"
-				item: {
-					count: 1
-					id: "minecraft:lapis_lazuli"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				consume_items: false
-				id: "699944F78329594D"
-				item: { count: 1, id: "tombstone:book_of_soulbound" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["2E2207F7CC9BDC9B"]
-			icon: {
-				id: "tombstone:grave_dust"
-			}
-			id: "1DE9B4FFE69DE129"
-			progression_mode: "linear"
-			rewards: [{
-				count: 8
-				id: "7550DBC2BC46F9FD"
-				item: {
-					count: 1
-					id: "minecraft:golden_carrot"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				consume_items: false
-				id: "21B8AA4EFE602C97"
-				item: { count: 1, id: "tombstone:scroll_of_preservation" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 4.0d
-		}
-	]
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "recovery",
+  "group": "5AA38A3B782FD323",
+  "icon": {
+    "id": "tombstone:grave_dust"
+  },
+  "id": "798AAAD5C189C2A7",
+  "images": [],
+  "order_index": 1,
+  "quest_links": [
+    {
+      "id": "66E7575C1FF639F3",
+      "linked_quest": "44D3DD5B83366C0F",
+      "size": 0.8,
+      "x": -6.0,
+      "y": 0.0
+    }
+  ],
+  "quests": [
+    {
+      "dependencies": [
+        "44D3DD5B83366C0F"
+      ],
+      "icon": {
+        "id": "tombstone:grave_dust"
+      },
+      "id": "743A65C069D1C218",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "count": 8,
+          "id": "201E33DF02628744",
+          "item": {
+            "count": 1,
+            "id": "minecraft:lapis_lazuli"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "count": 4,
+          "id": "3BC3F8A88CB5EA70",
+          "item": {
+            "count": 1,
+            "id": "tombstone:grave_dust"
+          },
+          "type": "item"
+        }
+      ],
+      "x": -4.0,
+      "y": 0.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "743A65C069D1C218"
+      ],
+      "icon": {
+        "id": "tombstone:grave_dust"
+      },
+      "id": "2E2207F7CC9BDC9B",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "count": 12,
+          "id": "7531B8ACD21431F7",
+          "item": {
+            "count": 1,
+            "id": "minecraft:lapis_lazuli"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "gear",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "298F46107D585019",
+          "item": {
+            "count": 1,
+            "id": "tombstone:decorative_grave_simple"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "size": 1.5
+    },
+    {
+      "dependencies": [
+        "2E2207F7CC9BDC9B"
+      ],
+      "icon": {
+        "id": "tombstone:grave_dust"
+      },
+      "id": "7D4DC8FA7C21B24D",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "count": 3,
+          "id": "17915E43AD712460",
+          "item": {
+            "count": 1,
+            "id": "minecraft:book"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "31271FB7511E8312",
+          "item": {
+            "count": 1,
+            "id": "tombstone:book_of_disenchantment"
+          },
+          "type": "item"
+        }
+      ],
+      "x": -1.5,
+      "y": -3.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "2E2207F7CC9BDC9B"
+      ],
+      "icon": {
+        "id": "tombstone:grave_dust"
+      },
+      "id": "17E4027F08E59B51",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "count": 12,
+          "id": "2D636A690FA34DFB",
+          "item": {
+            "count": 1,
+            "id": "minecraft:quartz"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "31DB93D09D85E710",
+          "item": {
+            "count": 1,
+            "id": "tombstone:book_of_repairing"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 2.0,
+      "y": -3.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "2E2207F7CC9BDC9B"
+      ],
+      "icon": {
+        "id": "tombstone:grave_dust"
+      },
+      "id": "1A0400D1F2AC69EE",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "count": 16,
+          "id": "5B666D3B18E6392F",
+          "item": {
+            "count": 1,
+            "id": "minecraft:lapis_lazuli"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "699944F78329594D",
+          "item": {
+            "count": 1,
+            "id": "tombstone:book_of_soulbound"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 3.5,
+      "y": 0.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "2E2207F7CC9BDC9B"
+      ],
+      "icon": {
+        "id": "tombstone:grave_dust"
+      },
+      "id": "1DE9B4FFE69DE129",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "count": 8,
+          "id": "7550DBC2BC46F9FD",
+          "item": {
+            "count": 1,
+            "id": "minecraft:golden_carrot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "hexagon",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "21B8AA4EFE602C97",
+          "item": {
+            "count": 1,
+            "id": "tombstone:scroll_of_preservation"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 2.0,
+      "y": 3.0,
+      "size": 1.7
+    }
+  ],
+  "autofocus_id": "743A65C069D1C218"
 }

@@ -14,36 +14,36 @@
       "id": "693FC913F5C592E4",
       "linked_quest": "15304D6486E44D0C",
       "size": 0.8,
-      "x": -4.0,
-      "y": 0.0
+      "x": 1.5,
+      "y": -1.5
     },
     {
       "id": "338463D9B824CE1C",
       "linked_quest": "44D3DD5B83366C0F",
       "size": 0.8,
-      "x": -4.0,
-      "y": 2.0
+      "x": 1.5,
+      "y": 4.5
     },
     {
       "id": "44CC96C54D660BBF",
       "linked_quest": "6C653C090F3AC30F",
       "size": 0.8,
-      "x": -4.0,
-      "y": 4.0
+      "x": -1.5,
+      "y": 4.5
     },
     {
       "id": "2F18FA0D5CB0A316",
       "linked_quest": "6C7CCFE71CB75B96",
       "size": 0.8,
-      "x": -4.0,
-      "y": 6.0
+      "x": 7.5,
+      "y": -1.5
     },
     {
       "id": "2AD5D75B0E6A5CC1",
       "linked_quest": "73A090F631B8E17F",
       "size": 0.8,
-      "x": -4.0,
-      "y": 8.0
+      "x": -1.5,
+      "y": 1.5
     }
   ],
   "quests": [
@@ -84,8 +84,9 @@
           "type": "item"
         }
       ],
-      "x": 0.0,
-      "y": 0.0
+      "x": 6.0,
+      "y": 0.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -124,8 +125,9 @@
           "type": "item"
         }
       ],
-      "x": 3.0,
-      "y": 0.0
+      "x": 0.0,
+      "y": 0.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -164,8 +166,9 @@
           "type": "item"
         }
       ],
-      "x": 6.0,
-      "y": 0.0
+      "x": 0.0,
+      "y": 3.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -204,8 +207,9 @@
           "type": "item"
         }
       ],
-      "x": 9.0,
-      "y": 0.0
+      "x": 0.0,
+      "y": 6.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -244,8 +248,9 @@
           "type": "item"
         }
       ],
-      "x": 0.0,
-      "y": 3.0
+      "x": 3.0,
+      "y": 6.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -272,7 +277,7 @@
           "type": "item"
         }
       ],
-      "shape": "circle",
+      "shape": "gear",
       "tasks": [
         {
           "consume_items": false,
@@ -286,7 +291,8 @@
         }
       ],
       "x": 3.0,
-      "y": 3.0
+      "y": 0.0,
+      "size": 1.5
     },
     {
       "dependencies": [
@@ -326,7 +332,8 @@
         }
       ],
       "x": 6.0,
-      "y": 3.0
+      "y": -3.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -345,7 +352,7 @@
           "xp": 10
         }
       ],
-      "shape": "square",
+      "shape": "hexagon",
       "tasks": [
         {
           "id": "49D298E81889AFE1",
@@ -353,7 +360,9 @@
         }
       ],
       "x": 9.0,
-      "y": 3.0
+      "y": 3.0,
+      "size": 1.7
     }
-  ]
+  ],
+  "autofocus_id": "017C6165B6C0A22F"
 }

@@ -1,313 +1,368 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: "circle"
-	filename: "defense"
-	group: "10EAADE9D48B4724"
-	icon: {
-		id: "createbigcannons:cannon_mount"
-	}
-	id: "3C5640E64A4D6094"
-	images: [ ]
-	order_index: 0
-	quest_links: [
-		{
-			id: "742FB4AFAFFD3B39"
-			linked_quest: "06A9DEA31A1FB7C5"
-			size: 0.8d
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			id: "125BF860D9E9E415"
-			linked_quest: "15304D6486E44D0C"
-			size: 0.8d
-			x: -4.0d
-			y: 2.0d
-		}
-		{
-			id: "4703513C92080778"
-			linked_quest: "6C653C090F3AC30F"
-			size: 0.8d
-			x: -4.0d
-			y: 4.0d
-		}
-		{
-			id: "06DD90CC4A44A4BE"
-			linked_quest: "6C7CCFE71CB75B96"
-			size: 0.8d
-			x: -4.0d
-			y: 6.0d
-		}
-		{
-			id: "07E0B0DA26870EAB"
-			linked_quest: "73A090F631B8E17F"
-			size: 0.8d
-			x: -4.0d
-			y: 8.0d
-		}
-	]
-	quests: [
-		{
-			dependencies: ["6C7CCFE71CB75B96"]
-			icon: {
-				id: "create:mechanical_piston"
-			}
-			id: "2EAA9571BC8294C3"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "5566CA2A3E47CE56"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 12
-					id: "462E9C602548553A"
-					item: {
-						count: 1
-						id: "minecraft:redstone"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [
-				{
-					consume_items: false
-					id: "1791B75A7B0AF6CA"
-					item: { count: 1, id: "create:mechanical_piston" }
-					type: "item"
-				}
-				{
-					id: "722E97BCDDE1D654"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6C7CCFE71CB75B96"]
-			icon: {
-				id: "createaddition:barbed_wire"
-			}
-			id: "17248A80D6AE3B8C"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "1C1A77133627827D"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 8
-					id: "4A03027564D2504C"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "1F392A4021751C38"
-				item: { count: 1, id: "createaddition:barbed_wire" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["15304D6486E44D0C"]
-			icon: {
-				id: "create:redstone_link"
-			}
-			id: "13B357FE1FD36419"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "647E8B86296AC5E1"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "288E9E205BCDECEA"
-					item: {
-						count: 1
-						id: "minecraft:redstone"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [
-				{
-					consume_items: false
-					id: "6BE30366AC24C5B9"
-					item: { count: 1, id: "create:redstone_link" }
-					type: "item"
-				}
-				{
-					id: "01A9D31944A2758D"
-					type: "checkmark"
-				}
-			]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6C653C090F3AC30F"]
-			icon: {
-				id: "create_radar:radar_bearing"
-			}
-			id: "0CBFB291E762D065"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "7E20195B8A488ACE"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "72A411D90DEDD13B"
-					item: {
-						count: 1
-						id: "minecraft:copper_ingot"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [
-				{
-					consume_items: false
-					id: "0F3D978A8DAA20EC"
-					item: { count: 1, id: "create_radar:radar_bearing" }
-					type: "item"
-				}
-				{
-					id: "17D5F16A0E3FA20D"
-					type: "checkmark"
-				}
-			]
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0CBFB291E762D065"]
-			icon: {
-				id: "create_radar:monitor"
-			}
-			id: "7DE945A24FFED183"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "5F2CB7F214B37DA8"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "32A86D3B466B86F3"
-					item: {
-						count: 1
-						id: "minecraft:redstone"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [
-				{
-					consume_items: false
-					id: "554061922ABB6DCD"
-					item: { count: 1, id: "create_radar:monitor" }
-					type: "item"
-				}
-				{
-					id: "381660BBDF3FA326"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["73A090F631B8E17F"]
-			icon: {
-				id: "createbigcannons:cannon_mount"
-			}
-			id: "680042D233ABD53D"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "7D9F524ECD46A622"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "4729ABA52C8EEA74"
-					item: {
-						count: 1
-						id: "minecraft:gunpowder"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "5C5CF4F63FDE526D"
-				item: { count: 1, id: "createbigcannons:cannon_mount" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["2EAA9571BC8294C3"]
-			icon: {
-				id: "createbigcannons:cannon_mount"
-			}
-			id: "0DBEA758ECC91E04"
-			progression_mode: "linear"
-			rewards: [{
-				id: "6825AB5F479B725F"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "square"
-			tasks: [{
-				id: "291A378B1A54C4C3"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["06A9DEA31A1FB7C5"]
-			icon: {
-				id: "createbigcannons:cannon_mount"
-			}
-			id: "6C5653AF72D70092"
-			progression_mode: "linear"
-			rewards: [{
-				id: "292757265F702198"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "square"
-			tasks: [{
-				id: "03D6329766BDAD63"
-				type: "checkmark"
-			}]
-			x: 9.0d
-			y: 3.0d
-		}
-	]
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "circle",
+  "filename": "defense",
+  "group": "10EAADE9D48B4724",
+  "icon": {
+    "id": "createbigcannons:cannon_mount"
+  },
+  "id": "3C5640E64A4D6094",
+  "images": [],
+  "order_index": 0,
+  "quest_links": [
+    {
+      "id": "742FB4AFAFFD3B39",
+      "linked_quest": "06A9DEA31A1FB7C5",
+      "size": 0.8,
+      "x": 7.5,
+      "y": -1.5
+    },
+    {
+      "id": "125BF860D9E9E415",
+      "linked_quest": "15304D6486E44D0C",
+      "size": 0.8,
+      "x": 4.5,
+      "y": 1.5
+    },
+    {
+      "id": "4703513C92080778",
+      "linked_quest": "6C653C090F3AC30F",
+      "size": 0.8,
+      "x": 4.5,
+      "y": -1.5
+    },
+    {
+      "id": "06DD90CC4A44A4BE",
+      "linked_quest": "6C7CCFE71CB75B96",
+      "size": 0.8,
+      "x": -1.5,
+      "y": 1.5
+    },
+    {
+      "id": "07E0B0DA26870EAB",
+      "linked_quest": "73A090F631B8E17F",
+      "size": 0.8,
+      "x": 4.5,
+      "y": 4.5
+    }
+  ],
+  "quests": [
+    {
+      "dependencies": [
+        "6C7CCFE71CB75B96"
+      ],
+      "icon": {
+        "id": "create:mechanical_piston"
+      },
+      "id": "2EAA9571BC8294C3",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "5566CA2A3E47CE56",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 12,
+          "id": "462E9C602548553A",
+          "item": {
+            "count": 1,
+            "id": "minecraft:redstone"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "gear",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "1791B75A7B0AF6CA",
+          "item": {
+            "count": 1,
+            "id": "create:mechanical_piston"
+          },
+          "type": "item"
+        },
+        {
+          "id": "722E97BCDDE1D654",
+          "type": "checkmark"
+        }
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "size": 1.5
+    },
+    {
+      "dependencies": [
+        "6C7CCFE71CB75B96"
+      ],
+      "icon": {
+        "id": "createaddition:barbed_wire"
+      },
+      "id": "17248A80D6AE3B8C",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "1C1A77133627827D",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 8,
+          "id": "4A03027564D2504C",
+          "item": {
+            "count": 1,
+            "id": "minecraft:iron_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "1F392A4021751C38",
+          "item": {
+            "count": 1,
+            "id": "createaddition:barbed_wire"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 0.0,
+      "y": 3.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "15304D6486E44D0C"
+      ],
+      "icon": {
+        "id": "create:redstone_link"
+      },
+      "id": "13B357FE1FD36419",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "647E8B86296AC5E1",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "288E9E205BCDECEA",
+          "item": {
+            "count": 1,
+            "id": "minecraft:redstone"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "6BE30366AC24C5B9",
+          "item": {
+            "count": 1,
+            "id": "create:redstone_link"
+          },
+          "type": "item"
+        },
+        {
+          "id": "01A9D31944A2758D",
+          "type": "checkmark"
+        }
+      ],
+      "x": 6.0,
+      "y": 3.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "6C653C090F3AC30F"
+      ],
+      "icon": {
+        "id": "create_radar:radar_bearing"
+      },
+      "id": "0CBFB291E762D065",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "7E20195B8A488ACE",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "72A411D90DEDD13B",
+          "item": {
+            "count": 1,
+            "id": "minecraft:copper_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "gear",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "0F3D978A8DAA20EC",
+          "item": {
+            "count": 1,
+            "id": "create_radar:radar_bearing"
+          },
+          "type": "item"
+        },
+        {
+          "id": "17D5F16A0E3FA20D",
+          "type": "checkmark"
+        }
+      ],
+      "x": 6.0,
+      "y": -3.0,
+      "size": 1.5
+    },
+    {
+      "dependencies": [
+        "0CBFB291E762D065"
+      ],
+      "icon": {
+        "id": "create_radar:monitor"
+      },
+      "id": "7DE945A24FFED183",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "5F2CB7F214B37DA8",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "32A86D3B466B86F3",
+          "item": {
+            "count": 1,
+            "id": "minecraft:redstone"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "554061922ABB6DCD",
+          "item": {
+            "count": 1,
+            "id": "create_radar:monitor"
+          },
+          "type": "item"
+        },
+        {
+          "id": "381660BBDF3FA326",
+          "type": "checkmark"
+        }
+      ],
+      "x": 9.0,
+      "y": -3.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "73A090F631B8E17F"
+      ],
+      "icon": {
+        "id": "createbigcannons:cannon_mount"
+      },
+      "id": "680042D233ABD53D",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "7D9F524ECD46A622",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "4729ABA52C8EEA74",
+          "item": {
+            "count": 1,
+            "id": "minecraft:gunpowder"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "5C5CF4F63FDE526D",
+          "item": {
+            "count": 1,
+            "id": "createbigcannons:cannon_mount"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 6.0,
+      "y": 6.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "2EAA9571BC8294C3"
+      ],
+      "icon": {
+        "id": "createbigcannons:cannon_mount"
+      },
+      "id": "0DBEA758ECC91E04",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "6825AB5F479B725F",
+          "type": "xp",
+          "xp": 10
+        }
+      ],
+      "shape": "hexagon",
+      "tasks": [
+        {
+          "id": "291A378B1A54C4C3",
+          "type": "checkmark"
+        }
+      ],
+      "x": 3.0,
+      "y": 0.0,
+      "size": 1.7
+    },
+    {
+      "dependencies": [
+        "06A9DEA31A1FB7C5"
+      ],
+      "icon": {
+        "id": "createbigcannons:cannon_mount"
+      },
+      "id": "6C5653AF72D70092",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "292757265F702198",
+          "type": "xp",
+          "xp": 10
+        }
+      ],
+      "shape": "hexagon",
+      "tasks": [
+        {
+          "id": "03D6329766BDAD63",
+          "type": "checkmark"
+        }
+      ],
+      "x": 9.0,
+      "y": 0.0,
+      "size": 1.7
+    }
+  ],
+  "autofocus_id": "2EAA9571BC8294C3"
 }

@@ -14,43 +14,43 @@
       "id": "3B2F9CE2FB0BA3AD",
       "linked_quest": "06A9DEA31A1FB7C5",
       "size": 0.8,
-      "x": -4.0,
-      "y": 0.0
+      "x": 7.5,
+      "y": -1.5
     },
     {
       "id": "78F0C0D5BD8B2446",
       "linked_quest": "0CBFB291E762D065",
       "size": 0.8,
-      "x": -4.0,
-      "y": 2.0
+      "x": -1.5,
+      "y": 4.5
     },
     {
       "id": "2B99B636CA31EBC6",
       "linked_quest": "3962DE258129E385",
       "size": 0.8,
-      "x": -4.0,
-      "y": 4.0
+      "x": -4.5,
+      "y": -1.5
     },
     {
       "id": "46C2AE358D5F956F",
       "linked_quest": "4D54883F548BDADF",
       "size": 0.8,
-      "x": -4.0,
-      "y": 6.0
+      "x": -1.5,
+      "y": -1.5
     },
     {
       "id": "61B14CCDBBAB0AD0",
       "linked_quest": "680042D233ABD53D",
       "size": 0.8,
-      "x": -4.0,
-      "y": 8.0
+      "x": 7.5,
+      "y": 1.5
     },
     {
       "id": "69C4714E525CD90A",
       "linked_quest": "7DE945A24FFED183",
       "size": 0.8,
-      "x": -4.0,
-      "y": 10.0
+      "x": 1.5,
+      "y": 4.5
     }
   ],
   "quests": [
@@ -97,7 +97,8 @@
         }
       ],
       "x": 0.0,
-      "y": 0.0
+      "y": 0.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -141,8 +142,9 @@
           "type": "checkmark"
         }
       ],
-      "x": 3.0,
-      "y": 0.0
+      "x": -3.0,
+      "y": -3.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -177,8 +179,9 @@
           "type": "checkmark"
         }
       ],
-      "x": 6.0,
-      "y": 0.0
+      "x": 0.0,
+      "y": 6.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -212,8 +215,9 @@
           "type": "checkmark"
         }
       ],
-      "x": 9.0,
-      "y": 0.0
+      "x": 3.0,
+      "y": 6.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -257,8 +261,9 @@
           "type": "checkmark"
         }
       ],
-      "x": 0.0,
-      "y": 3.0
+      "x": 9.0,
+      "y": 3.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -294,8 +299,9 @@
           "value": 250
         }
       ],
-      "x": 3.0,
-      "y": 3.0
+      "x": 6.0,
+      "y": 0.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -323,15 +329,16 @@
           "type": "item"
         }
       ],
-      "shape": "square",
+      "shape": "circle",
       "tasks": [
         {
           "id": "458F856BCC27FC66",
           "type": "checkmark"
         }
       ],
-      "x": 6.0,
-      "y": 3.0
+      "x": 3.0,
+      "y": -3.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -359,7 +366,7 @@
           "type": "item"
         }
       ],
-      "shape": "square",
+      "shape": "hexagon",
       "tasks": [
         {
           "id": "2074043232C82561",
@@ -372,8 +379,10 @@
           "criterion": ""
         }
       ],
-      "x": 9.0,
-      "y": 3.0
+      "x": 3.0,
+      "y": 3.0,
+      "size": 1.7
     }
-  ]
+  ],
+  "autofocus_id": "6F3C1A54CE1EBC37"
 }

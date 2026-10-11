@@ -1,300 +1,361 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: "circle"
-	filename: "enchanting"
-	group: "2386BF3579C3FCDA"
-	icon: {
-		id: "minecraft:enchanting_table"
-	}
-	id: "5F2925FD64837EB0"
-	images: [ ]
-	order_index: 2
-	quest_links: [
-		{
-			id: "441C062E26A2A5F8"
-			linked_quest: "648D61654BD7B5D4"
-			size: 0.8d
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			id: "71888978D5FE1F3E"
-			linked_quest: "73A090F631B8E17F"
-			size: 0.8d
-			x: -4.0d
-			y: 2.0d
-		}
-	]
-	quests: [
-		{
-			dependencies: ["73A090F631B8E17F"]
-			icon: {
-				id: "minecraft:enchanting_table"
-			}
-			id: "5B1A23EA8143B234"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "532343D46947AC2E"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 24
-					id: "61AAF78251323231"
-					item: {
-						count: 1
-						id: "minecraft:lapis_lazuli"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "02925F401A696DBA"
-				item: { count: 1, id: "minecraft:enchanting_table" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5B1A23EA8143B234"]
-			icon: {
-				id: "apotheosis:salvaging_table"
-			}
-			id: "0394122CC3D9ABA4"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "50DCD01F2D9B40DC"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 4
-					id: "3B058487393022CF"
-					item: {
-						count: 1
-						id: "minecraft:book"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "4EED565563650348"
-				item: { count: 1, id: "apotheosis:salvaging_table" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0394122CC3D9ABA4"]
-			icon: {
-				id: "apotheosis:simple_reforging_table"
-			}
-			id: "01DBC33090572255"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "31EFADB4270A904B"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 24
-					id: "62F928CD64A54159"
-					item: {
-						count: 1
-						id: "minecraft:lapis_lazuli"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "260FFEB5D474CF62"
-				item: { count: 1, id: "apotheosis:simple_reforging_table" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0394122CC3D9ABA4"]
-			icon: {
-				id: "apotheosis:gem_cutting_table"
-			}
-			id: "5A2BA6A765989D32"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "0D4C26D7897F7FB3"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "66E4FC83F75E0863"
-					item: {
-						count: 1
-						id: "minecraft:amethyst_shard"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "43B14C0BB4177014"
-				item: { count: 1, id: "apotheosis:gem_cutting_table" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5B1A23EA8143B234"]
-			icon: {
-				id: "create_enchantment_industry:experience_hatch"
-			}
-			id: "4663FEB50D3A3E89"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "7BC2E608AB34DBC5"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "0BD5741248EBA839"
-					item: {
-						count: 1
-						id: "minecraft:glass"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "0CB16F0DB3B2766A"
-				item: { count: 1, id: "create_enchantment_industry:experience_hatch" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["4663FEB50D3A3E89"]
-			icon: {
-				id: "create_enchantment_industry:mechanical_grindstone"
-			}
-			id: "0C1FA7FAE8B038CA"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "5273874DE29081B6"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 4
-					id: "5F1CF1CA0DE60A8B"
-					item: {
-						count: 1
-						id: "minecraft:book"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "25B4AFFE09F917E1"
-				item: { count: 1, id: "create_enchantment_industry:mechanical_grindstone" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"4663FEB50D3A3E89"
-				"648D61654BD7B5D4"
-			]
-			icon: {
-				id: "create_enchantment_industry:blaze_enchanter"
-			}
-			id: "6174FEABB7D9C4EA"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "1584E87D7A64E25A"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 32
-					id: "33F484D250B0399D"
-					item: {
-						count: 1
-						id: "minecraft:lapis_lazuli"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "220FCFCC7E538AC0"
-				item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"5A2BA6A765989D32"
-				"6174FEABB7D9C4EA"
-			]
-			icon: {
-				id: "create_enchantment_industry:gem_cutter"
-			}
-			id: "2A91FC3DBB4AD593"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "7100ED8DCF8AFACB"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 2
-					id: "36065D3BB403CD5A"
-					item: {
-						count: 1
-						id: "minecraft:diamond"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				consume_items: false
-				id: "0F6F3808E7C5FE53"
-				item: { count: 1, id: "create_enchantment_industry:gem_cutter" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: 3.0d
-		}
-	]
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "circle",
+  "filename": "enchanting",
+  "group": "2386BF3579C3FCDA",
+  "icon": {
+    "id": "minecraft:enchanting_table"
+  },
+  "id": "5F2925FD64837EB0",
+  "images": [],
+  "order_index": 2,
+  "quest_links": [
+    {
+      "id": "441C062E26A2A5F8",
+      "linked_quest": "648D61654BD7B5D4",
+      "size": 0.8,
+      "x": 6.0,
+      "y": 7.5
+    },
+    {
+      "id": "71888978D5FE1F3E",
+      "linked_quest": "73A090F631B8E17F",
+      "size": 0.8,
+      "x": -1.5,
+      "y": -1.5
+    }
+  ],
+  "quests": [
+    {
+      "dependencies": [
+        "73A090F631B8E17F"
+      ],
+      "icon": {
+        "id": "minecraft:enchanting_table"
+      },
+      "id": "5B1A23EA8143B234",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "532343D46947AC2E",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 24,
+          "id": "61AAF78251323231",
+          "item": {
+            "count": 1,
+            "id": "minecraft:lapis_lazuli"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "gear",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "02925F401A696DBA",
+          "item": {
+            "count": 1,
+            "id": "minecraft:enchanting_table"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "size": 1.5
+    },
+    {
+      "dependencies": [
+        "5B1A23EA8143B234"
+      ],
+      "icon": {
+        "id": "apotheosis:salvaging_table"
+      },
+      "id": "0394122CC3D9ABA4",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "50DCD01F2D9B40DC",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 4,
+          "id": "3B058487393022CF",
+          "item": {
+            "count": 1,
+            "id": "minecraft:book"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "4EED565563650348",
+          "item": {
+            "count": 1,
+            "id": "apotheosis:salvaging_table"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 3.0,
+      "y": -2.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "0394122CC3D9ABA4"
+      ],
+      "icon": {
+        "id": "apotheosis:simple_reforging_table"
+      },
+      "id": "01DBC33090572255",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "31EFADB4270A904B",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 24,
+          "id": "62F928CD64A54159",
+          "item": {
+            "count": 1,
+            "id": "minecraft:lapis_lazuli"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "260FFEB5D474CF62",
+          "item": {
+            "count": 1,
+            "id": "apotheosis:simple_reforging_table"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 6.0,
+      "y": -3.5,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "0394122CC3D9ABA4"
+      ],
+      "icon": {
+        "id": "apotheosis:gem_cutting_table"
+      },
+      "id": "5A2BA6A765989D32",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "0D4C26D7897F7FB3",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "66E4FC83F75E0863",
+          "item": {
+            "count": 1,
+            "id": "minecraft:amethyst_shard"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "43B14C0BB4177014",
+          "item": {
+            "count": 1,
+            "id": "apotheosis:gem_cutting_table"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 6.0,
+      "y": -0.5,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "5B1A23EA8143B234"
+      ],
+      "icon": {
+        "id": "create_enchantment_industry:experience_hatch"
+      },
+      "id": "4663FEB50D3A3E89",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "7BC2E608AB34DBC5",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "0BD5741248EBA839",
+          "item": {
+            "count": 1,
+            "id": "minecraft:glass"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "gear",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "0CB16F0DB3B2766A",
+          "item": {
+            "count": 1,
+            "id": "create_enchantment_industry:experience_hatch"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 3.0,
+      "y": 3.0,
+      "size": 1.5
+    },
+    {
+      "dependencies": [
+        "4663FEB50D3A3E89"
+      ],
+      "icon": {
+        "id": "create_enchantment_industry:mechanical_grindstone"
+      },
+      "id": "0C1FA7FAE8B038CA",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "5273874DE29081B6",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 4,
+          "id": "5F1CF1CA0DE60A8B",
+          "item": {
+            "count": 1,
+            "id": "minecraft:book"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "25B4AFFE09F917E1",
+          "item": {
+            "count": 1,
+            "id": "create_enchantment_industry:mechanical_grindstone"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 6.0,
+      "y": 2.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "4663FEB50D3A3E89",
+        "648D61654BD7B5D4"
+      ],
+      "icon": {
+        "id": "create_enchantment_industry:blaze_enchanter"
+      },
+      "id": "6174FEABB7D9C4EA",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "1584E87D7A64E25A",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 32,
+          "id": "33F484D250B0399D",
+          "item": {
+            "count": 1,
+            "id": "minecraft:lapis_lazuli"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "220FCFCC7E538AC0",
+          "item": {
+            "count": 1,
+            "id": "create_enchantment_industry:blaze_enchanter"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 6.0,
+      "y": 5.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "5A2BA6A765989D32",
+        "6174FEABB7D9C4EA"
+      ],
+      "icon": {
+        "id": "create_enchantment_industry:gem_cutter"
+      },
+      "id": "2A91FC3DBB4AD593",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "7100ED8DCF8AFACB",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 2,
+          "id": "36065D3BB403CD5A",
+          "item": {
+            "count": 1,
+            "id": "minecraft:diamond"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "hexagon",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "0F6F3808E7C5FE53",
+          "item": {
+            "count": 1,
+            "id": "create_enchantment_industry:gem_cutter"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 9.0,
+      "y": 2.25,
+      "size": 1.7
+    }
+  ],
+  "autofocus_id": "5B1A23EA8143B234"
 }

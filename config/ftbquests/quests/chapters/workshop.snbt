@@ -14,15 +14,15 @@
       "id": "761ABABD89E57880",
       "linked_quest": "25DE320C2C9C8489",
       "size": 0.8,
-      "x": -4.0,
-      "y": 0.0
+      "x": -1.5,
+      "y": -1.5
     },
     {
       "id": "7006C984BE3DFFF4",
       "linked_quest": "44D3DD5B83366C0F",
       "size": 0.8,
-      "x": -4.0,
-      "y": 2.0
+      "x": 4.5,
+      "y": -1.5
     }
   ],
   "quests": [
@@ -51,7 +51,7 @@
           "type": "item"
         }
       ],
-      "shape": "circle",
+      "shape": "gear",
       "tasks": [
         {
           "id": "0EF2FC3CF3ECF182",
@@ -61,7 +61,8 @@
         }
       ],
       "x": 0.0,
-      "y": 0.0
+      "y": 0.0,
+      "size": 1.5
     },
     {
       "dependencies": [
@@ -108,7 +109,8 @@
         }
       ],
       "x": 3.0,
-      "y": 0.0
+      "y": 0.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -144,8 +146,9 @@
           "criterion": ""
         }
       ],
-      "x": 6.0,
-      "y": 0.0
+      "x": 3.0,
+      "y": 3.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -181,8 +184,9 @@
           "criterion": ""
         }
       ],
-      "x": 9.0,
-      "y": 0.0
+      "x": 6.0,
+      "y": 0.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -210,7 +214,7 @@
           "type": "item"
         }
       ],
-      "shape": "circle",
+      "shape": "gear",
       "tasks": [
         {
           "consume_items": false,
@@ -222,8 +226,9 @@
           "type": "item"
         }
       ],
-      "x": 0.0,
-      "y": 3.0
+      "x": 9.0,
+      "y": 0.0,
+      "size": 1.5
     },
     {
       "dependencies": [
@@ -250,7 +255,7 @@
           "type": "item"
         }
       ],
-      "shape": "circle",
+      "shape": "gear",
       "tasks": [
         {
           "consume_items": false,
@@ -262,8 +267,9 @@
           "type": "item"
         }
       ],
-      "x": 3.0,
-      "y": 3.0
+      "x": 12.0,
+      "y": 0.0,
+      "size": 1.5
     },
     {
       "dependencies": [
@@ -302,8 +308,9 @@
           "type": "item"
         }
       ],
-      "x": 6.0,
-      "y": 3.0
+      "x": 12.0,
+      "y": 3.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -330,7 +337,7 @@
           "type": "item"
         }
       ],
-      "shape": "circle",
+      "shape": "hexagon",
       "tasks": [
         {
           "consume_items": false,
@@ -342,8 +349,9 @@
           "type": "item"
         }
       ],
-      "x": 9.0,
-      "y": 3.0
+      "x": 15.0,
+      "y": 0.0,
+      "size": 1.7
     },
     {
       "dependencies": [
@@ -366,7 +374,7 @@
           "type": "item"
         }
       ],
-      "shape": "hexagon",
+      "shape": "circle",
       "tasks": [
         {
           "dimension": "minecraft:the_nether",
@@ -374,8 +382,9 @@
           "type": "dimension"
         }
       ],
-      "x": 0.0,
-      "y": 6.0
+      "x": 6.0,
+      "y": -3.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -397,7 +406,7 @@
           "type": "item"
         }
       ],
-      "shape": "hexagon",
+      "shape": "circle",
       "tasks": [
         {
           "consume_items": false,
@@ -409,8 +418,10 @@
           "type": "item"
         }
       ],
-      "x": 3.0,
-      "y": 6.0
+      "x": 9.0,
+      "y": -3.0,
+      "size": 1.0
     }
-  ]
+  ],
+  "autofocus_id": "151F494B4AC4EAE7"
 }

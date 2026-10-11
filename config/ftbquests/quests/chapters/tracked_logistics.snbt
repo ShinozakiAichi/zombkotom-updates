@@ -1,223 +1,256 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
-	filename: "tracked_logistics"
-	group: "4957B56D0FAE7D74"
-	icon: {
-		id: "tracks:small_track_drive_wheel"
-	}
-	id: "398F4A69EF85F960"
-	images: [ ]
-	order_index: 1
-	quest_links: [
-		{
-			id: "5A5D6877AE1332C0"
-			linked_quest: "44A3DDBFCCE60432"
-			size: 0.8d
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			id: "0192DDE8CCC8E082"
-			linked_quest: "580D57CA2877EC79"
-			size: 0.8d
-			x: -4.0d
-			y: 2.0d
-		}
-		{
-			id: "57A12AB44E0D1B58"
-			linked_quest: "617308F0D67136D7"
-			size: 0.8d
-			x: -4.0d
-			y: 4.0d
-		}
-	]
-	quests: [
-		{
-			dependencies: ["580D57CA2877EC79"]
-			icon: {
-				id: "tracks:small_track_drive_wheel"
-			}
-			id: "28BBC8DD11C45014"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "22F4B9580843F03D"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 12
-					id: "5658B8B38647C41E"
-					item: {
-						count: 1
-						id: "create:iron_sheet"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [
-				{
-					consume_items: false
-					count: 2L
-					id: "464DBAEA53287A8E"
-					item: { count: 1, id: "tracks:small_track_drive_wheel" }
-					type: "item"
-				}
-				{
-					consume_items: false
-					count: 4L
-					id: "0A8AA4FC8D824A70"
-					item: { count: 1, id: "tracks:small_suspension_track" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["28BBC8DD11C45014"]
-			icon: {
-				id: "tracks:small_track_drive_wheel"
-			}
-			id: "21551CF34E19CBF4"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "2882714F8B612385"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 12
-					id: "6CED3054C31F370C"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				consume_items: false
-				id: "60B0DAF009D47155"
-				item: { count: 1, id: "tracks:suspension_key" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"21551CF34E19CBF4"
-				"617308F0D67136D7"
-			]
-			icon: {
-				id: "tracks:small_track_drive_wheel"
-			}
-			id: "48CD11D2B8CCD4C1"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "1A5DCF9F8C0181C9"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 16
-					id: "07DAD8CF21B66ABF"
-					item: {
-						count: 1
-						id: "minecraft:copper_ingot"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [
-				{
-					consume_items: false
-					count: 4L
-					id: "48796FCE6973D932"
-					item: { count: 1, id: "create:item_vault" }
-					type: "item"
-				}
-				{
-					consume_items: false
-					id: "71D9B9BC0BF8E3EC"
-					item: { count: 1, id: "createdieselgenerators:diesel_engine" }
-					type: "item"
-				}
-			]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["48CD11D2B8CCD4C1"]
-			icon: {
-				id: "tracks:small_track_drive_wheel"
-			}
-			id: "1232220D81450679"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "0E955B90F7668A1B"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 8
-					id: "46A2F58088631816"
-					item: {
-						count: 1
-						id: "minecraft:iron_ingot"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "0993C6EEB191A01C"
-				type: "checkmark"
-			}]
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"1232220D81450679"
-				"44A3DDBFCCE60432"
-			]
-			icon: {
-				id: "tracks:small_track_drive_wheel"
-			}
-			id: "013D5926CA36ECBB"
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "7BAE403228311A06"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 16
-					id: "4EC89094BDA84D31"
-					item: {
-						count: 1
-						id: "minecraft:coal"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "7B8CAF6E3A70FEE1"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 4.0d
-		}
-	]
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "filename": "tracked_logistics",
+  "group": "4957B56D0FAE7D74",
+  "icon": {
+    "id": "tracks:small_track_drive_wheel"
+  },
+  "id": "398F4A69EF85F960",
+  "images": [],
+  "order_index": 1,
+  "quest_links": [
+    {
+      "id": "5A5D6877AE1332C0",
+      "linked_quest": "44A3DDBFCCE60432",
+      "size": 0.8,
+      "x": 10.5,
+      "y": -1.5
+    },
+    {
+      "id": "0192DDE8CCC8E082",
+      "linked_quest": "580D57CA2877EC79",
+      "size": 0.8,
+      "x": -1.5,
+      "y": -1.5
+    },
+    {
+      "id": "57A12AB44E0D1B58",
+      "linked_quest": "617308F0D67136D7",
+      "size": 0.8,
+      "x": 4.5,
+      "y": -1.5
+    }
+  ],
+  "quests": [
+    {
+      "dependencies": [
+        "580D57CA2877EC79"
+      ],
+      "icon": {
+        "id": "tracks:small_track_drive_wheel"
+      },
+      "id": "28BBC8DD11C45014",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "22F4B9580843F03D",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 12,
+          "id": "5658B8B38647C41E",
+          "item": {
+            "count": 1,
+            "id": "create:iron_sheet"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "gear",
+      "tasks": [
+        {
+          "consume_items": false,
+          "count": 2,
+          "id": "464DBAEA53287A8E",
+          "item": {
+            "count": 1,
+            "id": "tracks:small_track_drive_wheel"
+          },
+          "type": "item"
+        },
+        {
+          "consume_items": false,
+          "count": 4,
+          "id": "0A8AA4FC8D824A70",
+          "item": {
+            "count": 1,
+            "id": "tracks:small_suspension_track"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 0.0,
+      "y": 0.0,
+      "size": 1.5
+    },
+    {
+      "dependencies": [
+        "28BBC8DD11C45014"
+      ],
+      "icon": {
+        "id": "tracks:small_track_drive_wheel"
+      },
+      "id": "21551CF34E19CBF4",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "2882714F8B612385",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 12,
+          "id": "6CED3054C31F370C",
+          "item": {
+            "count": 1,
+            "id": "minecraft:iron_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "id": "60B0DAF009D47155",
+          "item": {
+            "count": 1,
+            "id": "tracks:suspension_key"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 3.0,
+      "y": 0.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "21551CF34E19CBF4",
+        "617308F0D67136D7"
+      ],
+      "icon": {
+        "id": "tracks:small_track_drive_wheel"
+      },
+      "id": "48CD11D2B8CCD4C1",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "1A5DCF9F8C0181C9",
+          "type": "xp",
+          "xp": 25
+        },
+        {
+          "count": 16,
+          "id": "07DAD8CF21B66ABF",
+          "item": {
+            "count": 1,
+            "id": "minecraft:copper_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "circle",
+      "tasks": [
+        {
+          "consume_items": false,
+          "count": 4,
+          "id": "48796FCE6973D932",
+          "item": {
+            "count": 1,
+            "id": "create:item_vault"
+          },
+          "type": "item"
+        },
+        {
+          "consume_items": false,
+          "id": "71D9B9BC0BF8E3EC",
+          "item": {
+            "count": 1,
+            "id": "createdieselgenerators:diesel_engine"
+          },
+          "type": "item"
+        }
+      ],
+      "x": 6.0,
+      "y": 0.0,
+      "size": 1.0
+    },
+    {
+      "dependencies": [
+        "48CD11D2B8CCD4C1"
+      ],
+      "icon": {
+        "id": "tracks:small_track_drive_wheel"
+      },
+      "id": "1232220D81450679",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "0E955B90F7668A1B",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "count": 8,
+          "id": "46A2F58088631816",
+          "item": {
+            "count": 1,
+            "id": "minecraft:iron_ingot"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "hexagon",
+      "tasks": [
+        {
+          "id": "0993C6EEB191A01C",
+          "type": "checkmark"
+        }
+      ],
+      "x": 9.0,
+      "y": 0.0,
+      "size": 1.7
+    },
+    {
+      "dependencies": [
+        "1232220D81450679",
+        "44A3DDBFCCE60432"
+      ],
+      "icon": {
+        "id": "tracks:small_track_drive_wheel"
+      },
+      "id": "013D5926CA36ECBB",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "7BAE403228311A06",
+          "type": "xp",
+          "xp": 10
+        },
+        {
+          "count": 16,
+          "id": "4EC89094BDA84D31",
+          "item": {
+            "count": 1,
+            "id": "minecraft:coal"
+          },
+          "type": "item"
+        }
+      ],
+      "shape": "hexagon",
+      "tasks": [
+        {
+          "id": "7B8CAF6E3A70FEE1",
+          "type": "checkmark"
+        }
+      ],
+      "x": 12.0,
+      "y": 0.0,
+      "size": 1.7
+    }
+  ],
+  "autofocus_id": "28BBC8DD11C45014"
 }

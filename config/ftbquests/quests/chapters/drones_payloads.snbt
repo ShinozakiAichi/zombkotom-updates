@@ -10,8 +10,8 @@
     {
       "id": "3B3135074D6F7F99",
       "x": 0.0,
-      "y": 0.0,
-      "shape": "square",
+      "y": -3.0,
+      "shape": "gear",
       "icon": {
         "id": "fpvcraft:fpv_drone"
       },
@@ -49,13 +49,14 @@
           },
           "count": 8
         }
-      ]
+      ],
+      "size": 1.5
     },
     {
       "id": "6A5521B8E6F9A66C",
       "x": 3.0,
-      "y": 0.0,
-      "shape": "square",
+      "y": -3.0,
+      "shape": "hexagon",
       "icon": {
         "id": "fpvcraft:race_gate"
       },
@@ -87,13 +88,14 @@
       ],
       "dependencies": [
         "3B3135074D6F7F99"
-      ]
+      ],
+      "size": 1.7
     },
     {
       "id": "3530AB26AB391075",
       "x": 0.0,
-      "y": 3.0,
-      "shape": "circle",
+      "y": 2.0,
+      "shape": "gear",
       "icon": {
         "id": "superbwarfare:drone"
       },
@@ -127,13 +129,14 @@
           },
           "count": 4
         }
-      ]
+      ],
+      "size": 1.5
     },
     {
       "id": "76029E686F071E34",
       "x": 3.0,
-      "y": 3.0,
-      "shape": "square",
+      "y": -0.5,
+      "shape": "circle",
       "icon": {
         "id": "superbwarfare:monitor"
       },
@@ -165,13 +168,14 @@
       ],
       "dependencies": [
         "3530AB26AB391075"
-      ]
+      ],
+      "size": 1.0
     },
     {
       "id": "3B9D5900FC79FA79",
-      "x": 6.0,
-      "y": 3.0,
-      "shape": "square",
+      "x": 3.0,
+      "y": 2.5,
+      "shape": "circle",
       "icon": {
         "id": "superbwarfare:rgo_grenade"
       },
@@ -203,13 +207,14 @@
       ],
       "dependencies": [
         "3530AB26AB391075"
-      ]
+      ],
+      "size": 1.0
     },
     {
       "id": "41A433EE65B38B76",
-      "x": 6.0,
-      "y": 5.0,
-      "shape": "square",
+      "x": 3.0,
+      "y": 5.5,
+      "shape": "circle",
       "icon": {
         "id": "superbwarfare:medical_kit"
       },
@@ -241,13 +246,14 @@
       ],
       "dependencies": [
         "3530AB26AB391075"
-      ]
+      ],
+      "size": 1.0
     },
     {
       "id": "209E72EF63F10AA6",
       "x": 0.0,
-      "y": 6.0,
-      "shape": "square",
+      "y": 7.0,
+      "shape": "hexagon",
       "icon": {
         "id": "create:precision_mechanism"
       },
@@ -276,7 +282,9 @@
           },
           "count": 16
         }
-      ]
+      ],
+      "size": 1.7
     }
-  ]
+  ],
+  "autofocus_id": "3B3135074D6F7F99"
 }

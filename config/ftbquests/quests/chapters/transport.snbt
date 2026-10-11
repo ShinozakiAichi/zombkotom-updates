@@ -14,15 +14,15 @@
       "id": "19F736A44A6A20FF",
       "linked_quest": "15304D6486E44D0C",
       "size": 0.8,
-      "x": -4.0,
-      "y": 0.0
+      "x": -3.0,
+      "y": -3.0
     },
     {
       "id": "25BE797E17826F86",
       "linked_quest": "6C653C090F3AC30F",
       "size": 0.8,
-      "x": -4.0,
-      "y": 2.0
+      "x": -1.5,
+      "y": 1.5
     }
   ],
   "quests": [
@@ -51,7 +51,7 @@
           "type": "item"
         }
       ],
-      "shape": "circle",
+      "shape": "gear",
       "tasks": [
         {
           "consume_items": false,
@@ -64,7 +64,8 @@
         }
       ],
       "x": 0.0,
-      "y": 0.0
+      "y": -4.0,
+      "size": 1.5
     },
     {
       "dependencies": [
@@ -107,7 +108,8 @@
         }
       ],
       "x": 3.0,
-      "y": 0.0
+      "y": -4.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -146,8 +148,9 @@
           "type": "item"
         }
       ],
-      "x": 6.0,
-      "y": 0.0
+      "x": 0.0,
+      "y": -1.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -174,7 +177,7 @@
           "type": "item"
         }
       ],
-      "shape": "circle",
+      "shape": "gear",
       "tasks": [
         {
           "consume_items": false,
@@ -186,8 +189,9 @@
           "type": "item"
         }
       ],
-      "x": 9.0,
-      "y": 0.0
+      "x": 0.0,
+      "y": 3.0,
+      "size": 1.5
     },
     {
       "dependencies": [
@@ -226,8 +230,9 @@
           "type": "item"
         }
       ],
-      "x": 0.0,
-      "y": 3.0
+      "x": 3.0,
+      "y": 0.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -267,7 +272,8 @@
         }
       ],
       "x": 3.0,
-      "y": 3.0
+      "y": 3.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -306,8 +312,9 @@
           "type": "item"
         }
       ],
-      "x": 6.0,
-      "y": 3.0
+      "x": 3.0,
+      "y": 6.0,
+      "size": 1.0
     },
     {
       "dependencies": [
@@ -335,15 +342,17 @@
           "type": "item"
         }
       ],
-      "shape": "square",
+      "shape": "hexagon",
       "tasks": [
         {
           "id": "01C898E816CCE40A",
           "type": "checkmark"
         }
       ],
-      "x": 9.0,
-      "y": 3.0
+      "x": 6.0,
+      "y": 4.5,
+      "size": 1.7
     }
-  ]
+  ],
+  "autofocus_id": "26A9B5935B02106A"
 }

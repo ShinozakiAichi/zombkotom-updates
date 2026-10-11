@@ -246,95 +246,95 @@ hash = "c7aadcd607fec1ab99cf5068c3bcc22dd720fc04abaf5438487785afd8f340f0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/arsenal.snbt"
-hash = "a8df7c040fe6c8786ba844b03af596b32aa2d509a1fa8bcb02cf6eac03f1f131"
+hash = "74b4ead4738f24f40771f92dca734e0bff70ca61d9529ff791f7cbaad0e3c522"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/defense.snbt"
-hash = "2193eacbfc869266bb6955299c0d89b50cde37def9032eee0bcc09c3757a625d"
+hash = "21c58d08686a30dff0fbe990290c743bb954ffb578e8b541d49ac4e1c91cf104"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/drones_payloads.snbt"
-hash = "fbcd8810ad07492f1ac925a2fe52dce3005834bedc3753ea4a776da6db2ed4e1"
+hash = "ace80c868b83fcd224a6f9103e6ce12fe1fa9f7051ebcd7a1b37a5f0691f0ee7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/enchanting.snbt"
-hash = "2be77c9b5f1af4d3d3b52d379594d256e9a3d6ed172fa1a6ab9be98e2ca24f2b"
+hash = "fd2277084449dd9aca8c07bf996a69a74c40d0748c25e6503bb3bce4e3f3c142"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/equipment.snbt"
-hash = "5de1a104278656ed89bb7d20772b01579de921809280c92380834224b4cd153a"
+hash = "7a8c50558a7aeab93ac2ac31b39318da3f12dc00edad64fdba8a5ee418732c8a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/expedition.snbt"
-hash = "2b7b7bf607b2189df9514a0c8e4ba2d9205376015d0f4e83dc0ba97ba36f4ddc"
+hash = "e6be7f22802bbbb0dd16072b41bfa9e8a715238face16df7db101262f511c82c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fuel.snbt"
-hash = "7d1de4e8b17d8399136b1f4f2cc5067a5a07a4ca7ea829bf085677ac2e96f4c6"
+hash = "e10fafa4546a63151759696766edc48b1d2dab5b70ab9da58f2e7d165012f8ac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hard_endgame.snbt"
-hash = "1701bdcc1df7be402547598d4075c255300d7acaaa182f784e0b6c9f9c6049c4"
+hash = "647f6823b8608a0f2d573a58650ddba6dcbfd9f7e885fe7c09270a1162e5cd50"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hard_factory.snbt"
-hash = "5a00ca375a9e97ba8b58e9694a2103d4203b822d538faaf96830c9effe09bb3f"
+hash = "3012715de54df113ef2d90e047adf3ef400ede40bc97723833f539fb729a68b4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hard_siege.snbt"
-hash = "4f921eba598529b74cf8a4e7aa3187672f99e19be55c5cce57cfc3cb9afe7425"
+hash = "c1b49ccc461264b7ca463281a77ff06e55f0959206c4a30b1ff0d79cc2b3ded8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/home.snbt"
-hash = "fb631b8656acc3c4034f3a6fa8f4898b249d34e4342435c5c3fc1817fb5d1273"
+hash = "f33ddce74d9b3df271969db0a9ce1a2bfa84aabae9ae08390736b0cca9431573"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_expeditions.snbt"
-hash = "b6a48fc4f813b74596919178834a4f2b05775b6f7850a6c1a5c2de54c4c0b1e8"
+hash = "cf363ac73d22461dde77eacf9b0190c70e59e222f6f7a1a8c459593edf9aa8f5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industry.snbt"
-hash = "641cb06d7e38ab462625cb1eaa96e9157a9d7d678ca44a486cd4a5badfb2cc4e"
+hash = "423d9a034618b4ea78ef347a7f5953eda0b2207e9472d3f76ecf444cb4faab4f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/layered_defense.snbt"
-hash = "4ccaf1368a44d4c8dd9fab2e29429eaa54bf12e0949c8dd113a6fa3d85e28899"
+hash = "b75d8c1ad42daaec37deeb66a01aedf1215389bc2db5bbb487b3e33024785923"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/megaprojects.snbt"
-hash = "2a161b18337b6ce987889dca2dbe117cf0a728d6e52b533d08453b096e2a1f82"
+hash = "21f75b8a02b5b42ed55b1d2395318d4993634bcd5cb16064bec9728d1a86bd67"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/night_milestones.snbt"
-hash = "eb0e98f204ccb0b96cc552f13986cae599ebb8823a8d852e4800b1d27a138b5d"
+hash = "81826178ce00811fb84106f001d70297d563553d7c8ad8e6533ed27aae1dbd8e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/power_grid.snbt"
-hash = "de45a95fc43c1061bd1a047fc0200c51520e0e8ead7e0f2515a18b215e3dbe77"
+hash = "5cb1d323ba74334fe28629eca6f960bf187b56e566f36066ed4145927b65005b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/recovery.snbt"
-hash = "2ec2fd5a47fcea1a121cd4eb8612c75803815ed95073b247dd47c708d0254ee2"
+hash = "2607adf7b7496156490bef23eabbad246b8589178461f3a4559c35b8d155c911"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/supply.snbt"
-hash = "9500f72050991c6bb0ed78b7ff52a34cb97a380ba5bdebf29628d0bba52296a0"
+hash = "bfce46b60f4c2aa5ac165e21504f545c60c3ae4969161e54c6cc8f4fb732fea8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/survival.snbt"
-hash = "373000cfa913264e392fc1f5b8d166bb3d3d270620a53556cc3928445d431cbe"
+hash = "7977cd8b287f4110c03275032816d6f3b674b06b44cdde1f0f23e26770c0d21b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tracked_logistics.snbt"
-hash = "a9742a4b3605fcdceb3f7d84bd401188cfdd6ddbef4b63ddcaa6b8300d9ace28"
+hash = "50dddcd292722595f70560383c6cb93149f5462a65feb5e98f25e81406950ccb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/transport.snbt"
-hash = "befb9c66f6f79b2cc1ac78728f6c943bf27e84f88b510abd76c9eedb07211f97"
+hash = "7e66fe486287c02011b6606fdb758ca0c25db2e6bf29525488ebe87452ff05d4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/workshop.snbt"
-hash = "9c072cde12fc06e79fa8de6e3a7d8f579e8c915e6a455f6a86e53cdd72938a5e"
+hash = "86312f4bf1e3cd44a7a8b482f4eec752cc4598114b79baf1fce9e1da9ec06e92"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -342,11 +342,11 @@ hash = "133415d5f8db00cb9a199fd0689c03f3a8c9b6feef8d37e7b443009a6f6d1258"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "7c6e5c4db3da74a004e88504370da9499155e29c9ab5ad236b090265f53f9865"
+hash = "4353f6d6b43020891b1d7b25c86c6a905400a458bfd9fc0ec6de62eba1760342"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "ce9ae1c2d5b4b2ec89b5be04c6aac903fd00a2d7e6db21bd19370f991a6be742"
+hash = "4353f6d6b43020891b1d7b25c86c6a905400a458bfd9fc0ec6de62eba1760342"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -526,7 +526,7 @@ hash = "525b0b4de8e6fad45182ed9c2493e0d6d991aa35106b26f9381b70b73794651c"
 
 [[files]]
 file = "config/lostcities/profiles/last_bastion.json"
-hash = "adb837588d06e060942e64ef64ca7b4ffd4ba20b8ee5951a9ab1c430f6157a11"
+hash = "6874fcc0069468f343a1eac4adcb4a35db84c86fef1a27c9253c608fa942ba36"
 
 [[files]]
 file = "config/lostcities/profiles/nodamage.json"
@@ -4581,8 +4581,8 @@ hash = "9ea875c570666568101265013a37ec9cb9e2e3dd0d3d804a9a9d93de8fae5034"
 metafile = true
 
 [[files]]
-file = "mods/lastbastion-industrial-compat-1.2.0.jar"
-hash = "1e9052a49c35c63781d2c341b4e5cb6de78fffcd6cde189f1c4ad60f84462166"
+file = "mods/lastbastion-industrial-compat-1.3.0.jar"
+hash = "bda634ca03518b77789a935cf1efea872bcd58ea4ca00192e3f0841fe9ef1a9e"
 
 [[files]]
 file = "mods/libipn.pw.toml"

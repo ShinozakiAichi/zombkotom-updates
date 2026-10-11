@@ -14,7 +14,7 @@
         "528BB03813D52220"
       ],
       "progression_mode": "linear",
-      "shape": "hexagon",
+      "shape": "circle",
       "x": 0.0,
       "y": 0.0,
       "icon": {
@@ -42,7 +42,8 @@
           },
           "count": 32
         }
-      ]
+      ],
+      "size": 1.0
     },
     {
       "id": "1CD97E46051CB1B1",
@@ -50,8 +51,8 @@
         "528BB03813D52220"
       ],
       "progression_mode": "linear",
-      "shape": "hexagon",
-      "x": 4.0,
+      "shape": "circle",
+      "x": 3.0,
       "y": 0.0,
       "icon": {
         "id": "minecraft:clock"
@@ -78,7 +79,8 @@
           },
           "count": 8
         }
-      ]
+      ],
+      "size": 1.0
     },
     {
       "id": "062563B2909C0DE9",
@@ -86,8 +88,8 @@
         "528BB03813D52220"
       ],
       "progression_mode": "linear",
-      "shape": "hexagon",
-      "x": 8.0,
+      "shape": "circle",
+      "x": 6.0,
       "y": 0.0,
       "icon": {
         "id": "minecraft:clock"
@@ -114,7 +116,8 @@
           },
           "count": 16
         }
-      ]
+      ],
+      "size": 1.0
     },
     {
       "id": "2B62B398D58E442C",
@@ -122,9 +125,9 @@
         "528BB03813D52220"
       ],
       "progression_mode": "linear",
-      "shape": "hexagon",
-      "x": 0.0,
-      "y": 4.0,
+      "shape": "circle",
+      "x": 9.0,
+      "y": 0.0,
       "icon": {
         "id": "minecraft:clock"
       },
@@ -150,7 +153,8 @@
           },
           "count": 16
         }
-      ]
+      ],
+      "size": 1.0
     },
     {
       "id": "39F4884FDBE55FC1",
@@ -159,8 +163,8 @@
       ],
       "progression_mode": "linear",
       "shape": "hexagon",
-      "x": 4.0,
-      "y": 4.0,
+      "x": 12.0,
+      "y": 0.0,
       "icon": {
         "id": "minecraft:clock"
       },
@@ -186,16 +190,18 @@
           },
           "count": 8
         }
-      ]
+      ],
+      "size": 1.7
     }
   ],
   "quest_links": [
     {
       "id": "2889128C5F04FE80",
       "linked_quest": "528BB03813D52220",
-      "x": -4.0,
-      "y": 0.0,
+      "x": 6.0,
+      "y": -3.0,
       "size": 0.8
     }
-  ]
+  ],
+  "autofocus_id": "0466041755A87EE2"
 }
