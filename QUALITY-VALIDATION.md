@@ -34,3 +34,9 @@ The updater's local/public transition checks and host startup are recorded below
 ## Local update canary
 
 PASS: 118 JARs, all 1168 managed installed hashes, repeat invocation exit 0. Six personal sentinels (radio JSON, custom shader ZIP and its options, Iris selection, keybinds and a world file) stayed byte-identical.
+
+## Public update and host startup
+
+GitHub Pages served the exact pack.toml and all 19 changed/added data files. The public updater and repeated invocation passed: 118 JARs, 1168 installed hashes, six personal sentinels preserved. The real host has all 19 exact overlay hashes and all 118 exact mod SHA-512 hashes. Personal files matched their pre-update hashes before launch; heap limit remains 16384 MiB.
+
+The real Pinecone pre-launch reported the pack up to date. Client log on 2026-10-11 reported startup completed in 67.537 seconds at 19:10:32; javaw remained responsive. This confirms client startup, not visual book layout, in-world rendering, a full quest playthrough, or two real players. OpenGL texture-format and other prior asset warnings remain.
