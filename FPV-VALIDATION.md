@@ -45,3 +45,15 @@ See `DRONES-RU.md` for the short in-game checklist and the distinction between u
 ## Update canary
 
 Local candidate update and repeat invocation passed: 118 JARs, 1161 installed file hashes verified. Radio calibration JSON, custom shader ZIP/settings, Iris selection, keybinds and a save sentinel were byte-preserved. The initial local HTTP fixture rejected two concurrent connections; increasing its listen backlog and retrying completed the update. Public CDN delivery and the real client are checked separately after publishing.
+
+## Published update and real client startup
+
+GitHub Pages served pack.toml matching the published bytes. Public update and repeat invocation passed with 118 JARs and 1161 installed file hashes; the six personal-file sentinels, including fpvcraft-radio.json, remained unchanged.
+
+Host update installed all 118 exact mod SHA-512 hashes and all 12 changed gameplay files. The previous compatibility JAR was removed. Existing locally customized voicechat-server.properties remained as it was; it differs from the default manifest and was not forcibly reset.
+
+Real Pinecone pre-launch reported the pack already up to date. The Minecraft log registered FPVCraft 0.2.0 and Industrial Compatibility 1.1.0, selected ComplementaryReimagined_r5.9.3.zip, and reported startup completed in 74.956 seconds. Java remained running and responsive. Host heap limit remained 16384 MiB. This confirms startup, not a visually inspected menu or in-world flight.
+
+Iris rewrote its timestamped properties and shader-option text on startup; shader ZIP bytes were unchanged. Byte-preservation of personal files by the updater itself passed in the isolated public-update test.
+
+Client log limitations: GeckoLib reported SBW animation parse errors; Undead texture/model warnings, OpenGL GL_INVALID_VALUE texture-format errors, an Xaero online-version-data warning, and Complementary uniform warnings were present. No FPVCraft/compatibility-patch exception or fatal startup failure was observed. These rendering warnings are not claimed fixed; camera appearance with shaders still needs playtesting.
