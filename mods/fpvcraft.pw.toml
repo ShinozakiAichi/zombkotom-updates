@@ -1,0 +1,8 @@
+name = "FPVCraft"
+filename = "fpvcraft-0.2.0.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/9029/925/fpvcraft-0.2.0.jar"
+hash-format = "sha512"
+hash = "03b4e793816e4b9fd10076855d935b8766bf042001f628d6876d1f197da05345f702d337cf48c89a0628ffed1dca63eaaa1a364f409e4fb24d5978225f1307e5"

@@ -5,6 +5,7 @@
 В индекс запрещено включать:
 
 - shaderpacks/** и config/iris.properties;
+- config/fpvcraft-radio.json (пульт, оси, калибровка);
 - options.txt, saves/**, xaero/**, screenshots/**, logs/**;
 - аккаунты, токены, servers.dat, usercache.json, локальные резервные копии;
 - config/sodium-options.json и sodium-fingerprint.json;

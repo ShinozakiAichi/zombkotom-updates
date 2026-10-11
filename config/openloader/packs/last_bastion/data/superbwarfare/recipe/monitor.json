@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:lightning_rod"
+    },
+    "b": {
+      "item": "minecraft:lever"
+    },
+    "c": {
+      "item": "create:brass_sheet"
+    },
+    "d": {
+      "item": "create:electron_tube"
+    },
+    "e": {
+      "tag": "c:glass_panes"
+    }
+  },
+  "pattern": [
+    "a a",
+    "beb",
+    "dcd"
+  ],
+  "result": {
+    "count": 1,
+    "id": "superbwarfare:monitor"
+  }
+}

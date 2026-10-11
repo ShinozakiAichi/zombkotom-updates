@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "superbwarfare:propeller"
+    },
+    "b": {
+      "item": "superbwarfare:motor"
+    },
+    "c": {
+      "item": "create:precision_mechanism"
+    },
+    "e": {
+      "item": "superbwarfare:cell"
+    }
+  },
+  "pattern": [
+    "a a",
+    "bcb",
+    " e "
+  ],
+  "result": {
+    "count": 1,
+    "id": "superbwarfare:drone"
+  }
+}

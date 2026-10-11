@@ -253,6 +253,10 @@ file = "config/ftbquests/quests/chapters/defense.snbt"
 hash = "2193eacbfc869266bb6955299c0d89b50cde37def9032eee0bcc09c3757a625d"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/drones_payloads.snbt"
+hash = "fbcd8810ad07492f1ac925a2fe52dce3005834bedc3753ea4a776da6db2ed4e1"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/enchanting.snbt"
 hash = "2be77c9b5f1af4d3d3b52d379594d256e9a3d6ed172fa1a6ab9be98e2ca24f2b"
 
@@ -334,11 +338,11 @@ hash = "133415d5f8db00cb9a199fd0689c03f3a8c9b6feef8d37e7b443009a6f6d1258"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+hash = "7c6e5c4db3da74a004e88504370da9499155e29c9ab5ad236b090265f53f9865"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "b3c268baa3efb315498f57339b0170b90e0186d3b06e3a562a785652e5e0f336"
+hash = "68760676a67962ba8193617952d1e8f568f633fecfb3f0c570e0c4b3973f252b"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -1771,6 +1775,26 @@ hash = "7b20c9c7fadd0630564ee31853a5b2a39a25b99493cc239fa002434b0443f849"
 [[files]]
 file = "config/openloader/packs/last_bastion/data/dndecor/loot_table/blocks/verdant_velvet_block.json"
 hash = "7b20c9c7fadd0630564ee31853a5b2a39a25b99493cc239fa002434b0443f849"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/fpvcraft/recipe/battery_charger.json"
+hash = "b28b59adb2d209b7c61afdcb8a94a8385bdb9cdc2f4fb87c933126e03211d7b5"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/fpvcraft/recipe/camera_nano.json"
+hash = "7dc5e8fdf59b480bd8245cbda57c787ab08974706d4bd52b45ff98256c38d56a"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/fpvcraft/recipe/drone_workbench.json"
+hash = "35fedf4f2271590b336e9e5db86f81557d32d559ca1e3e5293c75ee18ed5b281"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/fpvcraft/recipe/fpv_goggles.json"
+hash = "842d4cf99b33a43c1c13c05aca50f03a2674bedd449934b6ae54e954600ce4e5"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/fpvcraft/recipe/stack_f7_45a.json"
+hash = "d426b586c72c807c9a8253d2716f6e2de65c840c0abe87fc4deb95c490ccbce2"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/advancement/air.json"
@@ -3845,6 +3869,18 @@ file = "config/openloader/packs/last_bastion/data/simulated/recipe/physics_assem
 hash = "25e80a99bc9a47c88b1f8fb0dc48ff6fff5bc000483a109ca347ce27ac3b0b33"
 
 [[files]]
+file = "config/openloader/packs/last_bastion/data/superbwarfare/recipe/drone.json"
+hash = "d3a910f3a0609937a970c305c7d86624d616783fcab14b2f7d60c389d46399f6"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/superbwarfare/recipe/laser_tower.json"
+hash = "55daf9d46b96307c5b5c31320b8bc48aa29a2f3c973e570251b67264d1d7e3ec"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/superbwarfare/recipe/monitor.json"
+hash = "e8d058c7849ef8371f701bc779c4970136484776041c3b1828373df5173610c6"
+
+[[files]]
 file = "config/openloader/packs/last_bastion/data/superbwarfare/recipe/vehicle_assembling_table.json"
 hash = "d566cbb9b93d4e0021ed91f7968ee36d0a09c1c9be3f2c668993c796693a6316"
 
@@ -3875,6 +3911,10 @@ hash = "8fe5700815afc0f71d8e7272c5ef3f1323a29336c62c6b31ede6fb8bed5bdf5e"
 [[files]]
 file = "config/openloader/packs/last_bastion_visuals/assets/create_sa/models/custom/flamethrower.json"
 hash = "c77bf4fc042b69e74ef946a4161b49fe60a1feff8e63ab0727a5a3760f3a85fd"
+
+[[files]]
+file = "config/openloader/packs/last_bastion_visuals/assets/fpvcraft/lang/ru_ru.json"
+hash = "98d2eda5af22cfb504d3a1e31ff3546ad2cfcfa24e6c4de435cecec780bc31f0"
 
 [[files]]
 file = "config/openloader/packs/last_bastion_visuals/assets/minecraft/atlases/blocks.json"
@@ -4398,6 +4438,11 @@ hash = "304b35c16ac10edf6024488d7c63ef73ff7fb8518cc4f7daf88ada5014d15d2d"
 metafile = true
 
 [[files]]
+file = "mods/fpvcraft.pw.toml"
+hash = "ea68cb42d19c9849d4e30790f3e78c9dc7510358b4d7e5e42905b5c7dd844dd8"
+metafile = true
+
+[[files]]
 file = "mods/framedblocks.pw.toml"
 hash = "5457c5734a3d7db844e9c4e668feda3c5e9461cba564e2b7a555c35c15dc1939"
 metafile = true
@@ -4488,8 +4533,8 @@ hash = "9ea875c570666568101265013a37ec9cb9e2e3dd0d3d804a9a9d93de8fae5034"
 metafile = true
 
 [[files]]
-file = "mods/lastbastion-industrial-compat-1.0.0.jar"
-hash = "fde242fec283f95f44bc6c20733dd719725faffd3301598dde1be99cc48ede1a"
+file = "mods/lastbastion-industrial-compat-1.1.0.jar"
+hash = "bf310bb6d906c6ba9dc0de491e8e32aa91537d1eb38ae4487ef3416fc224a2d8"
 
 [[files]]
 file = "mods/libipn.pw.toml"

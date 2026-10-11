@@ -1,0 +1,15 @@
+{
+  "type": "superbwarfare:vehicle_assembling",
+  "category": "defense",
+  "inputs": [
+    "#c:storage_blocks/steel",
+    "superbwarfare:laser_unit",
+    "superbwarfare:small_battery_pack",
+    "superbwarfare:motor",
+    "create:precision_mechanism",
+    "create:redstone_link"
+  ],
+  "result": {
+    "entity": "superbwarfare:laser_tower"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "create:electron_tube"
+    }
+  ],
+  "result": {
+    "id": "fpvcraft:stack_f7_45a",
+    "count": 1
+  }
+}

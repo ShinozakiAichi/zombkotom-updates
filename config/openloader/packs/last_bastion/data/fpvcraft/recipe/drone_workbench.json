@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "III",
+    "PCP",
+    "P P"
+  ],
+  "key": {
+    "I": {
+      "item": "create:iron_sheet"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "C": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "id": "fpvcraft:drone_workbench",
+    "count": 1
+  }
+}

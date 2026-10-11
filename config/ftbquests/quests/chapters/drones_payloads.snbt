@@ -1,0 +1,282 @@
+{
+  "id": "797F6FEDCEE788C2",
+  "filename": "drones_payloads",
+  "group": "4957B56D0FAE7D74",
+  "order_index": 5,
+  "icon": {
+    "id": "fpvcraft:fpv_drone"
+  },
+  "quests": [
+    {
+      "id": "3B3135074D6F7F99",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "square",
+      "icon": {
+        "id": "fpvcraft:fpv_drone"
+      },
+      "tasks": [
+        {
+          "id": "6D5528D60FC5D02B",
+          "type": "item",
+          "item": {
+            "id": "fpvcraft:fpv_drone",
+            "count": 1
+          },
+          "consume_items": false
+        },
+        {
+          "id": "48FFB4C4168997BC",
+          "type": "item",
+          "item": {
+            "id": "fpvcraft:fpv_goggles",
+            "count": 1
+          },
+          "consume_items": false
+        },
+        {
+          "id": "3AA7F2F8D5DB8630",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "27F287DA7ADF6EE6",
+          "type": "item",
+          "item": {
+            "id": "minecraft:copper_ingot",
+            "count": 1
+          },
+          "count": 8
+        }
+      ]
+    },
+    {
+      "id": "6A5521B8E6F9A66C",
+      "x": 3.0,
+      "y": 0.0,
+      "shape": "square",
+      "icon": {
+        "id": "fpvcraft:race_gate"
+      },
+      "tasks": [
+        {
+          "id": "0AF4A6874A723DD4",
+          "type": "item",
+          "item": {
+            "id": "fpvcraft:race_gate",
+            "count": 1
+          },
+          "consume_items": false
+        },
+        {
+          "id": "2E867982A2E07000",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "36474E476027F681",
+          "type": "item",
+          "item": {
+            "id": "minecraft:iron_ingot",
+            "count": 1
+          },
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "3B3135074D6F7F99"
+      ]
+    },
+    {
+      "id": "3530AB26AB391075",
+      "x": 0.0,
+      "y": 3.0,
+      "shape": "circle",
+      "icon": {
+        "id": "superbwarfare:drone"
+      },
+      "tasks": [
+        {
+          "id": "04BDF33E2DB4D6CA",
+          "type": "item",
+          "item": {
+            "id": "superbwarfare:drone",
+            "count": 1
+          },
+          "consume_items": false
+        },
+        {
+          "id": "565C2E25F7523695",
+          "type": "item",
+          "item": {
+            "id": "superbwarfare:monitor",
+            "count": 1
+          },
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "566E393E074322C5",
+          "type": "item",
+          "item": {
+            "id": "minecraft:amethyst_shard",
+            "count": 1
+          },
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "76029E686F071E34",
+      "x": 3.0,
+      "y": 3.0,
+      "shape": "square",
+      "icon": {
+        "id": "superbwarfare:monitor"
+      },
+      "tasks": [
+        {
+          "id": "50B146AB09ED434C",
+          "type": "item",
+          "item": {
+            "id": "superbwarfare:monitor",
+            "count": 1
+          },
+          "consume_items": false
+        },
+        {
+          "id": "25B02D86C979B5F5",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "252BC3FCE1DD4CFB",
+          "type": "item",
+          "item": {
+            "id": "create:brass_sheet",
+            "count": 1
+          },
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "3530AB26AB391075"
+      ]
+    },
+    {
+      "id": "3B9D5900FC79FA79",
+      "x": 6.0,
+      "y": 3.0,
+      "shape": "square",
+      "icon": {
+        "id": "superbwarfare:rgo_grenade"
+      },
+      "tasks": [
+        {
+          "id": "67D93CFFEDE424D8",
+          "type": "item",
+          "item": {
+            "id": "superbwarfare:rgo_grenade",
+            "count": 1
+          },
+          "consume_items": false
+        },
+        {
+          "id": "032838C746058B88",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "26A74C2B1CD34A14",
+          "type": "item",
+          "item": {
+            "id": "minecraft:iron_ingot",
+            "count": 1
+          },
+          "count": 12
+        }
+      ],
+      "dependencies": [
+        "3530AB26AB391075"
+      ]
+    },
+    {
+      "id": "41A433EE65B38B76",
+      "x": 6.0,
+      "y": 5.0,
+      "shape": "square",
+      "icon": {
+        "id": "superbwarfare:medical_kit"
+      },
+      "tasks": [
+        {
+          "id": "0AF99DC032E34994",
+          "type": "item",
+          "item": {
+            "id": "superbwarfare:medical_kit",
+            "count": 1
+          },
+          "consume_items": false
+        },
+        {
+          "id": "0AE7CC2A65AFCA8C",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "754078B89974C511",
+          "type": "item",
+          "item": {
+            "id": "minecraft:gold_ingot",
+            "count": 1
+          },
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "3530AB26AB391075"
+      ]
+    },
+    {
+      "id": "209E72EF63F10AA6",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "square",
+      "icon": {
+        "id": "create:precision_mechanism"
+      },
+      "tasks": [
+        {
+          "id": "4F9E41AD48E6991D",
+          "type": "item",
+          "item": {
+            "id": "create:precision_mechanism",
+            "count": 1
+          },
+          "consume_items": false
+        },
+        {
+          "id": "5B076C98CDCBEF7E",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "087FE7C1223824CC",
+          "type": "item",
+          "item": {
+            "id": "minecraft:copper_ingot",
+            "count": 1
+          },
+          "count": 16
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 # ZombKotom / LAST BASTION — обновления
 
-Minecraft 1.21.1 · NeoForge 21.1.257 · Java 21 · выпуск 5.3.1.
-Текущая игровая сборка v5.3 дополнена автообновлением. Лаунчер остаётся Pinecone.
+Minecraft 1.21.1 · NeoForge 21.1.257 · Java 21 · выпуск 5.4.0.
+Добавлены FPVCraft 0.2.0 и курс «Дроны и полезная нагрузка»: [инструкция](DRONES-RU.md). Лаунчер остаётся Pinecone.
 
 ## Для друзей с уже установленной сборкой
 
@@ -38,6 +38,6 @@ Minecraft 1.21.1 · NeoForge 21.1.257 · Java 21 · выпуск 5.3.1.
 
 Packwiz читает [pack.toml](https://shinozakiaichi.github.io/zombkotom-updates/pack.toml). GitHub Pages публикует ветку `main`. Локальные правки в рабочей сборке сами к друзьям не отправляются: для выпуска нужны проверка, пересборка индекса и явная публикация в `main`.
 
-113 модов загружаются с Modrinth, 3 FTB-мода с официального CurseForge CDN; здесь хранится только собственный небольшой патч совместимости. Minecraft, личные сохранения и данные аккаунтов в репозиторий не включены.
+113 модов загружаются с Modrinth, 3 FTB-мода и FPVCraft с официального CurseForge CDN; здесь хранится только собственный небольшой патч совместимости. Minecraft, личные сохранения и данные аккаунтов в репозиторий не включены.
 
 Используются [packwiz-installer 0.5.14](https://github.com/packwiz/packwiz-installer/releases/tag/v0.5.14) и [bootstrap 0.0.3](https://github.com/packwiz/packwiz-installer-bootstrap/releases/tag/v0.0.3). Обновление самого установщика зафиксировано отдельно от игрового содержимого.
