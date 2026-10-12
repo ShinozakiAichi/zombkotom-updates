@@ -1171,5 +1171,15 @@
   "config/openloader/packs/last_bastion_visuals/assets/create_power_loader/models/item/brass_chunk_loader.json": "7138ca82641fd89d9ab1856f9a2a6f80e8bf3bec3bf8d4255641f1e84699ea01",
   "config/openloader/packs/last_bastion_visuals/assets/ntgl/models/item/hammer_diamond.json": "fe22bf5d2a1a23d2d4eacea99b16b594219905d4465e12e2b15fca4274134fd4",
   "config/openloader/packs/last_bastion_visuals/assets/ntgl/models/item/hammer_stone.json": "1d87844a540f00574421a2c919c672dd0ea658becc61b96d1b2740267912a5ad",
-  "mods/lastbastion-industrial-compat-1.3.2.jar": "c9a59c31bcbf127aabc49671bca9263f2807e5e713d06679a0c0e103df5d851a"
+  "mods/cabletiers-neoforge-1.21.1-0.6.15.jar": "f6acec583bfe867a2477f96821e7fc0f4b556979d71becf9934cf8b74f5034fb",
+  "mods/EdivadLib-1.21-3.0.0.jar": "daf3201364c5e9dbc7c0d99a9617cd82c40f203e489a4701b228daa765038d92",
+  "mods/ExtraStorage-1.21.1-5.0.10.jar": "5cec2b492e42ff740f54a73b47e07ea797e5eea5e7b4048225e034e43f81ed51",
+  "mods/OreExcavation-NeoForge-1.21.1-1.16.43.jar": "bc34445e726f354e4f7c8d1f8981080d5ab95286eda8cb43719fc937c488789b",
+  "mods/refinedstorage-curios-integration-1.0.0.jar": "4d7a5f555595641315c49d0baac2eb7f74319cf3eb3aad0813b855161547c60d",
+  "mods/refinedstorage-jei-integration-neoforge-1.0.0.jar": "18d858a9309f2cacfa1b32c43142d543b5cfc4e2cb542b66203dd5c81f974c27",
+  "mods/refinedstorage-quartz-arsenal-neoforge-1.0.8.jar": "c6f00a8dc5707726a6252aa57690d2b8d90fb350dd7f92817276efc16e8af186",
+  "mods/refinedstorage-neoforge-2.0.9.jar": "e9c758dddcdfa9c02a7370ca3f4f972a285a1e38ca434bd1fc15cb223ffa06ab",
+  "mods/sophisticatedstorage-1.21.1-1.6.2.2159.jar": "bd6cfe04f5062e1ac860f0e8e858185f037b3a20ef3ee387c8f895839781ac69",
+  "mods/universalgrid-neoforge-1.21.1-0.3.2.jar": "bfd4510c0fbd649fb7a6e440610cede38cd5e880ee22334afe5a5241fc0e8238",
+  "mods/lastbastion-industrial-compat-1.3.3.jar": "b3aa3db546a3ebb0df0e182270bea427f6b6e6ac5ada546714a05ceb5694f5df"
 }

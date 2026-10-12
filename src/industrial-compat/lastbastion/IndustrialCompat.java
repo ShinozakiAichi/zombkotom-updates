@@ -9,7 +9,13 @@ import net.neoforged.neoforge.event.level.ChunkDataEvent;
 /** Prunes records only where the final block cannot own a block entity. */
 @Mod("lastbastion_compat")
 public final class IndustrialCompat {
-    public IndustrialCompat() { NeoForge.EVENT_BUS.addListener(this::load); }
+    public IndustrialCompat(net.neoforged.bus.api.IEventBus modBus) {
+        NeoForge.EVENT_BUS.addListener(this::load);
+        NeoForge.EVENT_BUS.addListener(TrappedZombieEscape::tick);
+        modBus.addListener(lastbastion.hud.BastionNetwork::register);
+        NeoForge.EVENT_BUS.addListener(lastbastion.hud.BastionNetwork::tick);
+        NeoForge.EVENT_BUS.addListener(lastbastion.hud.BastionNetwork::login);
+    }
     private void load(ChunkDataEvent.Load event) { clean(event.getChunk()); }
     public static int clean(ChunkAccess chunk) {
         int removed = 0;

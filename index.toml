@@ -4286,6 +4286,11 @@ hash = "e8a09cfde962b3eb191d2833731c9a5eced7ee29942ce60ab9c4e99d47bd0207"
 metafile = true
 
 [[files]]
+file = "mods/cable-tiers.pw.toml"
+hash = "c3ffbd206960917c86301e85a73131245a573d160972e8ceee364337a6a9cc0a"
+metafile = true
+
+[[files]]
 file = "mods/cgs.pw.toml"
 hash = "ce355f5c96144f196aa2cf6763e638e4ce3d2d0f6516d1d035dfdbbf056014d0"
 metafile = true
@@ -4456,6 +4461,11 @@ hash = "5ca2303a19b1b2b1c5c046261349b461c7e8ff84dccc7aab9250b1739e9f9e3c"
 metafile = true
 
 [[files]]
+file = "mods/edivadlib.pw.toml"
+hash = "2f7f73e6065bc2b896b925ee1160d1637f9b4632423e8643fb234b097e954766"
+metafile = true
+
+[[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "698231b5a4f6dbd67ceb6a0cfe99dbb129bcd243b64145d573e00dae8b922931"
 metafile = true
@@ -4468,6 +4478,11 @@ metafile = true
 [[files]]
 file = "mods/exposure.pw.toml"
 hash = "de0e37d659c4090acda623803d69f8381b9bd6fb65f75d9a8eb7d317ce46bcd5"
+metafile = true
+
+[[files]]
+file = "mods/extrastorage.pw.toml"
+hash = "b04ed1a039ab7a5875a2828f8173ae98a8ffe8cf5359bf89a5c5e876b32aa205"
 metafile = true
 
 [[files]]
@@ -4581,8 +4596,8 @@ hash = "9ea875c570666568101265013a37ec9cb9e2e3dd0d3d804a9a9d93de8fae5034"
 metafile = true
 
 [[files]]
-file = "mods/lastbastion-industrial-compat-1.3.2.jar"
-hash = "c9a59c31bcbf127aabc49671bca9263f2807e5e713d06679a0c0e103df5d851a"
+file = "mods/lastbastion-industrial-compat-1.3.3.jar"
+hash = "b3aa3db546a3ebb0df0e182270bea427f6b6e6ac5ada546714a05ceb5694f5df"
 
 [[files]]
 file = "mods/libipn.pw.toml"
@@ -4650,6 +4665,11 @@ hash = "6124dedcb4b7306fac95357a983ba32e11771c7521572f300ca14c63b8d96807"
 metafile = true
 
 [[files]]
+file = "mods/ore-excavation.pw.toml"
+hash = "f6a93be66c21f53765096024d0f17b5e9a6dab9ea8785f6bba875f73f3bf9d28"
+metafile = true
+
+[[files]]
 file = "mods/particle-rain.pw.toml"
 hash = "fa2e142e83a055ffd32414de59ebd06b5d19afcb83cb531fb75db56260cbe9c5"
 metafile = true
@@ -4667,6 +4687,26 @@ metafile = true
 [[files]]
 file = "mods/prickle.pw.toml"
 hash = "5a2df3347f4b747ec9645d395ef59c4bf4f60d8518a74cca2e6468e66c3a6ace"
+metafile = true
+
+[[files]]
+file = "mods/refined-storage-curios-integration.pw.toml"
+hash = "ed9f8ca0d319d05c599d5f91e006149c3cc59f8bc9a40e784bb0345bb817d0a0"
+metafile = true
+
+[[files]]
+file = "mods/refined-storage-jei-integration.pw.toml"
+hash = "2f2bdda9bc66e13a0393257e06e90b5ee1124a7cf673a522f541b3a205ee61ff"
+metafile = true
+
+[[files]]
+file = "mods/refined-storage-quartz-arsenal.pw.toml"
+hash = "868f690f534ffb34c7e6aada5f53dcd11ea301608e794a51f85fcb8cdf5db14e"
+metafile = true
+
+[[files]]
+file = "mods/refined-storage.pw.toml"
+hash = "a918566f2f56fe60c72b442796f6713ffd22cd03cc2e5e6fa8fe13fccec178ed"
 metafile = true
 
 [[files]]
@@ -4720,6 +4760,11 @@ hash = "43bb1a8db2b032942b8348139886a2f3e76d80b40be2a8e5f453a313a0842354"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-storage.pw.toml"
+hash = "3a83cbd567ef193c1ae5f6b5a0fa3b79abd246e028a3fd2db875bda615daef66"
+metafile = true
+
+[[files]]
 file = "mods/sound-physics-remastered.pw.toml"
 hash = "2c5d46d232539da4c5a1ff229ca4a114a653e972a7017c8ae710978c7558a777"
 metafile = true
@@ -4767,6 +4812,11 @@ metafile = true
 [[files]]
 file = "mods/the-undead-revamped.pw.toml"
 hash = "bbb95344fae2ffe31f6654b753a5d5a65281870c9bd82e52956fd16ce097b705"
+metafile = true
+
+[[files]]
+file = "mods/universal-grid.pw.toml"
+hash = "c48283f504037c7f79c66bb3e8cd0b52a6bf4c96cc0f92971be5c178298ed0b2"
 metafile = true
 
 [[files]]
