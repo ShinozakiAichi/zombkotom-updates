@@ -342,11 +342,11 @@ hash = "133415d5f8db00cb9a199fd0689c03f3a8c9b6feef8d37e7b443009a6f6d1258"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "4353f6d6b43020891b1d7b25c86c6a905400a458bfd9fc0ec6de62eba1760342"
+hash = "f5a8eba57bea0c35fa980543bef94413c6715ce03e622be1b5fb30822defdff4"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "4353f6d6b43020891b1d7b25c86c6a905400a458bfd9fc0ec6de62eba1760342"
+hash = "f5a8eba57bea0c35fa980543bef94413c6715ce03e622be1b5fb30822defdff4"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -4581,8 +4581,8 @@ hash = "9ea875c570666568101265013a37ec9cb9e2e3dd0d3d804a9a9d93de8fae5034"
 metafile = true
 
 [[files]]
-file = "mods/lastbastion-industrial-compat-1.3.0.jar"
-hash = "bda634ca03518b77789a935cf1efea872bcd58ea4ca00192e3f0841fe9ef1a9e"
+file = "mods/lastbastion-industrial-compat-1.3.1.jar"
+hash = "27b250de4c4771c83a9c790796a3b0adf0c9011936d505a8a09ef9719467dfcb"
 
 [[files]]
 file = "mods/libipn.pw.toml"

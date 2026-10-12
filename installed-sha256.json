@@ -82,8 +82,8 @@
   "config/ftbquests/quests/chapters/transport.snbt": "7e66fe486287c02011b6606fdb758ca0c25db2e6bf29525488ebe87452ff05d4",
   "config/ftbquests/quests/chapters/workshop.snbt": "86312f4bf1e3cd44a7a8b482f4eec752cc4598114b79baf1fce9e1da9ec06e92",
   "config/ftbquests/quests/data.snbt": "133415d5f8db00cb9a199fd0689c03f3a8c9b6feef8d37e7b443009a6f6d1258",
-  "config/ftbquests/quests/lang/en_us.snbt": "4353f6d6b43020891b1d7b25c86c6a905400a458bfd9fc0ec6de62eba1760342",
-  "config/ftbquests/quests/lang/ru_ru.snbt": "4353f6d6b43020891b1d7b25c86c6a905400a458bfd9fc0ec6de62eba1760342",
+  "config/ftbquests/quests/lang/en_us.snbt": "f5a8eba57bea0c35fa980543bef94413c6715ce03e622be1b5fb30822defdff4",
+  "config/ftbquests/quests/lang/ru_ru.snbt": "f5a8eba57bea0c35fa980543bef94413c6715ce03e622be1b5fb30822defdff4",
   "config/ftbteams-server.snbt": "2ef5e2dca3a653ced3f3981a85a32832fb3716caa5fa05e233f50ab16044a2c4",
   "config/gravestone-server.toml": "d6bee13ae45904562fc651630ce48fa4e70cd3853fe2f488403c9b67d0c74c2a",
   "config/hordes-common.toml": "b58eadf0cd67bf0a13e0f4fff5d3af8a615e65b0e52398e280b577ed0554e29a",
@@ -1171,5 +1171,5 @@
   "config/openloader/packs/last_bastion_visuals/assets/create_power_loader/models/item/brass_chunk_loader.json": "7138ca82641fd89d9ab1856f9a2a6f80e8bf3bec3bf8d4255641f1e84699ea01",
   "config/openloader/packs/last_bastion_visuals/assets/ntgl/models/item/hammer_diamond.json": "fe22bf5d2a1a23d2d4eacea99b16b594219905d4465e12e2b15fca4274134fd4",
   "config/openloader/packs/last_bastion_visuals/assets/ntgl/models/item/hammer_stone.json": "1d87844a540f00574421a2c919c672dd0ea658becc61b96d1b2740267912a5ad",
-  "mods/lastbastion-industrial-compat-1.3.0.jar": "bda634ca03518b77789a935cf1efea872bcd58ea4ca00192e3f0841fe9ef1a9e"
+  "mods/lastbastion-industrial-compat-1.3.1.jar": "27b250de4c4771c83a9c790796a3b0adf0c9011936d505a8a09ef9719467dfcb"
 }
