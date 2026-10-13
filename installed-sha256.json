@@ -74,7 +74,7 @@
   "config/ftbquests/quests/chapters/industry.snbt": "423d9a034618b4ea78ef347a7f5953eda0b2207e9472d3f76ecf444cb4faab4f",
   "config/ftbquests/quests/chapters/layered_defense.snbt": "b75d8c1ad42daaec37deeb66a01aedf1215389bc2db5bbb487b3e33024785923",
   "config/ftbquests/quests/chapters/megaprojects.snbt": "21f75b8a02b5b42ed55b1d2395318d4993634bcd5cb16064bec9728d1a86bd67",
-  "config/ftbquests/quests/chapters/power_grid.snbt": "5cb1d323ba74334fe28629eca6f960bf187b56e566f36066ed4145927b65005b",
+  "config/ftbquests/quests/chapters/power_grid.snbt": "875c4565aaff8f127099d34f8c58a8fafcc238496de9a1f60cff19c79e918688",
   "config/ftbquests/quests/chapters/recovery.snbt": "2607adf7b7496156490bef23eabbad246b8589178461f3a4559c35b8d155c911",
   "config/ftbquests/quests/chapters/supply.snbt": "bfce46b60f4c2aa5ac165e21504f545c60c3ae4969161e54c6cc8f4fb732fea8",
   "config/ftbquests/quests/chapters/survival.snbt": "7977cd8b287f4110c03275032816d6f3b674b06b44cdde1f0f23e26770c0d21b",
@@ -82,8 +82,8 @@
   "config/ftbquests/quests/chapters/transport.snbt": "7e66fe486287c02011b6606fdb758ca0c25db2e6bf29525488ebe87452ff05d4",
   "config/ftbquests/quests/chapters/workshop.snbt": "86312f4bf1e3cd44a7a8b482f4eec752cc4598114b79baf1fce9e1da9ec06e92",
   "config/ftbquests/quests/data.snbt": "133415d5f8db00cb9a199fd0689c03f3a8c9b6feef8d37e7b443009a6f6d1258",
-  "config/ftbquests/quests/lang/en_us.snbt": "9cf4496f3ebf800471dcf27f2d721463e32b264fcc5472d1d51bf35ae9c76789",
-  "config/ftbquests/quests/lang/ru_ru.snbt": "9cf4496f3ebf800471dcf27f2d721463e32b264fcc5472d1d51bf35ae9c76789",
+  "config/ftbquests/quests/lang/en_us.snbt": "c01c5ee10ede60b5c7164d1db016f9e8481bf9456fb5f7ce18b7f910e8454926",
+  "config/ftbquests/quests/lang/ru_ru.snbt": "c01c5ee10ede60b5c7164d1db016f9e8481bf9456fb5f7ce18b7f910e8454926",
   "config/ftbteams-server.snbt": "2ef5e2dca3a653ced3f3981a85a32832fb3716caa5fa05e233f50ab16044a2c4",
   "config/gravestone-server.toml": "d6bee13ae45904562fc651630ce48fa4e70cd3853fe2f488403c9b67d0c74c2a",
   "config/hordes-common.toml": "b58eadf0cd67bf0a13e0f4fff5d3af8a615e65b0e52398e280b577ed0554e29a",
@@ -1182,5 +1182,5 @@
   "mods/sophisticatedstorage-1.21.1-1.6.2.2159.jar": "bd6cfe04f5062e1ac860f0e8e858185f037b3a20ef3ee387c8f895839781ac69",
   "mods/universalgrid-neoforge-1.21.1-0.3.2.jar": "bfd4510c0fbd649fb7a6e440610cede38cd5e880ee22334afe5a5241fc0e8238",
   "mods/lastbastion-industrial-compat-1.3.3.jar": "b3aa3db546a3ebb0df0e182270bea427f6b6e6ac5ada546714a05ceb5694f5df",
-  "config/ftbquests/quests/chapters/storage_network.snbt": "2b85e5d404e46efb94a657e8c560d53924bbf54becf47e2abcda5406b65eac57"
+  "config/ftbquests/quests/chapters/storage_network.snbt": "6c39296ca09210c4e637be7a3a17f7ec09661004cfdc44dfe57a69e7fadca099"
 }
