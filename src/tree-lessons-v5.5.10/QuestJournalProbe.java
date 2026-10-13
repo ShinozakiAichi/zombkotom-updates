@@ -119,7 +119,7 @@ public class QuestJournalProbe {
   check(quests(old).stream().allMatch(oq->migrated.isCompleted(file.getQuest(oq.getId()))),"all 177 previous completed quest timestamps survive 5.5.9 to tree candidate");
   int claimed=0,claimErrors=0;for(var oq:quests(old))for(var r:oq.getRewards()){var nr=file.getReward(r.getId());claimed++;if(nr==null||!migrated.isRewardClaimed(owner,nr))claimErrors++;}
   check(claimErrors==0&&claimed==287,"all 287 previous reward claims survive");
-  
+
   for(var quest:all)for(var task:quest.getTasks())if(task instanceof AdvancementTask at){
    var n=new CompoundTag();at.writeData(n,lookup);var a=server.getAdvancements().get(ResourceLocation.parse(n.getString("advancement")));
    for(var key:a.value().criteria().keySet())player.getAdvancements().revoke(a,key);
