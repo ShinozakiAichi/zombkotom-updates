@@ -346,11 +346,11 @@ hash = "133415d5f8db00cb9a199fd0689c03f3a8c9b6feef8d37e7b443009a6f6d1258"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "c01c5ee10ede60b5c7164d1db016f9e8481bf9456fb5f7ce18b7f910e8454926"
+hash = "d9e40ae1ae5d8fbf2a187a02060e72a2130bb0fcb8a1a25dda597b637c238f9b"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "c01c5ee10ede60b5c7164d1db016f9e8481bf9456fb5f7ce18b7f910e8454926"
+hash = "d9e40ae1ae5d8fbf2a187a02060e72a2130bb0fcb8a1a25dda597b637c238f9b"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
