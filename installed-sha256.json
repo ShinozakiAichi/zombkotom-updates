@@ -1181,6 +1181,6 @@
   "mods/refinedstorage-neoforge-2.0.9.jar": "e9c758dddcdfa9c02a7370ca3f4f972a285a1e38ca434bd1fc15cb223ffa06ab",
   "mods/sophisticatedstorage-1.21.1-1.6.2.2159.jar": "bd6cfe04f5062e1ac860f0e8e858185f037b3a20ef3ee387c8f895839781ac69",
   "mods/universalgrid-neoforge-1.21.1-0.3.2.jar": "bfd4510c0fbd649fb7a6e440610cede38cd5e880ee22334afe5a5241fc0e8238",
-  "mods/lastbastion-industrial-compat-1.3.3.jar": "b3aa3db546a3ebb0df0e182270bea427f6b6e6ac5ada546714a05ceb5694f5df",
-  "config/ftbquests/quests/chapters/storage_network.snbt": "6c39296ca09210c4e637be7a3a17f7ec09661004cfdc44dfe57a69e7fadca099"
+  "config/ftbquests/quests/chapters/storage_network.snbt": "6c39296ca09210c4e637be7a3a17f7ec09661004cfdc44dfe57a69e7fadca099",
+  "mods/lastbastion-industrial-compat-1.3.4.jar": "38e57e1eef1d1a7508abfd3527fef111e25982cc442ae672630ef959366102b6"
 }

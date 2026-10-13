@@ -1,9 +1,9 @@
 {
-  "version": "5.5.7",
+  "version": "5.5.8",
   "minecraft": "1.21.1",
   "neoforge": "21.1.257",
   "mods": 128,
-  "pack_sha256": "9f2ca0da703361481b6d71b25835926c0f24e0e7b78e89950952f606d51e3e4a",
+  "pack_sha256": "cce2f1678c511e27b78420649876a52dac75b9b31d090499bf65b0a0d788494f",
   "personal_paths_unmanaged": [
     "shaderpacks/**",
     "config/iris.properties",

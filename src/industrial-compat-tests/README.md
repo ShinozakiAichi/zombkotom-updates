@@ -1,0 +1,9 @@
+# NTGL loading regression, compatibility patch 1.3.4
+
+`ResourceScanTests.java` runs 16 JVM checks against `ConfigScanResources`. Supply the mapped Minecraft/NeoForge/Mixin classpath, compile with Java 21 and run `ntglloadqa.ResourceScanTests`. The existing HUD tests were also rerun privately against the candidate: 26 core and 15 state/preferences checks.
+
+`NtglLoadingProbe.java` is a **private test mod**, never part of the playing pack. In an isolated NeoForge server with NTGL 3.2.0, register it as `ntgl_loading_qa`. Console command `ntglqa` calls the installed ConfigUtils with the first 16 real registry items, counts physical listResources calls and snapshots serialized configurations from six active NTGL managers. Expected: at most one scan. The old 1.3.3 artifact fails with 16 scans; 1.3.4 passes with one. Compare `configs` from `ntgl-loading-result.json` across runs; 39 entries matched. `ntglreload` completes an actual datapack reload; rerun `ntglqa` afterwards. Do not include this test JAR in published mod manifests.
+
+`build-ntgl-patch.py` rebuilds the delta using the previous 1.3.3 JAR (available in Git history at tag v5.5.7). Its SHA-256 is pinned. Supply `--base-jar`, `--classpath-file`, `--javac` and `--output`. With Eclipse Temurin 21.0.8+9 and the pack's mapped classpath it reproduces SHA-256 `38e57e1eef1d1a7508abfd3527fef111e25982cc442ae672630ef959366102b6`. It compiles only the two new classes and preserves all other class/resource bytes; it is not a from-scratch build of every historical patch.
+
+The cache has call-local ownership, preserves listing order and delegates resource reads to Minecraft. It does not change registry filtering, parsing or conflict resolution in NTGL. No persistent cache or global ResourceManager reference is introduced. Native validation and timing limits are documented in `../../UPDATE-5.5.8-RU.md`.
