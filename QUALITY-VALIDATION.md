@@ -1,4 +1,6 @@
-# Current client patch: v5.5.1
+# Historical validation: v5.5 and v5.5.1
+
+For the current scope, evidence and remaining public-release gates, see [QUALITY-STATUS-RU.md](QUALITY-STATUS-RU.md). The version and counts below describe their original runs, not the current pack.
 
 See [ASSETS-VALIDATION.md](ASSETS-VALIDATION.md) for the subsequent client repairs and direct runtime evidence. The v5.5 journal validation below remains historical evidence; its client asset issue list is superseded where explicitly fixed in v5.5.1.
 
