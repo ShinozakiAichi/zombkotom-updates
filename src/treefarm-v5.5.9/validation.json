@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "total_observed_world_ticks": 12000,
+  "all_8_pads_replanted_in_each_phase": true,
+  "original_qa_inventory_restored_after_test_pickups": true,
+  "random_tick_speed_restored": 3,
+  "daylight_cycle_restored": true,
+  "native_shutdowns_saved_all_dimensions": 2,
+  "first_checkpoint_logs": 320,
+  "resume_initial_logs": 332,
+  "last_checkpoint_logs": 627,
+  "control_diamonds_each_checkpoint": 7,
+  "client_contact_ticks": [
+    1204,
+    1204
+  ],
+  "server_player_contact_ticks": [
+    0,
+    0
+  ],
+  "mob_contact_ticks": [
+    0,
+    0
+  ],
+  "samples": 60,
+  "sampled_rolling_average_mspt_range": [
+    4.441006,
+    7.628547
+  ],
+  "sampled_fps_range": [
+    125,
+    194
+  ],
+  "sampled_used_java_heap_mib_range": [
+    2188,
+    3494
+  ],
+  "probe_hashes": {
+    "first": "dc09837f8d3430dd88bad8a4a32398e322f205fc88cb4fef31d1cf235238b1fb",
+    "resume": "02a38a357f5c2061fc03103aec4b6e4dfa3b97d7668ab33c115ffe17f510b616"
+  },
+  "scope": "One real client, shader enabled, prepared blocks and seeds, 15-block water-powered contraption, randomTickSpeed=120 in private QA world. No remote player, siege, ordinary-growth throughput, exact full-inventory conservation or day-long reliability claim."
+}
