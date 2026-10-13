@@ -1,0 +1,1 @@
+Private QA sources; not shipped as a game mod. QuestJournalProbe uses isolated API players and a separate quest file; QuestUiProbe opens the installed native FTB UI in the isolated local client. Screenshots/logs stay in the local QA workspace. See UPDATE-5.5.10-RU.md for limits.

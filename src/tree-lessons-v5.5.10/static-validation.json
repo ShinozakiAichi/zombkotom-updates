@@ -1,0 +1,22 @@
+{
+  "quests": 179,
+  "chapters": 24,
+  "tasks": 266,
+  "old_quests_unchanged": 177,
+  "old_reward_claims": 287,
+  "new_ids": {
+    "rotating_sawmill": "07CE70F2F252DD31",
+    "closed_tree_cycle": "0214AFA029BF20E7"
+  },
+  "existing_localized_texts_unchanged": true,
+  "dependency_cycles": false,
+  "new_pages": {
+    "07CE70F2F252DD31": 3,
+    "0214AFA029BF20E7": 3
+  },
+  "hashes": {
+    "chapters/workshop.snbt": "1d0c2a6f8ad134dbc6446edd06d5bc6073cd3b84c15f3dfb3c625a7e658576e3",
+    "lang/ru_ru.snbt": "098b3b5d34dd1ed3ff79ee8e78d8dd3123d4ddc30f30c2d1ea9e6c6989297466",
+    "lang/en_us.snbt": "098b3b5d34dd1ed3ff79ee8e78d8dd3123d4ddc30f30c2d1ea9e6c6989297466"
+  }
+}

@@ -338,7 +338,7 @@ hash = "7e66fe486287c02011b6606fdb758ca0c25db2e6bf29525488ebe87452ff05d4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/workshop.snbt"
-hash = "86312f4bf1e3cd44a7a8b482f4eec752cc4598114b79baf1fce9e1da9ec06e92"
+hash = "1d0c2a6f8ad134dbc6446edd06d5bc6073cd3b84c15f3dfb3c625a7e658576e3"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -346,11 +346,11 @@ hash = "133415d5f8db00cb9a199fd0689c03f3a8c9b6feef8d37e7b443009a6f6d1258"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "d9e40ae1ae5d8fbf2a187a02060e72a2130bb0fcb8a1a25dda597b637c238f9b"
+hash = "098b3b5d34dd1ed3ff79ee8e78d8dd3123d4ddc30f30c2d1ea9e6c6989297466"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "d9e40ae1ae5d8fbf2a187a02060e72a2130bb0fcb8a1a25dda597b637c238f9b"
+hash = "098b3b5d34dd1ed3ff79ee8e78d8dd3123d4ddc30f30c2d1ea9e6c6989297466"
 
 [[files]]
 file = "config/ftbteams-server.snbt"

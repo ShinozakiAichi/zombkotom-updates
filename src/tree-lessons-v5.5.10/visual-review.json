@@ -1,0 +1,44 @@
+{
+  "approved": true,
+  "resolution": [
+    1280,
+    720
+  ],
+  "gui_scale": 2,
+  "new_quest_pages": 6,
+  "page_run_captures_reviewed": 14,
+  "additional_focused_map_capture_reviewed": true,
+  "notes": [
+    "All six pages, titles, tasks, reward counts and pagination fit without clipping.",
+    "New branch lies below the existing workshop; native scrolling reaches it. Standard hovered-node tooltip overlays the adjacent area.",
+    "Existing map autofocus and user zoom settings were not changed."
+  ],
+  "hashes": {
+    "chapters/workshop.snbt": "1d0c2a6f8ad134dbc6446edd06d5bc6073cd3b84c15f3dfb3c625a7e658576e3",
+    "lang/ru_ru.snbt": "098b3b5d34dd1ed3ff79ee8e78d8dd3123d4ddc30f30c2d1ea9e6c6989297466",
+    "lang/en_us.snbt": "098b3b5d34dd1ed3ff79ee8e78d8dd3123d4ddc30f30c2d1ea9e6c6989297466"
+  },
+  "screenshots": {
+    "000-home.png": "28de0c0b5588afa116095c4d63c55a05ec747256536c0aab133919c4137a52bd",
+    "001-workshop-map.png": "1a7e6d073995bcf0c99bd086474cc3e40131ce57ddbe7f397bf0b478099afa5b",
+    "002-workshop-q1-p0-top.png": "100f8179bfcd8b96123eba34e27d0d651d35e71f520d08bb1c119b553ea3ac2b",
+    "003-workshop-q1-p0-bottom.png": "587325e74d2dfc3eeebc167c9b5b4ed40dece3aa41c36b79a5aea09d145c394c",
+    "004-workshop-q1-p1-top.png": "c1a62e08ee9f930ed89c299150a1da618a5ab7a87c98e11b69bf704a04456571",
+    "005-workshop-q1-p1-bottom.png": "95c1496557399774ade88e0824e9f10a74d449162ff47235d844805549479743",
+    "006-workshop-q1-p2-top.png": "b338f9aba5a160d88bbb9d559003f1df986604fb1561eb5af81c3a7d06a6a02c",
+    "007-workshop-q1-p2-bottom.png": "6bc42635a8eaf26ed8ab56688b7cffcfa364190b9fea82de03aad5e45c261fec",
+    "008-workshop-q2-p0-top.png": "a0510ed41003102ccdd6c278ba9fd6edd3be6caed0fb730dc25dbc0fdb18ef13",
+    "009-workshop-q2-p0-bottom.png": "38eb04e46d7d2df3a423d9ff9062bfb9dcb74ddd3fb23c3f383b7a47b2d14ada",
+    "010-workshop-q2-p1-top.png": "94d89e29623ab2e5a05e6ab2805a7f8fd15e7731af983f70ab91d06425ca8244",
+    "011-workshop-q2-p1-bottom.png": "6d3f0a8e5e232b8856f496361a8c464cac243d621eca767debd3150d5621751d",
+    "012-workshop-q2-p2-top.png": "e6233784e5f227e24656fdb75a598af5dd97242e9ce70bff680a5ee555456033",
+    "013-workshop-q2-p2-bottom.png": "52776094d8035c0826ea1e253562aec4f0b85c03fbd47fdb20b3d38f986c546c"
+  },
+  "focused_map_sha256": "e6855a4b28546bb7f9f442925c55931ea686a29ada2e75d24f937c227740b7b4",
+  "native_reviewed_crlf_hashes": {
+    "chapters/workshop.snbt": "6f6f6a95c51aadd0726ea676a43c11b9d5ac90e36956a3eace1d1a5d67eb6100",
+    "lang/ru_ru.snbt": "8c480392c0a1822bf7d1fe5003b61f2b718dcdf6ebe7846f09a84ed7f4093e48",
+    "lang/en_us.snbt": "8c480392c0a1822bf7d1fe5003b61f2b718dcdf6ebe7846f09a84ed7f4093e48"
+  },
+  "release_line_endings": "CRLF normalized to LF after native review; parsed JSON values proven identical."
+}

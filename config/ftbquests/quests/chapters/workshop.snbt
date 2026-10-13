@@ -421,6 +421,99 @@
       "x": 9.0,
       "y": -3.0,
       "size": 1.0
+    },
+    {
+      "dependencies": [
+        "6C7CCFE71CB75B96"
+      ],
+      "icon": {
+        "id": "create:mechanical_saw"
+      },
+      "id": "07CE70F2F252DD31",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "54DA511498AA2984",
+          "type": "item",
+          "item": {
+            "id": "minecraft:oak_sapling",
+            "count": 1
+          },
+          "count": 16
+        },
+        {
+          "id": "34A947938080C880",
+          "type": "xp",
+          "xp": 50
+        }
+      ],
+      "shape": "gear",
+      "tasks": [
+        {
+          "id": "1B1FCF673955902C",
+          "type": "item",
+          "item": {
+            "id": "minecraft:oak_log",
+            "count": 1
+          },
+          "count": 32,
+          "consume_items": false
+        },
+        {
+          "id": "1BE4979799050F34",
+          "type": "checkmark"
+        }
+      ],
+      "x": 0.0,
+      "y": 6.0,
+      "size": 1.2
+    },
+    {
+      "dependencies": [
+        "07CE70F2F252DD31",
+        "15304D6486E44D0C"
+      ],
+      "icon": {
+        "id": "create:deployer"
+      },
+      "id": "0214AFA029BF20E7",
+      "progression_mode": "linear",
+      "rewards": [
+        {
+          "id": "29655BD3C2AFF3C4",
+          "type": "item",
+          "item": {
+            "id": "create:brass_ingot",
+            "count": 1
+          },
+          "count": 8
+        },
+        {
+          "id": "422C7DDEC9C40BAC",
+          "type": "xp",
+          "xp": 75
+        }
+      ],
+      "shape": "gear",
+      "tasks": [
+        {
+          "id": "496384380872C1BE",
+          "type": "item",
+          "item": {
+            "id": "minecraft:oak_log",
+            "count": 1
+          },
+          "count": 64,
+          "consume_items": false
+        },
+        {
+          "id": "56CB1AD35558B2A1",
+          "type": "checkmark"
+        }
+      ],
+      "x": 3.0,
+      "y": 6.0,
+      "size": 1.2
     }
   ],
   "autofocus_id": "151F494B4AC4EAE7"
