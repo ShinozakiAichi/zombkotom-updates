@@ -317,6 +317,10 @@ file = "config/ftbquests/quests/chapters/recovery.snbt"
 hash = "2607adf7b7496156490bef23eabbad246b8589178461f3a4559c35b8d155c911"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/storage_network.snbt"
+hash = "2b85e5d404e46efb94a657e8c560d53924bbf54becf47e2abcda5406b65eac57"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/supply.snbt"
 hash = "bfce46b60f4c2aa5ac165e21504f545c60c3ae4969161e54c6cc8f4fb732fea8"
 
@@ -342,11 +346,11 @@ hash = "133415d5f8db00cb9a199fd0689c03f3a8c9b6feef8d37e7b443009a6f6d1258"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "f5a8eba57bea0c35fa980543bef94413c6715ce03e622be1b5fb30822defdff4"
+hash = "9cf4496f3ebf800471dcf27f2d721463e32b264fcc5472d1d51bf35ae9c76789"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "f5a8eba57bea0c35fa980543bef94413c6715ce03e622be1b5fb30822defdff4"
+hash = "9cf4496f3ebf800471dcf27f2d721463e32b264fcc5472d1d51bf35ae9c76789"
 
 [[files]]
 file = "config/ftbteams-server.snbt"

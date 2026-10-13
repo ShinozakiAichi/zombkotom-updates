@@ -1,0 +1,553 @@
+{
+  "id": "3950EFE1FDA54D1A",
+  "filename": "storage_network",
+  "group": "4957B56D0FAE7D74",
+  "order_index": 3,
+  "icon": {
+    "id": "refinedstorage:grid"
+  },
+  "default_hide_dependency_lines": false,
+  "default_quest_shape": "",
+  "images": [],
+  "quest_links": [],
+  "quests": [
+    {
+      "id": "1D91C50851D9903E",
+      "dependencies": [],
+      "x": -6,
+      "y": 0,
+      "size": 1.3,
+      "shape": "gear",
+      "icon": {
+        "id": "sophisticatedstorage:chest"
+      },
+      "tasks": [
+        {
+          "id": "33D17324DE5C8E64",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedstorage:chest",
+            "count": 1
+          },
+          "count": 2,
+          "consume_items": false
+        },
+        {
+          "id": "6A72FCB6D49C4F59",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "655E7DA486EBE884",
+          "type": "item",
+          "item": {
+            "id": "minecraft:iron_ingot",
+            "count": 1
+          },
+          "count": 8
+        }
+      ],
+      "progression_mode": "linear"
+    },
+    {
+      "id": "04C2B03C7F95C187",
+      "dependencies": [
+        "1D91C50851D9903E"
+      ],
+      "x": -3,
+      "y": 0,
+      "size": 1.0,
+      "shape": "gear",
+      "icon": {
+        "id": "sophisticatedstorage:basic_to_iron_tier_upgrade"
+      },
+      "tasks": [
+        {
+          "id": "48F1A0554AA77611",
+          "type": "item",
+          "item": {
+            "id": "sophisticatedstorage:basic_to_iron_tier_upgrade",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "145B251DE88B07F7",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "6B2AFF84422356AD",
+          "type": "item",
+          "item": {
+            "id": "minecraft:redstone",
+            "count": 1
+          },
+          "count": 12
+        }
+      ],
+      "progression_mode": "linear"
+    },
+    {
+      "id": "5B7C707D0FC82DDA",
+      "dependencies": [
+        "1D91C50851D9903E"
+      ],
+      "x": -3,
+      "y": -3,
+      "size": 1.0,
+      "shape": "gear",
+      "icon": {
+        "id": "minecraft:barrel"
+      },
+      "tasks": [
+        {
+          "id": "32058E4D82EB2C66",
+          "type": "item",
+          "item": {
+            "id": "minecraft:bread",
+            "count": 1
+          },
+          "count": 16,
+          "consume_items": false
+        },
+        {
+          "id": "779E7725EA52F45F",
+          "type": "item",
+          "item": {
+            "id": "minecraft:torch",
+            "count": 1
+          },
+          "count": 32,
+          "consume_items": false
+        },
+        {
+          "id": "6222F26E17D46101",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0A3EEF6EEC1FDC9D",
+          "type": "item",
+          "item": {
+            "id": "minecraft:leather",
+            "count": 1
+          },
+          "count": 8
+        }
+      ],
+      "progression_mode": "linear"
+    },
+    {
+      "id": "37A9A50C73E8BA76",
+      "dependencies": [
+        "04C2B03C7F95C187"
+      ],
+      "x": 0,
+      "y": 0,
+      "size": 1.0,
+      "shape": "circle",
+      "icon": {
+        "id": "refinedstorage:basic_processor"
+      },
+      "tasks": [
+        {
+          "id": "6314566126A06531",
+          "type": "item",
+          "item": {
+            "id": "refinedstorage:basic_processor",
+            "count": 1
+          },
+          "count": 8,
+          "consume_items": false
+        },
+        {
+          "id": "3DD1E0D119589ACE",
+          "type": "item",
+          "item": {
+            "id": "refinedstorage:silicon",
+            "count": 1
+          },
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7F0C3AB4C9A944F0",
+          "type": "item",
+          "item": {
+            "id": "minecraft:quartz",
+            "count": 1
+          },
+          "count": 12
+        }
+      ],
+      "progression_mode": "linear"
+    },
+    {
+      "id": "26E7F1425520F56A",
+      "dependencies": [
+        "37A9A50C73E8BA76"
+      ],
+      "x": 3,
+      "y": 0,
+      "size": 1.3,
+      "shape": "gear",
+      "icon": {
+        "id": "refinedstorage:grid"
+      },
+      "tasks": [
+        {
+          "id": "1B8A4707916F27C2",
+          "type": "item",
+          "item": {
+            "id": "refinedstorage:controller",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "2BC7A7F051B62538",
+          "type": "item",
+          "item": {
+            "id": "refinedstorage:grid",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "4498C5498505E331",
+          "type": "item",
+          "item": {
+            "id": "refinedstorage:disk_drive",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "7C15CF87AA4D8822",
+          "type": "item",
+          "item": {
+            "id": "refinedstorage:1k_storage_disk",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "245622A8EA479F1E",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3FCE826F4B3E857B",
+          "type": "item",
+          "item": {
+            "id": "minecraft:gold_ingot",
+            "count": 1
+          },
+          "count": 8
+        }
+      ],
+      "progression_mode": "linear"
+    },
+    {
+      "id": "29D816E3CAF555F1",
+      "dependencies": [
+        "26E7F1425520F56A"
+      ],
+      "x": 6,
+      "y": -3,
+      "size": 1.0,
+      "shape": "gear",
+      "icon": {
+        "id": "refinedstorage:external_storage"
+      },
+      "tasks": [
+        {
+          "id": "3E9AE92A97CA4EDC",
+          "type": "item",
+          "item": {
+            "id": "refinedstorage:external_storage",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "0EC9BC19960BA0C3",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "611E3487E8533988",
+          "type": "item",
+          "item": {
+            "id": "minecraft:iron_ingot",
+            "count": 1
+          },
+          "count": 12
+        }
+      ],
+      "progression_mode": "linear"
+    },
+    {
+      "id": "7A932AF0B42896ED",
+      "dependencies": [
+        "26E7F1425520F56A"
+      ],
+      "x": 6,
+      "y": 0,
+      "size": 1.0,
+      "shape": "gear",
+      "icon": {
+        "id": "refinedstorage:importer"
+      },
+      "tasks": [
+        {
+          "id": "26A31412796A6E74",
+          "type": "item",
+          "item": {
+            "id": "refinedstorage:importer",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "5ED0055D768D2AC6",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5DDA1EB02A37F8CF",
+          "type": "item",
+          "item": {
+            "id": "minecraft:redstone",
+            "count": 1
+          },
+          "count": 16
+        }
+      ],
+      "progression_mode": "linear"
+    },
+    {
+      "id": "2DEF16746EB70CB1",
+      "dependencies": [
+        "26E7F1425520F56A"
+      ],
+      "x": 6,
+      "y": 3,
+      "size": 1.0,
+      "shape": "gear",
+      "icon": {
+        "id": "refinedstorage:autocrafter"
+      },
+      "tasks": [
+        {
+          "id": "0DE34DFDD75CAF53",
+          "type": "item",
+          "item": {
+            "id": "minecraft:cobblestone_stairs",
+            "count": 1
+          },
+          "count": 32,
+          "consume_items": false
+        },
+        {
+          "id": "55024E1B37D08DA4",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5202782C38CF3484",
+          "type": "item",
+          "item": {
+            "id": "minecraft:quartz",
+            "count": 1
+          },
+          "count": 16
+        }
+      ],
+      "progression_mode": "linear"
+    },
+    {
+      "id": "10CFAD94EA9CDDF5",
+      "dependencies": [
+        "2DEF16746EB70CB1"
+      ],
+      "x": 9,
+      "y": 3,
+      "size": 1.0,
+      "shape": "gear",
+      "icon": {
+        "id": "minecraft:furnace"
+      },
+      "tasks": [
+        {
+          "id": "7D999CA83327B082",
+          "type": "item",
+          "item": {
+            "id": "minecraft:glass",
+            "count": 1
+          },
+          "count": 32,
+          "consume_items": false
+        },
+        {
+          "id": "7DD1E214C3D02153",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3FBB63273EF497C1",
+          "type": "item",
+          "item": {
+            "id": "minecraft:coal",
+            "count": 1
+          },
+          "count": 16
+        }
+      ],
+      "progression_mode": "linear"
+    },
+    {
+      "id": "3B82DAA42C02363E",
+      "dependencies": [
+        "29D816E3CAF555F1"
+      ],
+      "x": 9,
+      "y": -3,
+      "size": 1.0,
+      "shape": "gear",
+      "icon": {
+        "id": "extrastorage:storagepart_256k"
+      },
+      "tasks": [
+        {
+          "id": "5354B62B7DBAF470",
+          "type": "item",
+          "item": {
+            "id": "refinedstorage:4k_storage_disk",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "3362CA9DC01CCFF5",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "033B5B235A2044AC",
+          "type": "item",
+          "item": {
+            "id": "minecraft:diamond",
+            "count": 1
+          },
+          "count": 2
+        }
+      ],
+      "progression_mode": "linear"
+    },
+    {
+      "id": "4F10838CCEEF9146",
+      "dependencies": [
+        "7A932AF0B42896ED"
+      ],
+      "x": 9,
+      "y": 0,
+      "size": 1.0,
+      "shape": "gear",
+      "icon": {
+        "id": "refinedstorage:exporter"
+      },
+      "tasks": [
+        {
+          "id": "714607E479FFA2CB",
+          "type": "item",
+          "item": {
+            "id": "refinedstorage:exporter",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "5B1B717C69F76436",
+          "type": "item",
+          "item": {
+            "id": "minecraft:torch",
+            "count": 1
+          },
+          "count": 32,
+          "consume_items": false
+        },
+        {
+          "id": "191AA4BE28EC4816",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "22AF8276F88C68A9",
+          "type": "item",
+          "item": {
+            "id": "minecraft:iron_ingot",
+            "count": 1
+          },
+          "count": 16
+        }
+      ],
+      "progression_mode": "linear"
+    },
+    {
+      "id": "0EC8978EAB718E9C",
+      "dependencies": [
+        "4F10838CCEEF9146",
+        "10CFAD94EA9CDDF5"
+      ],
+      "x": 12,
+      "y": 0,
+      "size": 1.3,
+      "shape": "gear",
+      "icon": {
+        "id": "minecraft:bell"
+      },
+      "tasks": [
+        {
+          "id": "776BDE038A6F8723",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3A4C8D729A1B5943",
+          "type": "item",
+          "item": {
+            "id": "minecraft:diamond",
+            "count": 1
+          },
+          "count": 3
+        }
+      ],
+      "progression_mode": "linear"
+    }
+  ],
+  "autofocus_id": "1D91C50851D9903E"
+}
