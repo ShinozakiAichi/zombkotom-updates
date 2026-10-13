@@ -1,0 +1,32 @@
+{
+  "game_version": "5.5.10",
+  "new_age_version": "1.2.0",
+  "create_version": "6.0.10",
+  "first_passed": true,
+  "resume_passed": true,
+  "first_output": 24,
+  "resumed_output": 28,
+  "saved_wire_restored": true,
+  "real_local_clients": 1,
+  "real_network_clients": 0,
+  "native_probe_sha256": "66255e0361ae2ae5f4893b5a27ae87c266b24eac9c591e8c25e5c2f623028c9c",
+  "first_result_sha256": "17ce0a6ce59c8fdbb4ce14e0bce58ab34d2a1df58b7ba16be4723dbbd9c09ee9",
+  "resume_result_sha256": "124f484aaef523e0045518d61e2d002c2e056ee67c4e3e78bdcbd6cb075b4381",
+  "qa_probe_restored": true,
+  "production_files_changed": false,
+  "preparation_errors": [
+    "Four water wheels overloaded the four magnet rings; six wheels supply sufficient SU.",
+    "Depot retains processed products; the fixture now extracts native outputs into a chest before inserting a new batch."
+  ],
+  "limits": [
+    "Prepared blocks and raw inputs, not survival crafting.",
+    "Copper wire graph set via the mod connection API, not tested using the wire item in the player hand.",
+    "Output transfer from depot to chest performed by fixture automation.",
+    "One press at default motor speed; not a factory load benchmark, energy balance proof for all configurations, or real multiplayer."
+  ],
+  "native_raw_result_hashes": {
+    "first": "41356fd5c769738a3583c4fe91283b20948972bc96d01785ab104aec94d476bd",
+    "resume": "9d310ff347dd71d58050dbbd09dd39cb6c19713b6e99959161068c005394536d"
+  },
+  "published_results_line_endings": "LF; JSON values unchanged from native files"
+}

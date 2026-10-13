@@ -1,0 +1,1 @@
+Private QA source, not a distributed mod. Requires the exact installed Minecraft/Create/New Age classpath. The native fixture only activates in ZombKotom-Quest-QA with newage-qa.enabled, whose content selects first or resume. Results describe prepared blocks and API-connected wires, not survival crafting or network multiplayer. See ../../NEWAGE-VALIDATION-RU.md.
