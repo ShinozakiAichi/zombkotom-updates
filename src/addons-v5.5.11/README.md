@@ -1,0 +1,1 @@
+Private test source; not shipped as a mod. Requires the isolated ZombKotom-Quest-QA profile and addons-qa.enabled with first, continue, or resume. Continued run preserved the preliminary fixture rather than granting outputs. See ../../ADDONS-5.5.11-RU.md.

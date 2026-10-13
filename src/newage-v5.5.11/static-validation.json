@@ -1,0 +1,27 @@
+{
+  "version": "5.5.11",
+  "quests": 179,
+  "chapters": 24,
+  "all_quest_definitions_unchanged": true,
+  "only_description_keys_changed": [
+    "quest.0897FC0A5A015593.quest_desc",
+    "quest.7FB6DC58EB28366F.quest_desc",
+    "quest.7A49EBB5A1AAE36B.quest_desc"
+  ],
+  "review_pages": {
+    "0897FC0A5A015593": [
+      2
+    ],
+    "7FB6DC58EB28366F": [
+      0
+    ],
+    "7A49EBB5A1AAE36B": [
+      0,
+      1
+    ]
+  },
+  "hashes": {
+    "lang/ru_ru.snbt": "f19fac562435cd34ee9c362cde037518d78bfd30959a24f1808ef8da2ba3336e",
+    "lang/en_us.snbt": "f19fac562435cd34ee9c362cde037518d78bfd30959a24f1808ef8da2ba3336e"
+  }
+}

@@ -82,8 +82,8 @@
   "config/ftbquests/quests/chapters/transport.snbt": "7e66fe486287c02011b6606fdb758ca0c25db2e6bf29525488ebe87452ff05d4",
   "config/ftbquests/quests/chapters/workshop.snbt": "1d0c2a6f8ad134dbc6446edd06d5bc6073cd3b84c15f3dfb3c625a7e658576e3",
   "config/ftbquests/quests/data.snbt": "133415d5f8db00cb9a199fd0689c03f3a8c9b6feef8d37e7b443009a6f6d1258",
-  "config/ftbquests/quests/lang/en_us.snbt": "098b3b5d34dd1ed3ff79ee8e78d8dd3123d4ddc30f30c2d1ea9e6c6989297466",
-  "config/ftbquests/quests/lang/ru_ru.snbt": "098b3b5d34dd1ed3ff79ee8e78d8dd3123d4ddc30f30c2d1ea9e6c6989297466",
+  "config/ftbquests/quests/lang/en_us.snbt": "f19fac562435cd34ee9c362cde037518d78bfd30959a24f1808ef8da2ba3336e",
+  "config/ftbquests/quests/lang/ru_ru.snbt": "f19fac562435cd34ee9c362cde037518d78bfd30959a24f1808ef8da2ba3336e",
   "config/ftbteams-server.snbt": "2ef5e2dca3a653ced3f3981a85a32832fb3716caa5fa05e233f50ab16044a2c4",
   "config/gravestone-server.toml": "d6bee13ae45904562fc651630ce48fa4e70cd3853fe2f488403c9b67d0c74c2a",
   "config/hordes-common.toml": "b58eadf0cd67bf0a13e0f4fff5d3af8a615e65b0e52398e280b577ed0554e29a",
@@ -1182,5 +1182,9 @@
   "mods/sophisticatedstorage-1.21.1-1.6.2.2159.jar": "bd6cfe04f5062e1ac860f0e8e858185f037b3a20ef3ee387c8f895839781ac69",
   "mods/universalgrid-neoforge-1.21.1-0.3.2.jar": "bfd4510c0fbd649fb7a6e440610cede38cd5e880ee22334afe5a5241fc0e8238",
   "config/ftbquests/quests/chapters/storage_network.snbt": "6c39296ca09210c4e637be7a3a17f7ec09661004cfdc44dfe57a69e7fadca099",
-  "mods/lastbastion-industrial-compat-1.3.4.jar": "38e57e1eef1d1a7508abfd3527fef111e25982cc442ae672630ef959366102b6"
+  "mods/lastbastion-industrial-compat-1.3.4.jar": "38e57e1eef1d1a7508abfd3527fef111e25982cc442ae672630ef959366102b6",
+  "mods/amendments-1.21-2.1.11-neoforge.jar": "7bc18ef0554ab305c4af7d1bdb60b0a45edec2a5d9aabf307dd7b26cf2ad2447",
+  "mods/BrewinAndChewin-neoforge-4.5.0+1.21.1.jar": "9f6581823c2449dde4ac1e9b4f5a7cc226c42e058e656741ab392f714f443971",
+  "mods/sophisticatedstoragecreateintegration-1.21.1-0.1.22.238.jar": "2c7549e9381c2216b83b081ef07ce20c9cf63ca613474cb7ccb2a328c2d49dc5",
+  "mods/immersive_melodies-neoforge-0.8.0+1.21.1.jar": "343e0fa92224e7c9697f2494265dcb5cc627a077b3fc2382142a8d04985bac0e"
 }

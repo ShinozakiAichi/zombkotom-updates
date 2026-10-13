@@ -1,0 +1,1 @@
+Private native test sources, not shipped as mods. EnergiserProbe uses the previously saved six-wheel generator from ../newage-v5.5.10. It runs only in the isolated ZombKotom-Quest-QA profile with energiser-qa.enabled set to first or resume. See ../../UPDATE-5.5.11-RU.md for scope and limitations.

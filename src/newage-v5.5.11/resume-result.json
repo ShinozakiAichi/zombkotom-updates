@@ -1,0 +1,60 @@
+{
+  "saved_output": 3,
+  "wire_survived_restart": true,
+  "processing_after_restart": true,
+  "output": 4,
+  "passed": true,
+  "samples": [
+    {
+      "stage": 10,
+      "tick": 50,
+      "output": 3,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 7301,
+      "last_charged": 4,
+      "wire": true
+    },
+    {
+      "stage": 10,
+      "tick": 100,
+      "output": 3,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 7301,
+      "last_charged": 4,
+      "wire": true
+    },
+    {
+      "stage": 10,
+      "tick": 150,
+      "output": 3,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 7301,
+      "last_charged": 4,
+      "wire": true
+    },
+    {
+      "stage": 10,
+      "tick": 200,
+      "output": 3,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 7301,
+      "last_charged": 4,
+      "wire": true
+    },
+    {
+      "stage": 10,
+      "tick": 250,
+      "output": 3,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 7301,
+      "last_charged": 4,
+      "wire": true
+    }
+  ],
+  "scope": "One local client; prepared blocks and raw ingots; native water generation and shaft drive; wire graph API and output extraction by fixture. No injected FE, assigned speed or output grants. Not survival crafting, belts or multiplayer."
+}

@@ -346,11 +346,11 @@ hash = "133415d5f8db00cb9a199fd0689c03f3a8c9b6feef8d37e7b443009a6f6d1258"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "098b3b5d34dd1ed3ff79ee8e78d8dd3123d4ddc30f30c2d1ea9e6c6989297466"
+hash = "f19fac562435cd34ee9c362cde037518d78bfd30959a24f1808ef8da2ba3336e"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "098b3b5d34dd1ed3ff79ee8e78d8dd3123d4ddc30f30c2d1ea9e6c6989297466"
+hash = "f19fac562435cd34ee9c362cde037518d78bfd30959a24f1808ef8da2ba3336e"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -4863,3 +4863,23 @@ file = "mods/zombies-break-and-build.pw.toml"
 hash = "50e3c8e0f78d9596c13a2d4570d61378f0a267c755b15f79a1352024ae36abce"
 metafile = true
 
+
+[[files]]
+file = "mods/amendments.pw.toml"
+hash = "9fe4d56e11bfb5035b4472c061b771a48c7c74c7f692b14ccf28861ae0393464"
+metafile = true
+
+[[files]]
+file = "mods/brewin-and-chewin.pw.toml"
+hash = "21be9a0d27c15c3c0c9b0951a5dd0877f8cc21f2875c6e42fb1efd672959eb66"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage-create-integration.pw.toml"
+hash = "cf8b86ae98ee25006e57609b7b475edb50883b2901ea47fe74ce73862bde5859"
+metafile = true
+
+[[files]]
+file = "mods/immersive-melodies.pw.toml"
+hash = "0f8ccb263e73f05587f93425cc68a8b6347d1fbcbd3ae8bbda0ff00b8a4c3535"
+metafile = true

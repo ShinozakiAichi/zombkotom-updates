@@ -1,0 +1,14 @@
+{
+  "test_target_tick_rate": 100,
+  "continued_ferment_time": 2721,
+  "mounted_cargo_persisted": true,
+  "instrument_play_state": true,
+  "beer_at_tick": 6979,
+  "client_melody_note_ticks": 225,
+  "rotation_angle_changes": 6879,
+  "fermented_beer_mb": 1000,
+  "wall_lantern_stable": true,
+  "left_assembled_for_restart": true,
+  "passed": true,
+  "scope": "One native local client, Iris + Complementary. Prepared fixture, creative motor, raw keg inputs. Native fermentation and moving cargo tested; no real co-op, listening test, survival resource cost, upgrades, or network transport coverage."
+}

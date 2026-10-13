@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "amendments",
+    "name": "Amendments",
+    "project_id": "6iTJugQR",
+    "version_id": "83ntBcVk",
+    "version": "1.21-2.1.11",
+    "file": {
+      "id": "9dcF0l0J",
+      "hashes": {
+        "sha1": "3d1ba6f88621e4f7f4264d262eb20a2d98bf1f59",
+        "sha512": "bc09b6ee63aae62faf3ad1c8f44aceb8b82b1e490e463f62608da7a210301e8fa097189ff1bed2a168e842ef2f1b2e6a967b26de709d65b4ef7ed8f8623c88a7"
+      },
+      "url": "https://cdn.modrinth.com/data/6iTJugQR/versions/83ntBcVk/amendments-1.21-2.1.11-neoforge.jar",
+      "filename": "amendments-1.21-2.1.11-neoforge.jar",
+      "primary": true,
+      "size": 1175215,
+      "file_type": null
+    },
+    "sha256": "7bc18ef0554ab305c4af7d1bdb60b0a45edec2a5d9aabf307dd7b26cf2ad2447",
+    "source": "https://modrinth.com/mod/amendments"
+  },
+  {
+    "slug": "brewin-and-chewin",
+    "name": "Brewin' And Chewin'",
+    "project_id": "hIu9KJTT",
+    "version_id": "MbcR48Ou",
+    "version": "4.5.0+1.21.1-neoforge",
+    "file": {
+      "id": "wvfvkkUO",
+      "hashes": {
+        "sha1": "bc86c776779b16dec386f4b667ff46d9e2ecb88d",
+        "sha512": "2d4d264564d12784f5425177fb1b88b5ec0d1672c0957d6a78eb1e12ffa5e0e31a7f85f8beb9c02df0489043f5d2ae5889fc3f589e8e5f8ee7971a458ba0f34d"
+      },
+      "url": "https://cdn.modrinth.com/data/hIu9KJTT/versions/MbcR48Ou/BrewinAndChewin-neoforge-4.5.0%2B1.21.1.jar",
+      "filename": "BrewinAndChewin-neoforge-4.5.0+1.21.1.jar",
+      "primary": true,
+      "size": 1575450,
+      "file_type": null
+    },
+    "sha256": "9f6581823c2449dde4ac1e9b4f5a7cc226c42e058e656741ab392f714f443971",
+    "source": "https://modrinth.com/mod/brewin-and-chewin"
+  },
+  {
+    "slug": "sophisticated-storage-create-integration",
+    "name": "Sophisticated Storage Create Integration",
+    "project_id": "MJ0hdevs",
+    "version_id": "vC5Xhg1p",
+    "version": "1.21.1-0.1.22.238",
+    "file": {
+      "id": "xv6GCeBj",
+      "hashes": {
+        "sha1": "f989af705fa0c4323eb7bbfbd96878e20f1a8556",
+        "sha512": "3304c80ffb6f8f23ec6dbbb8420a5e38c92184e551705e77136e255bb0416453470ee61221418c957f4887c39e556d533971f61fb116e5d971f60e73ed0ee5fd"
+      },
+      "url": "https://cdn.modrinth.com/data/MJ0hdevs/versions/vC5Xhg1p/sophisticatedstoragecreateintegration-1.21.1-0.1.22.238.jar",
+      "filename": "sophisticatedstoragecreateintegration-1.21.1-0.1.22.238.jar",
+      "primary": true,
+      "size": 147925,
+      "file_type": null
+    },
+    "sha256": "2c7549e9381c2216b83b081ef07ce20c9cf63ca613474cb7ccb2a328c2d49dc5",
+    "source": "https://modrinth.com/mod/sophisticated-storage-create-integration"
+  },
+  {
+    "slug": "immersive-melodies",
+    "name": "Immersive Melodies",
+    "project_id": "TaSmHw8V",
+    "version_id": "RLpigSXC",
+    "version": "0.8.0+1.21.1",
+    "file": {
+      "id": "WOTR4lLN",
+      "hashes": {
+        "sha1": "5f3cd9eb07465a88a22abc6230862e798f45ef82",
+        "sha512": "79bf2f8dccb5b0db017f77956d73721d54e093416ebe4785f378515fc791ca9a2098d1039d6045c96e2f2c1eac7806de775b7ae84ab9b1b15e68adebebaeaff1"
+      },
+      "url": "https://cdn.modrinth.com/data/TaSmHw8V/versions/RLpigSXC/immersive_melodies-neoforge-0.8.0%2B1.21.1.jar",
+      "filename": "immersive_melodies-neoforge-0.8.0+1.21.1.jar",
+      "primary": true,
+      "size": 5565133,
+      "file_type": null
+    },
+    "sha256": "343e0fa92224e7c9697f2494265dcb5cc627a077b3fc2382142a8d04985bac0e",
+    "source": "https://modrinth.com/mod/immersive-melodies"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "approved": true,
+  "hashes": {
+    "lang/ru_ru.snbt": "f19fac562435cd34ee9c362cde037518d78bfd30959a24f1808ef8da2ba3336e",
+    "lang/en_us.snbt": "f19fac562435cd34ee9c362cde037518d78bfd30959a24f1808ef8da2ba3336e"
+  },
+  "screenshots": {
+    "000-home.png": "8e160d338c86b9228d014a99c94b48d1786fc7f01644bf796f3b6164945fbf5d",
+    "001-power_grid-map.png": "c16b5825b99f9e31406d6c9bbbf229c5369091024ce6e8fdc6c1f9b7124db698",
+    "002-power_grid-q1-p2-top.png": "f6c7cced103d794cf2996abb99501619e72bff6ce19ab0760599b29955aa807f",
+    "003-power_grid-q1-p2-bottom.png": "91eeb1acee36edebba04c3e82393aa8e2a370b769e57a9c30634c1181d401df5",
+    "004-power_grid-q2-p0-top.png": "a0fc0dcf88cc9aaefaa0f09b2cb9e523bfa32bad31c332fcb925be45493eba0b",
+    "005-power_grid-q2-p0-bottom.png": "91be3ab27ff7d5d962184d523bdb8704531b4f2ba151506e6da06c7a16d00778",
+    "006-power_grid-q3-p0-top.png": "1239dfd4496fe1e0a757d800bb176ff8f9e830d24927e7b53b77d4f75a921374",
+    "007-power_grid-q3-p0-bottom.png": "8718128e385ef558aa1db312e053c56f2decfbd526e3f379e0a109e0727e8f72",
+    "008-power_grid-q3-p1-top.png": "8d273057d9d7c85603909fa81458b9514776d9fa216f9913668894eff1484f21",
+    "009-power_grid-q3-p1-bottom.png": "fddd16676c4d1a7f5d6d55c340e43ad578635a4c1b226fbddf7be55694e854f8"
+  },
+  "review": "All ten native captures inspected. Four changed pages fit without clipping at 1280x720 GUI 2; start/end content and navigation visible."
+}

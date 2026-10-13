@@ -1,0 +1,303 @@
+{
+  "rotation_without_electricity_no_output": true,
+  "first_ingot_ticks": 250,
+  "second_ingot_ticks": 260,
+  "repeat_processing": true,
+  "electricity_without_rotation_no_output": true,
+  "rotation_restored_resumes": true,
+  "output": 3,
+  "passed": true,
+  "samples": [
+    {
+      "stage": 1,
+      "tick": 50,
+      "output": 0,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 0,
+      "last_charged": -1,
+      "wire": false
+    },
+    {
+      "stage": 1,
+      "tick": 100,
+      "output": 0,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 0,
+      "last_charged": -1,
+      "wire": false
+    },
+    {
+      "stage": 2,
+      "tick": 50,
+      "output": 0,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 0,
+      "last_charged": 0,
+      "wire": false
+    },
+    {
+      "stage": 2,
+      "tick": 100,
+      "output": 0,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 0,
+      "last_charged": 0,
+      "wire": false
+    },
+    {
+      "stage": 2,
+      "tick": 150,
+      "output": 0,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 0,
+      "last_charged": 0,
+      "wire": false
+    },
+    {
+      "stage": 2,
+      "tick": 200,
+      "output": 0,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 0,
+      "last_charged": 0,
+      "wire": false
+    },
+    {
+      "stage": 3,
+      "tick": 50,
+      "output": 0,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 352,
+      "last_charged": 4,
+      "wire": true
+    },
+    {
+      "stage": 3,
+      "tick": 100,
+      "output": 0,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 552,
+      "last_charged": 4,
+      "wire": true
+    },
+    {
+      "stage": 3,
+      "tick": 150,
+      "output": 0,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 752,
+      "last_charged": 4,
+      "wire": true
+    },
+    {
+      "stage": 3,
+      "tick": 200,
+      "output": 0,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 952,
+      "last_charged": 4,
+      "wire": true
+    },
+    {
+      "stage": 3,
+      "tick": 250,
+      "output": 1,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 1152,
+      "last_charged": 4,
+      "wire": true
+    },
+    {
+      "stage": 4,
+      "tick": 50,
+      "output": 1,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 1392,
+      "last_charged": 4,
+      "wire": true
+    },
+    {
+      "stage": 4,
+      "tick": 100,
+      "output": 1,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 1592,
+      "last_charged": 4,
+      "wire": true
+    },
+    {
+      "stage": 4,
+      "tick": 150,
+      "output": 1,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 1792,
+      "last_charged": 4,
+      "wire": true
+    },
+    {
+      "stage": 4,
+      "tick": 200,
+      "output": 1,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 1992,
+      "last_charged": 4,
+      "wire": true
+    },
+    {
+      "stage": 4,
+      "tick": 250,
+      "output": 1,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 2192,
+      "last_charged": 4,
+      "wire": true
+    },
+    {
+      "stage": 5,
+      "tick": 50,
+      "output": 2,
+      "speed": 0.0,
+      "overstressed": false,
+      "energy": 2632,
+      "last_charged": -1,
+      "wire": true
+    },
+    {
+      "stage": 5,
+      "tick": 100,
+      "output": 2,
+      "speed": 0.0,
+      "overstressed": false,
+      "energy": 3032,
+      "last_charged": -1,
+      "wire": true
+    },
+    {
+      "stage": 5,
+      "tick": 150,
+      "output": 2,
+      "speed": 0.0,
+      "overstressed": false,
+      "energy": 3432,
+      "last_charged": -1,
+      "wire": true
+    },
+    {
+      "stage": 5,
+      "tick": 200,
+      "output": 2,
+      "speed": 0.0,
+      "overstressed": false,
+      "energy": 3832,
+      "last_charged": -1,
+      "wire": true
+    },
+    {
+      "stage": 6,
+      "tick": 50,
+      "output": 2,
+      "speed": 0.0,
+      "overstressed": false,
+      "energy": 4232,
+      "last_charged": -1,
+      "wire": true
+    },
+    {
+      "stage": 6,
+      "tick": 100,
+      "output": 2,
+      "speed": 0.0,
+      "overstressed": false,
+      "energy": 4632,
+      "last_charged": -1,
+      "wire": true
+    },
+    {
+      "stage": 6,
+      "tick": 150,
+      "output": 2,
+      "speed": 0.0,
+      "overstressed": false,
+      "energy": 5032,
+      "last_charged": -1,
+      "wire": true
+    },
+    {
+      "stage": 6,
+      "tick": 200,
+      "output": 2,
+      "speed": 0.0,
+      "overstressed": false,
+      "energy": 5432,
+      "last_charged": -1,
+      "wire": true
+    },
+    {
+      "stage": 7,
+      "tick": 50,
+      "output": 2,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 5700,
+      "last_charged": 4,
+      "wire": true
+    },
+    {
+      "stage": 7,
+      "tick": 100,
+      "output": 2,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 5900,
+      "last_charged": 4,
+      "wire": true
+    },
+    {
+      "stage": 7,
+      "tick": 150,
+      "output": 2,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 6100,
+      "last_charged": 4,
+      "wire": true
+    },
+    {
+      "stage": 7,
+      "tick": 200,
+      "output": 2,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 6300,
+      "last_charged": 4,
+      "wire": true
+    },
+    {
+      "stage": 7,
+      "tick": 250,
+      "output": 2,
+      "speed": 16.0,
+      "overstressed": false,
+      "energy": 6500,
+      "last_charged": 4,
+      "wire": true
+    }
+  ],
+  "scope": "One local client; prepared blocks and raw ingots; native water generation and shaft drive; wire graph API and output extraction by fixture. No injected FE, assigned speed or output grants. Not survival crafting, belts or multiplayer."
+}
