@@ -1,12 +1,12 @@
 name = "ZombKotom / LAST BASTION"
 author = "ShinozakiAichi"
-version = "5.5.11"
+version = "5.5.12"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "506dba0fd2f86312b6bc26dac177d4c53caf8a9cd2bf34386e17de0ae9145443"
+hash = "effdf7f6ce4bddd0be23c5ffc5696cf04a01e912666b9e6b19a485c43a4d407e"
 
 [versions]
 minecraft = "1.21.1"

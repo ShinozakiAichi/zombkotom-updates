@@ -1,9 +1,9 @@
 {
-  "version": "5.5.11",
+  "version": "5.5.12",
   "minecraft": "1.21.1",
   "neoforge": "21.1.257",
-  "mods": 132,
-  "pack_sha256": "9e4924649b6a60a0e180e5c94f156f094f7a25414a05738625ca57fe6b8ead95",
+  "mods": 158,
+  "pack_sha256": "316e23c9663d2fa08ba2acd8d76381f2e94d643d6679638f45218fac97ab506a",
   "personal_paths_unmanaged": [
     "shaderpacks/**",
     "config/iris.properties",
@@ -12,6 +12,6 @@
     "xaero/**",
     "config/fpvcraft-radio.json"
   ],
-  "quests": 179,
-  "chapters": 24
+  "quests": 185,
+  "chapters": 25
 }

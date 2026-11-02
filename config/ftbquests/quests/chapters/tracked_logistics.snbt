@@ -163,15 +163,6 @@
             "id": "create:item_vault"
           },
           "type": "item"
-        },
-        {
-          "consume_items": false,
-          "id": "71D9B9BC0BF8E3EC",
-          "item": {
-            "count": 1,
-            "id": "createdieselgenerators:diesel_engine"
-          },
-          "type": "item"
         }
       ],
       "x": 6.0,
