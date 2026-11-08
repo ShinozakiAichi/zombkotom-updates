@@ -989,7 +989,7 @@
   "config/openloader/packs/last_bastion_visuals/assets/undead_revamp2/models/custom/perfume_bottle_honey.json": "24bc07fd2211e523088916cb19fae2fcd321f50545ba2ca53ebd1a40272fc2ad",
   "config/openloader/packs/last_bastion_visuals/assets/undead_revamp2/models/custom/toothmace.json": "fc37d7060ee6b708098eadf709e60d915ecaece32d742fc5326cd8f514353b48",
   "config/openloader/packs/last_bastion_visuals/assets/undead_revamp2/models/custom/windcaller.json": "965d6cf7829fc05f004ec6226c82654088b7b19b7598c11d0db4bd537732801c",
-  "config/openloader/packs/last_bastion_visuals/pack.mcmeta": "f0692f2bf7cc5b2d58f21157c5b3cb4a354b44a8bf5806cb5ee8e2faad623e96",
+  "config/openloader/packs/last_bastion_visuals/pack.mcmeta": "27f086410619b877d801b977b1b541f800b43572c6f6e2c4f24e5506ae4bd073",
   "config/placebo.cfg": "eb7e9906d126543f03c2257ca98efa4b845d1e7479dc8b069a12b194c86debcf",
   "config/railways-common.toml": "cb0af90a705f48886a1c4ec970dfeb70e91d6961f561b5f1d5a31f5e0cc1edd5",
   "config/railways-server.toml": "01d1370950239d1a78d2b166652e0ad7dce25d9e89e46565edc3021bec71e206",
@@ -1219,5 +1219,16 @@
   "mods/lastbastion-industrial-compat-1.3.5.jar": "b5adeb30f43346dd91c40a49d86578a7a8a7896b930ea4c1d55a28855ac6bed7",
   "config/ftbquests/quests/chapters/pointblank_workshop.snbt": "067a1e11d5efcadc71b4967b884fb53fa10bd911ba8ea4e34fe8f3c5ca554f99",
   "config/openloader/packs/last_bastion/data/pointblank/recipe/printer.json": "790f2c707c1012265b2dd5fd0254eecb4d405d2c27d1e757db350b955f9575a7",
-  "mods/pointblank-neoforge-1.21-2.2.0.jar": "203131e58706c623477bd6ccab91ff75e7b5389d33efa1339243cee26e7fe170"
+  "mods/pointblank-neoforge-1.21-2.2.0.jar": "203131e58706c623477bd6ccab91ff75e7b5389d33efa1339243cee26e7fe170",
+  "config/openloader/packs/last_bastion/data/createcafe/recipe/mixing/blood_tea_mixing.json": "4ea374e47a1caaf4c91bb28cdeb6d44e7c624ad4913ba75bae7ca74fac10866a",
+  "config/openloader/packs/last_bastion/data/createcafe/recipe/compat/altar/blood_orange.json": "e43d6879354a1e70c1e149d6f819f7e9c1a8445b69576eda02ea05f6e66db765",
+  "config/openloader/packs/last_bastion/data/createcafe/recipe/compat/altar/blood_orange2.json": "c33c90cabdab012a8f37beaa188a354eaf33bb0881fa3d88e7651390aed38ae0",
+  "config/openloader/packs/last_bastion/data/createcafe/recipe/compat/mana_infusion/mana_berries.json": "395874062cf85c248ff3e723ff7ae08dbd7ba76b0a02806ae7ee89a148e370fb",
+  "config/openloader/packs/last_bastion/data/exposure_expanded/recipe/instant_c64_slide.json": "2a6a18f9aa7bf6d4df051b2b714e73889c0ea1e72ea82fd4dc7f30a8a73fd7f9",
+  "config/openloader/packs/last_bastion/data/exposure_expanded/recipe/instant_cga_slide.json": "5311feb1b081c047a5f7f3bb623ced07ea6d5308b9818bed9027f00970758d82",
+  "config/openloader/packs/last_bastion/data/exposure_expanded/recipe/instant_gameboy_slide.json": "140f35852410f0dcf4a4accfc944b719d1b3d441ab62adf809c011d9a5226825",
+  "config/openloader/packs/last_bastion/data/exposure_expanded/recipe/instant_hires_black_and_white_slide.json": "b2d466f72296c301521bc40c25ef4bf92ed55057a8be1b3844ee03ad292e2ced",
+  "config/openloader/packs/last_bastion/data/exposure_expanded/recipe/instant_hires_color_slide.json": "4a773ee6b3f38358ac552a3a7855201e17b064de17ab9aa33c00a62610d008cb",
+  "config/openloader/packs/last_bastion/data/exposure_expanded/recipe/instant_nes_slide.json": "c8523db67ce354c75082c016a9e8a970546e7a931816296ccf434cd286324da9",
+  "config/openloader/packs/last_bastion_visuals/assets/immersivepetroleum/lang/ru_ru.json": "d52a9360e80c22d41a9b0387442d975db4258a06a30472bcb67167e3467ca213"
 }

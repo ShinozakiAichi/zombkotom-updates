@@ -4066,7 +4066,7 @@ hash = "965d6cf7829fc05f004ec6226c82654088b7b19b7598c11d0db4bd537732801c"
 
 [[files]]
 file = "config/openloader/packs/last_bastion_visuals/pack.mcmeta"
-hash = "f0692f2bf7cc5b2d58f21157c5b3cb4a354b44a8bf5806cb5ee8e2faad623e96"
+hash = "27f086410619b877d801b977b1b541f800b43572c6f6e2c4f24e5506ae4bd073"
 
 [[files]]
 file = "config/placebo.cfg"
@@ -5042,3 +5042,47 @@ hash = "067a1e11d5efcadc71b4967b884fb53fa10bd911ba8ea4e34fe8f3c5ca554f99"
 [[files]]
 file = "config/openloader/packs/last_bastion/data/pointblank/recipe/printer.json"
 hash = "790f2c707c1012265b2dd5fd0254eecb4d405d2c27d1e757db350b955f9575a7"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/createcafe/recipe/mixing/blood_tea_mixing.json"
+hash = "4ea374e47a1caaf4c91bb28cdeb6d44e7c624ad4913ba75bae7ca74fac10866a"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/createcafe/recipe/compat/altar/blood_orange.json"
+hash = "e43d6879354a1e70c1e149d6f819f7e9c1a8445b69576eda02ea05f6e66db765"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/createcafe/recipe/compat/altar/blood_orange2.json"
+hash = "c33c90cabdab012a8f37beaa188a354eaf33bb0881fa3d88e7651390aed38ae0"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/createcafe/recipe/compat/mana_infusion/mana_berries.json"
+hash = "395874062cf85c248ff3e723ff7ae08dbd7ba76b0a02806ae7ee89a148e370fb"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/exposure_expanded/recipe/instant_c64_slide.json"
+hash = "2a6a18f9aa7bf6d4df051b2b714e73889c0ea1e72ea82fd4dc7f30a8a73fd7f9"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/exposure_expanded/recipe/instant_cga_slide.json"
+hash = "5311feb1b081c047a5f7f3bb623ced07ea6d5308b9818bed9027f00970758d82"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/exposure_expanded/recipe/instant_gameboy_slide.json"
+hash = "140f35852410f0dcf4a4accfc944b719d1b3d441ab62adf809c011d9a5226825"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/exposure_expanded/recipe/instant_hires_black_and_white_slide.json"
+hash = "b2d466f72296c301521bc40c25ef4bf92ed55057a8be1b3844ee03ad292e2ced"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/exposure_expanded/recipe/instant_hires_color_slide.json"
+hash = "4a773ee6b3f38358ac552a3a7855201e17b064de17ab9aa33c00a62610d008cb"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/exposure_expanded/recipe/instant_nes_slide.json"
+hash = "c8523db67ce354c75082c016a9e8a970546e7a931816296ccf434cd286324da9"
+
+[[files]]
+file = "config/openloader/packs/last_bastion_visuals/assets/immersivepetroleum/lang/ru_ru.json"
+hash = "d52a9360e80c22d41a9b0387442d975db4258a06a30472bcb67167e3467ca213"
