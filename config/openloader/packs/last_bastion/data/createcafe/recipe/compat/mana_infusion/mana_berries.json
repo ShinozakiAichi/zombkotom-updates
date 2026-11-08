@@ -1,0 +1,16 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "minecraft:sweet_berries"
+  },
+  "output": {
+    "item": "createcafe:mana_berries"
+  },
+  "mana": 40,
+  "neoforge:conditions": [
+    {
+      "modid": "botania",
+      "type": "neoforge:mod_loaded"
+    }
+  ]
+}

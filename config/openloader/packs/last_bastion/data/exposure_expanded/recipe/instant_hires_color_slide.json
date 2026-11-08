@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#BR",
+    "CMY",
+    "PPP"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "B": {
+      "item": "minecraft:black_dye"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "C": {
+      "item": "minecraft:cyan_dye"
+    },
+    "M": {
+      "item": "minecraft:magenta_dye"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "id": "exposure_expanded:instant_hires_color_slide",
+    "count": 3
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "exposure_expanded:instant_hires_color_slide"
+    }
+  ]
+}

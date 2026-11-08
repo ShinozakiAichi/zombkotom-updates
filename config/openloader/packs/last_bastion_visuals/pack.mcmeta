@@ -12,6 +12,10 @@
       {
         "namespace": "create_radar",
         "path": "models/block/(cannon_mount_radar|shield_jammer|sky_radar_mount|smart_cannon_mount)\\.json"
+      },
+      {
+        "namespace": "immersivepetroleum",
+        "path": "lang/ru_ru\\.json"
       }
     ]
   }
