@@ -350,11 +350,11 @@ hash = "133415d5f8db00cb9a199fd0689c03f3a8c9b6feef8d37e7b443009a6f6d1258"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "95ffb89cd8f15de3e1a065809936e8cfa79d1d56a6c7265c3f328ba08ca729de"
+hash = "3883c7a5913bfb1127503858d3dade34c4badbdcfb73a2cb68cb87ae4875f230"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "95ffb89cd8f15de3e1a065809936e8cfa79d1d56a6c7265c3f328ba08ca729de"
+hash = "3883c7a5913bfb1127503858d3dade34c4badbdcfb73a2cb68cb87ae4875f230"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -5029,3 +5029,16 @@ file = "mods/zombies-break-and-build.pw.toml"
 hash = "50e3c8e0f78d9596c13a2d4570d61378f0a267c755b15f79a1352024ae36abce"
 metafile = true
 
+
+[[files]]
+file = "mods/pointblank.pw.toml"
+hash = "f6c6d65ea93cab260676c12152e1a247948f3de23ddb48976231c8e8cf04cf6c"
+metafile = true
+
+[[files]]
+file = "config/ftbquests/quests/chapters/pointblank_workshop.snbt"
+hash = "067a1e11d5efcadc71b4967b884fb53fa10bd911ba8ea4e34fe8f3c5ca554f99"
+
+[[files]]
+file = "config/openloader/packs/last_bastion/data/pointblank/recipe/printer.json"
+hash = "790f2c707c1012265b2dd5fd0254eecb4d405d2c27d1e757db350b955f9575a7"

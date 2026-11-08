@@ -82,8 +82,8 @@
   "config/ftbquests/quests/chapters/transport.snbt": "7e66fe486287c02011b6606fdb758ca0c25db2e6bf29525488ebe87452ff05d4",
   "config/ftbquests/quests/chapters/workshop.snbt": "1d0c2a6f8ad134dbc6446edd06d5bc6073cd3b84c15f3dfb3c625a7e658576e3",
   "config/ftbquests/quests/data.snbt": "133415d5f8db00cb9a199fd0689c03f3a8c9b6feef8d37e7b443009a6f6d1258",
-  "config/ftbquests/quests/lang/en_us.snbt": "95ffb89cd8f15de3e1a065809936e8cfa79d1d56a6c7265c3f328ba08ca729de",
-  "config/ftbquests/quests/lang/ru_ru.snbt": "95ffb89cd8f15de3e1a065809936e8cfa79d1d56a6c7265c3f328ba08ca729de",
+  "config/ftbquests/quests/lang/en_us.snbt": "3883c7a5913bfb1127503858d3dade34c4badbdcfb73a2cb68cb87ae4875f230",
+  "config/ftbquests/quests/lang/ru_ru.snbt": "3883c7a5913bfb1127503858d3dade34c4badbdcfb73a2cb68cb87ae4875f230",
   "config/ftbteams-server.snbt": "2ef5e2dca3a653ced3f3981a85a32832fb3716caa5fa05e233f50ab16044a2c4",
   "config/gravestone-server.toml": "d6bee13ae45904562fc651630ce48fa4e70cd3853fe2f488403c9b67d0c74c2a",
   "config/hordes-common.toml": "b58eadf0cd67bf0a13e0f4fff5d3af8a615e65b0e52398e280b577ed0554e29a",
@@ -1216,5 +1216,8 @@
   "mods/NaturesCompass-1.21.1-3.0.3-neoforge.jar": "6dd24f37f5d69a6f9803c00b7722f9f103647131c29415511fa01c6feced0848",
   "mods/fzzy_config-0.7.7+fix1+1.21+neoforge.jar": "414782aba00502349da192c1affcd4cbaf653119ec26605453f1b0690b3f8cc5",
   "mods/SimplyTooltips-neoforge-0.1.5.jar": "fdac367da1c5243ac5225f00f831b786817452ee9fa6a7f4acd99ec819b0f2b7",
-  "mods/lastbastion-industrial-compat-1.3.5.jar": "b5adeb30f43346dd91c40a49d86578a7a8a7896b930ea4c1d55a28855ac6bed7"
+  "mods/lastbastion-industrial-compat-1.3.5.jar": "b5adeb30f43346dd91c40a49d86578a7a8a7896b930ea4c1d55a28855ac6bed7",
+  "config/ftbquests/quests/chapters/pointblank_workshop.snbt": "067a1e11d5efcadc71b4967b884fb53fa10bd911ba8ea4e34fe8f3c5ca554f99",
+  "config/openloader/packs/last_bastion/data/pointblank/recipe/printer.json": "790f2c707c1012265b2dd5fd0254eecb4d405d2c27d1e757db350b955f9575a7",
+  "mods/pointblank-neoforge-1.21-2.2.0.jar": "203131e58706c623477bd6ccab91ff75e7b5389d33efa1339243cee26e7fe170"
 }
