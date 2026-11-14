@@ -1,7 +1,7 @@
 tag @s add lb_juggernaut
 attribute @s minecraft:generic.movement_speed base set 0.210
-attribute @s minecraft:generic.max_health base set 80
-data merge entity @s {Health:80.0f}
+attribute @s minecraft:generic.max_health base set 240
+data merge entity @s {Health:240.0f}
 attribute @s minecraft:generic.attack_damage base set 9
 attribute @s minecraft:generic.armor base set 10
 attribute @s minecraft:generic.knockback_resistance base set 1.0

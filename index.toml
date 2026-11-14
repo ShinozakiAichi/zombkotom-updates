@@ -2022,7 +2022,7 @@ hash = "3f103f8e6c999b955b5831b5919059aafa820038df8bcba658cd806bdcad0438"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/jump.mcfunction"
-hash = "45a65a586eb3d9ad8edf22de6eced6a8bab758565139fcddf6155fd1d8482ddb"
+hash = "33872be52a70ed5dd09131a1ea73a6e6da1588fcb3f354d11376c6568c2c4693"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/load.mcfunction"
@@ -2050,7 +2050,7 @@ hash = "468d36579d156a32ae86af65670065bae3d585e35845958fda56418c9802530f"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/100_juggernaut.mcfunction"
-hash = "c63e19049e7e35f259b2243e14de8b1f0e40ed704564bfd27c07eff74e4e3067"
+hash = "38f886b6a8eb03fd0c2f4bf0de8aa5b3fd1569a89e52b0eb957ef06dd0acd236"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/100_jumper.mcfunction"
@@ -2070,7 +2070,7 @@ hash = "e749fcf56d51df44810c8278044d2fa1db7df3b29d935bcb53743de9a5d3c04f"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/100_tank.mcfunction"
-hash = "c5ea22a3edc90e2b6a1a55bb91bb2e5b788adb788e59bdc6172536dff8c6a238"
+hash = "411b0bffe632305d2fdb82cb2dfa34cfaf65234e2bf2ea83666a1d041c7a715a"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/11_runner.mcfunction"
@@ -2102,7 +2102,7 @@ hash = "6ba46c9a27755689ea1ebb82c156e05353a5398d09d3116cb6a3ed1d94a70daf"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/21_tank.mcfunction"
-hash = "c0830e62b3d6e05a2f90f08dd7bf63b9a4c2b73d5f78f45bfc399931c3dcabc8"
+hash = "7c63d0c3cb71a81e56b4398e8b0d05e88eda8a53dfdd20178bbb3adf5bf9be55"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/26_berserker.mcfunction"
@@ -2118,7 +2118,7 @@ hash = "86f4599a14545ed65daecad5a2a4c4568f9cba78c71ca8deb0f91347111f32c9"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/26_tank.mcfunction"
-hash = "ab751a0cd617f4aeeb875eb4290892bec843a398fd34aa5141ffe3e39b736b42"
+hash = "a48eac4536731ad7fdddc39b3810d10978f9d08cc82365d3699cf63902b8a956"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/31_berserker.mcfunction"
@@ -2134,7 +2134,7 @@ hash = "def82ea325763e492890ae9af43a9c6ff8c296abbdb60fa2aca688162bee9aff"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/31_tank.mcfunction"
-hash = "075fb8c363063351ea13c5216a35b2fde74f7e5f47a6dc37ed4937e5a3da9687"
+hash = "ca14d4cad6c9fe40877849c96f90619be65df1df67bc257a7aa4e337a9e73c50"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/36_berserker.mcfunction"
@@ -2154,7 +2154,7 @@ hash = "3a5f2d22c293efbe74c11764e9db506679fdbb817fb20aa5d0f77623ea289d93"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/36_tank.mcfunction"
-hash = "b74f2d43d2b7d92f610b6cccb14f7c74039ddf3ee58aa05273600425844169c1"
+hash = "fec838d3848004478823da3047d123afe9cac90e92d17492b1ba76e59b2a8b2f"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/41_berserker.mcfunction"
@@ -2174,7 +2174,7 @@ hash = "7f83f6f3f404b304f075d53a875ed585f6a1f270f70217767e853c7e25029e1f"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/41_tank.mcfunction"
-hash = "f6d31204a846387052dcd3ede4b0cb37a0958d060514bcad7a84a74d0e3a89cb"
+hash = "e860189e2568210723d15887946230cb1a0605f086f2a920fd1023c1d05f5ffa"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/46_berserker.mcfunction"
@@ -2194,7 +2194,7 @@ hash = "8803c6a05e5cf9ad262fa7be30c8cd8b0f958cb2040ade7e938763c528a82ad4"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/46_tank.mcfunction"
-hash = "ac25058bd29a5c1b98278809fa9fa17de6c8f22359df756ac806d321d940db25"
+hash = "39eedfd48388a3e1bff87f7cb407bafbd876fb6f6525ebe5b4980fdfac069e7d"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/51_berserker.mcfunction"
@@ -2218,7 +2218,7 @@ hash = "ee38ca1309c93dff2762d7500adb0ee0862c98415f331f28fd63c09c0bcd908a"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/51_tank.mcfunction"
-hash = "9a9f7a8a87b51242295934bd9eef4914f6fa55b6a4286c8b6cb42b7fe18a3daf"
+hash = "370526daba1a98055210031264374ff1c74242e1ea4ebe0f267ee7b9bcc9cf7d"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/56_berserker.mcfunction"
@@ -2242,7 +2242,7 @@ hash = "6130faf66f4698ac3e3a1a0483edbdb999b9b19e7c8727e32688d8abe6bc20a9"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/56_tank.mcfunction"
-hash = "8340d146ec86fa0ce4f51969241263188d6e055e82c01d8d75790bd5e7fb8d1f"
+hash = "8370f97897614f8c8e76d01c88278e91035405253cdbc1d5aa2c671f40463fa8"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/61_berserker.mcfunction"
@@ -2266,7 +2266,7 @@ hash = "3d9a9d0509fdf17a088fd6d46a07ffa98e8da67108b082dd02faeb64cc445561"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/61_tank.mcfunction"
-hash = "5e1ff7123848adcd2606d619b5b4b3d75d4b94c88aa34253a4fcd4c3856d20d5"
+hash = "251b2180571eb3e727b733d046dc694bd69f08e1d71ce12b11250d360a19a1b9"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/66_berserker.mcfunction"
@@ -2290,7 +2290,7 @@ hash = "bb1785a95eb0a06c8195374c3501207f9a68aaf6f58fba71ea041d3077695515"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/66_tank.mcfunction"
-hash = "cdee5e05c9e4419c677036090894118a21bdef890976de8937013956384f67b6"
+hash = "7f686deb62138fc1741555d9780fd325953551ee68971937d1d4874a46272ce6"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/6_runner.mcfunction"
@@ -2318,7 +2318,7 @@ hash = "06b83ccecf8d74f9857a4d270b9dd70a896b77c0293bfd262ae30544b97fbd4e"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/71_tank.mcfunction"
-hash = "e00abb77a1aff4e7bb36be0ed3eadb77926332b47ce081668a92192e7cd211ba"
+hash = "3b58e177b9f1f264d4e38a031b112548ed8546e5250daf3b60baddf63a12a8d9"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/76_berserker.mcfunction"
@@ -2326,7 +2326,7 @@ hash = "f9afc9552b9562fc284b405b2d583b386e5673c4e53248d75c3b99793a454c94"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/76_juggernaut.mcfunction"
-hash = "4ab1b19a8a81fb48b3adbc3739c6650b5fc7d75224911777b588a9455b7d403e"
+hash = "ed55780dc77f6d6441f77eaec9f1647bc0ce1d4f9d58526b568d1e90e0072cc9"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/76_jumper.mcfunction"
@@ -2346,7 +2346,7 @@ hash = "949a7f7cc184295d8f29f82e5be1f7b19c2341572e64a1b4ffa6302ec97295b8"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/76_tank.mcfunction"
-hash = "acc64a202935de2cd0fe4250738a2fb68f73d719396a7b4826c2771f4d8fab52"
+hash = "9a405575765134393f04eadfcac95337f2f4dcc106d41285da501907ae89bf85"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/81_berserker.mcfunction"
@@ -2354,7 +2354,7 @@ hash = "99ce2a94f46565805fb6e8e294c3c7b991e3030d2a6cbf3f8d45c5fff1c8a9e1"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/81_juggernaut.mcfunction"
-hash = "c63e19049e7e35f259b2243e14de8b1f0e40ed704564bfd27c07eff74e4e3067"
+hash = "d48e086ee2404d649437d5591fad059383815479f516f7a361e9c1629f8c1b80"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/81_jumper.mcfunction"
@@ -2374,7 +2374,7 @@ hash = "96c59a6aec4bf39f5b9918ad30777aaec2e119d9807d48174e64c550996b7b69"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/81_tank.mcfunction"
-hash = "620dda079dc903e2cf359c9297b99cb9547c2e6cdf324d2b39a5f3bc57d283e6"
+hash = "35b91244ed9bfbe7228224055a631e7beba06052c096525efdf6d86e7b73841a"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/86_berserker.mcfunction"
@@ -2382,7 +2382,7 @@ hash = "b78585afc7ac5a9a3eb52497f2dfc97cd43ea41671576a9f219f1cdabf460d92"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/86_juggernaut.mcfunction"
-hash = "c63e19049e7e35f259b2243e14de8b1f0e40ed704564bfd27c07eff74e4e3067"
+hash = "625a70e4994b5e59553132b5edc8ae4ded35e185cc1fc6e37471b985dbbaf688"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/86_jumper.mcfunction"
@@ -2402,7 +2402,7 @@ hash = "8047b79e7e0949380cf8930d13bbef6e9a271c2d143eae4645336bb6de94c3e4"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/86_tank.mcfunction"
-hash = "5f69dd3d12ef52ee7b2affd8fc83040d42eb06b862116246eeb91eb8105930c3"
+hash = "fba22b97de86d015c20d1a1b054ddc999e0b1475f02334caf89a273d7ed97616"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/91_berserker.mcfunction"
@@ -2410,7 +2410,7 @@ hash = "c1bf1293ae79c3ee046174ac80a4be51d8ef51484a8c4e1c355e2b9c1614a971"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/91_juggernaut.mcfunction"
-hash = "c63e19049e7e35f259b2243e14de8b1f0e40ed704564bfd27c07eff74e4e3067"
+hash = "df90808d754f912fa53d9dd6a328ae817b204296c64375262b6269db9baaecce"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/91_jumper.mcfunction"
@@ -2430,7 +2430,7 @@ hash = "859fe33f86efce37687213c484ce4de58e5b81d38201a5e356135a539b7c9bb2"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/91_tank.mcfunction"
-hash = "b49d79f5e45f76777d2bf0ea653dbe7d9c68c05e6437962330f504d58122b3a1"
+hash = "f25b1b2131c38f91e8c2db81d5594254fb994efaa72296dce0e33cbde7271393"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/96_berserker.mcfunction"
@@ -2438,7 +2438,7 @@ hash = "e778977d240f327673143ec5f9765ec462f85e4beda2e9961fb022c11f92d761"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/96_juggernaut.mcfunction"
-hash = "c63e19049e7e35f259b2243e14de8b1f0e40ed704564bfd27c07eff74e4e3067"
+hash = "42f4ce5425fa96d350c7c944450a5f34e1568bcab47936c874b91974e3b34371"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/96_jumper.mcfunction"
@@ -2458,7 +2458,7 @@ hash = "e6d405972d43954b90e12aab7fca0de8fc9b74345d967628353241600d1468d7"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/roles/96_tank.mcfunction"
-hash = "1ea0f230818065a965f5beb3c13768297b99daf89a1b9cbbc9e05871e01158af"
+hash = "70f8d461562af9837f3a3b27d584e07b2063b20d276dac02838de68ae77de52c"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/rot_cloud.mcfunction"
@@ -2474,7 +2474,7 @@ hash = "7b457de353869b201bdb8a30d411e45d1420dcf48b4de9ff2aab9ddcb457b6e6"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/stage_100.mcfunction"
-hash = "b557e73b01f7d00cb06b92df314699f53b92c1376f3ea3c0c17990a318caccbb"
+hash = "a5b3a6fe9af0bc87dee5e00a4156e5ff0d911f67dcfc288d594b97f353897605"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/stage_11.mcfunction"
@@ -2494,27 +2494,27 @@ hash = "b6a682f6c16abb8f8cab67a4e711bb762b418f08b761271b0818ae5e2d50d62c"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/stage_31.mcfunction"
-hash = "784edc643a88424834d554f7f88a37f1c86603f9789c59daadfcbd1aa827ce09"
+hash = "2a1a2ad8e58fe4b334b734d70bbe856fb3b7ccf48e04f9704be267da3e86a02c"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/stage_36.mcfunction"
-hash = "6f3bae227c509ed7f0daf018cfc897e70d2ede1e89f29105725f5107e0432b15"
+hash = "6008d8945ff744b124819e2fe8aac9b5384aaa9b50a8a4b6afa79a9e627a7130"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/stage_41.mcfunction"
-hash = "06cb92cd4eb146a5d5dbd58265692d04ff7ef0f939385db4ee532cb309bdcc6f"
+hash = "f0a094390be7cc77caa81db9408b774b9e04a9ce801b2960300ca83a6ee5345e"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/stage_46.mcfunction"
-hash = "5215c62471cfa32445d0b13697b5f82875a793c7aeb6eb263229dfc0b1026803"
+hash = "90a3ea8bb6b42c9b7cc0ac5d5b7035bd19ce3204c83cfc63f9b749396d447472"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/stage_51.mcfunction"
-hash = "8975f5d70b0857c19c4a19dc3b4c3d3ffa8f58533a99a527a90553550bba41bd"
+hash = "d6f7b85d2b846f8cff5aa390df8ef3fcbde96ff04586877bcfa41597b4d95899"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/stage_56.mcfunction"
-hash = "924fcbc12fd820ce42109c453e02d391bf7036d932bd41379d9d1310817bc703"
+hash = "ad9e9d1d2714801c8ea3c7cbbccdcdfb924a91b663eb38658c17589a15d8f423"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/stage_6.mcfunction"
@@ -2522,35 +2522,35 @@ hash = "d9d5de524fa2a2eaf6c69a644d1912a71df80bbb901b8613946a09461c8e1a26"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/stage_61.mcfunction"
-hash = "32027dc5db07d1275bf72ca2f0de62606393955491958b94174fc672add2a7a7"
+hash = "7108aa1d1166576af7972374d1f42d466ce713d98e1c02cdbb45725f16d563d0"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/stage_66.mcfunction"
-hash = "59b720c3f9721719dee53b9b5c0c7c9852a80d807268a8e0fb9c85b4615dd734"
+hash = "cbdeb7fe741310a8d841fc34ba79cdb45888a5cac23cf55438dd4194dc7a223f"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/stage_71.mcfunction"
-hash = "e3e7277d2ba410d8a3feba48b363d911d5fd433cf9fc200d74f22c490919bef6"
+hash = "09bb04651823bad7d9f46c11ff4aaeff9525c9653f246e2a1f9e19fd8a47ec84"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/stage_76.mcfunction"
-hash = "959fbbc4041a5c58bb3b44a00d3980cac4a4a7d7bfd21a6e1bc56829d2969417"
+hash = "e014d97338fd826773d7d1204e6444a8aa5563d1fabdefe290e3a15d168614b1"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/stage_81.mcfunction"
-hash = "81cd5f8d24dd760194b0675821fb711b7ee249654a3f970c5e9233a86a0218dc"
+hash = "f6a9379ce9405a11c43e94f903af173c99b3c118440cc13e14126da3d844bb2f"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/stage_86.mcfunction"
-hash = "6703c34d056437750524c8591949309a6444658e35c4238ff32fc6ac8635839e"
+hash = "9a9d093972e36a257de73dfe6b8e832b3b9268f27fc3e25d0a8d5e5e1830f3ed"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/stage_91.mcfunction"
-hash = "1d21db19f08f9964045d3b8994da66db9a41fe00109dfc82481a4d888fbb30f6"
+hash = "7f0c971fc91c8cd6b0a6c7242aba6ca469ec312f88b522a7863b0d8201bffed0"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/stage_96.mcfunction"
-hash = "20fddf031c931a1d2693ce89c0dbcc721a4e3ab08792853cea9aaa899c4cec87"
+hash = "f2b772bc0fd8758046f86a468597f3312145afbe190fb198f53010c3e1ce06e5"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/apocalypse/sync_day.mcfunction"
@@ -2574,7 +2574,7 @@ hash = "839f6e32f7e32ff8e77fc41c51fac496584369e697b28312b1d3f81d22381244"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/industrial/bias_roll.mcfunction"
-hash = "5c37ddb3480efcbf641d98a0e8f6741fa068dd1aeea9d7965da8984192056451"
+hash = "68a2c84053ed22dca731a7ef91b48c0b058300853178bcf6d55c609f705aeb9e"
 
 [[files]]
 file = "config/openloader/packs/last_bastion/data/last_bastion/function/industrial/choose_night.mcfunction"
@@ -4238,7 +4238,7 @@ hash = "bd60f14054777a8ff406e6033adf965f861c3faa347826f0022532eeabb23c09"
 
 [[files]]
 file = "config/zombies-break-build.toml"
-hash = "5285887776cca9ffe798e197ea62651214d1190d19615d52263aee06f1c6a525"
+hash = "0b691d6fcbb9fb58c5e233617b8f1cd661d5ad6dbeda2b3706ca2a387dd11283"
 
 [[files]]
 file = "mods/ambientsounds.pw.toml"
@@ -5086,3 +5086,7 @@ hash = "c8523db67ce354c75082c016a9e8a970546e7a931816296ccf434cd286324da9"
 [[files]]
 file = "config/openloader/packs/last_bastion_visuals/assets/immersivepetroleum/lang/ru_ru.json"
 hash = "d52a9360e80c22d41a9b0387442d975db4258a06a30472bcb67167e3467ca213"
+
+[[files]]
+file = "mods/lastbastion-hive-1.0.0.jar"
+hash = "92087d9b3faab15fd55b48e0ece99794ecde3abb44af9ecf2fd4e17b2632a8aa"
