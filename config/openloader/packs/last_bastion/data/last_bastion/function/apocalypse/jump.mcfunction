@@ -1,4 +1,7 @@
 scoreboard players set @s lb_cd 6
+execute if score #night lb_apoc matches 41..70 run scoreboard players set @s lb_cd 5
+execute if score #night lb_apoc matches 71..99 run scoreboard players set @s lb_cd 4
+execute if score #night lb_apoc matches 100.. run scoreboard players set @s lb_cd 3
 kill @e[type=minecraft:marker,tag=lb_vector]
 execute facing entity @p[distance=..8,gamemode=!creative,gamemode=!spectator] feet rotated ~ 0 positioned ^ ^ ^0.75 run summon minecraft:marker ~ ~ ~ {Tags:["lb_vector"]}
 execute store result score #x lb_apoc run data get entity @e[type=minecraft:marker,tag=lb_vector,limit=1] Pos[0] 1000

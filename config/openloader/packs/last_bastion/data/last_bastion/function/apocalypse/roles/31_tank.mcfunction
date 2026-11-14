@@ -1,7 +1,7 @@
 tag @s add lb_tank
 attribute @s minecraft:generic.movement_speed base set 0.214
-attribute @s minecraft:generic.max_health base set 40
-data merge entity @s {Health:40.0f}
+attribute @s minecraft:generic.max_health base set 54
+data merge entity @s {Health:54.0f}
 attribute @s minecraft:generic.attack_damage base set 6
 attribute @s minecraft:generic.armor base set 6
 attribute @s minecraft:generic.knockback_resistance base set 0.8
