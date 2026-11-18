@@ -4,7 +4,7 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="lastbastion_hive"
-version="1.0.0"
+version="2.0.0"
 displayName="LAST BASTION: Hive"
 description='''Shared zombie memory, sound investigation, ambushes, living ladders and FPV petal racks for LAST BASTION.'''
 

@@ -47,7 +47,7 @@ public final class MemoryPatrolGoal extends Goal {
    var pos=k.kind()==HiveMemory.Kind.SUCCESSFUL_ROUTE?new BlockPos(k.x(),k.y(),k.z()):new BlockPos(k.x()+dx,k.y(),k.z()+dz);
    if(!level.hasChunkAt(pos)||!memory.nearby(HiveMemory.Kind.DANGER,pos.getX(),pos.getY(),pos.getZ(),6,now,1).isEmpty())continue;
    if(zombie.distanceToSqr(pos.getX(),pos.getY(),pos.getZ())<9)continue;
-   if(!PatrolPathBudget.reserve(level))return false;
+   if(!PatrolPathBudget.reserve(level,zombie.getUUID()))return false;
    path=zombie.getNavigation().createPath(pos,1);
    if(path!=null&&path.canReach()&&!crossesDanger(path,dangers)){
     deadline=now+400;waiting=(int)Math.min(240,40+night*2);return true;
@@ -67,7 +67,7 @@ public final class MemoryPatrolGoal extends Goal {
     var to=net.minecraft.world.phys.Vec3.atBottomCenterOf(pos).add(0,1.6,0);
     var ray=level.clip(new net.minecraft.world.level.ClipContext(from,to,net.minecraft.world.level.ClipContext.Block.COLLIDER,net.minecraft.world.level.ClipContext.Fluid.NONE,zombie));
     if(ray.getType()!=net.minecraft.world.phys.HitResult.Type.BLOCK||ray.getBlockPos().equals(pos))continue;
-    if(!PatrolPathBudget.reserve(level))return false;
+    if(!PatrolPathBudget.reserve(level,zombie.getUUID()))return false;
     var candidate=zombie.getNavigation().createPath(pos,0);
     if(candidate==null||!candidate.canReach()||crossesDanger(candidate,dangers))continue;
     path=candidate;ambush=true;watch=watched;hide=pos;

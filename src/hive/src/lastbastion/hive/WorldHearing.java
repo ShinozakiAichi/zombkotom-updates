@@ -11,7 +11,7 @@ public final class WorldHearing {
         private Deferred(){super(null,null,false,false);}
     }
     private static final Deferred DEFERRED=new Deferred();
-    public static final Hearing.Settings SETTINGS=new Hearing.Settings(200,64,0.01,1.25);
+    public static final Hearing.Settings SETTINGS=new Hearing.Settings(200,96,0.005,1.25);
     private WorldHearing(){}
     public static void emit(ServerLevel level,UUID source,Vec3 location,double strength){
         if(!level.getServer().isSameThread())throw new IllegalStateException("Noise must be emitted on server thread");
@@ -33,7 +33,7 @@ public final class WorldHearing {
         return transmission(level,from,to,null);
     }
     private static double transmission(ServerLevel level,Vec3 from,Vec3 to,HearingBudget budget){
-        double distance=from.distanceTo(to);if(!Double.isFinite(distance)||distance>64)return 0;
+        double distance=from.distanceTo(to);if(!Double.isFinite(distance)||distance>SETTINGS.range())return 0;
         int steps=Math.max(1,(int)Math.ceil(distance*2));double result=1;
         Set<BlockPos> visited=new HashSet<>();BlockPos source=BlockPos.containing(to),listener=BlockPos.containing(from);
         for(int i=1;i<steps;i++){

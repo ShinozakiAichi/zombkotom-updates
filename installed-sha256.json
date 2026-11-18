@@ -1231,5 +1231,6 @@
   "config/openloader/packs/last_bastion/data/exposure_expanded/recipe/instant_hires_color_slide.json": "4a773ee6b3f38358ac552a3a7855201e17b064de17ab9aa33c00a62610d008cb",
   "config/openloader/packs/last_bastion/data/exposure_expanded/recipe/instant_nes_slide.json": "c8523db67ce354c75082c016a9e8a970546e7a931816296ccf434cd286324da9",
   "config/openloader/packs/last_bastion_visuals/assets/immersivepetroleum/lang/ru_ru.json": "d52a9360e80c22d41a9b0387442d975db4258a06a30472bcb67167e3467ca213",
-  "mods/lastbastion-hive-1.0.0.jar": "92087d9b3faab15fd55b48e0ece99794ecde3abb44af9ecf2fd4e17b2632a8aa"
+  "mods/lastbastion-hive-2.0.0.jar": "785557a121c0fef2a1f4d475e95bb4377825cc323a7e1acd0065dfe898e236bd",
+  "lastbastion-retired-mods.json": "c6f79227366790090ba1572b00c1f92dc766143a06617b26bc3ad2e5c831cca0"
 }

@@ -5088,5 +5088,9 @@ file = "config/openloader/packs/last_bastion_visuals/assets/immersivepetroleum/l
 hash = "d52a9360e80c22d41a9b0387442d975db4258a06a30472bcb67167e3467ca213"
 
 [[files]]
-file = "mods/lastbastion-hive-1.0.0.jar"
-hash = "92087d9b3faab15fd55b48e0ece99794ecde3abb44af9ecf2fd4e17b2632a8aa"
+file = "mods/lastbastion-hive-2.0.0.jar"
+hash = "785557a121c0fef2a1f4d475e95bb4377825cc323a7e1acd0065dfe898e236bd"
+
+[[files]]
+file = "lastbastion-retired-mods.json"
+hash = "c6f79227366790090ba1572b00c1f92dc766143a06617b26bc3ad2e5c831cca0"
