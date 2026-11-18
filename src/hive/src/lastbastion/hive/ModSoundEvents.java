@@ -18,13 +18,15 @@ public final class ModSoundEvents {
   boolean gun=(namespace.equals("superbwarfare")||namespace.equals("scguns"))
    &&(name.contains("fire")||name.contains("shoot")||name.contains("shot"));
   boolean industry=namespace.equals("create")||namespace.equals("createbigcannons")||namespace.equals("createnewage");
-  if(!gun&&!industry)return;
+  // Every server-broadcast block sound participates, including unknown addons.
+  boolean block=event.getSource()==net.minecraft.sounds.SoundSource.BLOCKS;
+  if(event.getSource()==net.minecraft.sounds.SoundSource.HOSTILE||(!gun&&!industry&&!block))return;
   double volume=event.getNewVolume();if(!Double.isFinite(volume)||volume<=0)return;
   Vec3 pos;UUID source;
   if(event instanceof PlayLevelSoundEvent.AtEntity at){pos=at.getEntity().position();source=at.getEntity().getUUID();}
   else if(event instanceof PlayLevelSoundEvent.AtPosition at){
    pos=at.getPosition();source=UUID.nameUUIDFromBytes((id+":"+(int)Math.floor(pos.x)+":"+(int)Math.floor(pos.y)+":"+(int)Math.floor(pos.z)).getBytes(StandardCharsets.UTF_8));
   }else return;
-  WorldHearing.emit(level,source,pos,Math.min(512,(gun?96:32)*volume*volume));
+  WorldHearing.emit(level,source,pos,Math.min(512,(gun?96:48)*volume*volume));
  }
 }

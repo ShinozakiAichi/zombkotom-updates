@@ -7,6 +7,9 @@ import net.minecraft.world.entity.monster.Zombie;
 @Mod("lastbastion_hive")
 public final class HiveMod {
     public HiveMod(){
+        NeoForge.EVENT_BUS.register(lastbastion.hive.coordination.SiegeDirector.class);
+        NeoForge.EVENT_BUS.register(lastbastion.hive.coordination.HiveCoordinator.class);
+        NeoForge.EVENT_BUS.register(lastbastion.hive.observation.MechanismObservations.class);
         NeoForge.EVENT_BUS.register(NoiseEvents.class);
         NeoForge.EVENT_BUS.register(HiveLossEvents.class);
         NeoForge.EVENT_BUS.register(FootstepEvents.class);
@@ -22,6 +25,10 @@ public final class HiveMod {
     }
     private void joined(EntityJoinLevelEvent event){
         if(event.getLevel().isClientSide()||!(event.getEntity() instanceof Zombie zombie))return;
+        if(zombie.goalSelector.getAvailableGoals().stream().noneMatch(g->g.getGoal() instanceof lastbastion.hive.coordination.CoordinationGoal))
+            zombie.goalSelector.addGoal(0,new lastbastion.hive.coordination.CoordinationGoal(zombie));
+        if(zombie.goalSelector.getAvailableGoals().stream().noneMatch(g->g.getGoal() instanceof lastbastion.hive.routing.RouteGoal))
+            zombie.goalSelector.addGoal(1,new lastbastion.hive.routing.RouteGoal(zombie));
         if(zombie.goalSelector.getAvailableGoals().stream().noneMatch(g->g.getGoal() instanceof InvestigateNoiseGoal))
             zombie.goalSelector.addGoal(1,new InvestigateNoiseGoal(zombie));
         if(zombie.goalSelector.getAvailableGoals().stream().noneMatch(g->g.getGoal() instanceof ObservePlayerGoal))

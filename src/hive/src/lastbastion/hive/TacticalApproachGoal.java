@@ -40,7 +40,7 @@ public final class TacticalApproachGoal extends Goal {
    double side=(zombie.getUUID().getLeastSignificantBits()&1)==0?1:-1;
    point=zombie.position().lerp(target.position(),0.65).add(-direction.z*5*side,0,direction.x*5*side);
   }
-  if(!level.hasChunkAt(BlockPos.containing(point))||!PatrolPathBudget.reserve(level)){decision="chunk_or_budget";return false;}
+  if(!level.hasChunkAt(BlockPos.containing(point))||!PatrolPathBudget.reserve(level,zombie.getUUID())){decision="chunk_or_budget";return false;}
   path=zombie.getNavigation().createPath(BlockPos.containing(point),1);
   decision="requested="+BlockPos.containing(point)+" path="+(path==null?"null":path.getTarget()+" reach="+path.canReach()+" end="+path.getEndNode());
   if(path==null||!path.canReach())return false;
